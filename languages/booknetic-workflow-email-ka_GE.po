@@ -1,0 +1,2810 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: test\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-24 14:36+0400\n"
+"PO-Revision-Date: 2022-09-24 14:36+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ../app\n"
+"X-Poedit-KeywordsList: bkntc__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: Frontend/assets/js/datepicker.min.js\n"
+"X-Poedit-SearchPathExcluded-1: Frontend/assets/js/intlTelInput.min.js\n"
+"X-Poedit-SearchPathExcluded-2: Frontend/assets/js/jquery.nicescroll.min.js\n"
+"X-Poedit-SearchPathExcluded-3: Frontend/assets/js/utilsIntlTelInput.js\n"
+
+#: Backend/Ajax.php:84
+msgid "Please fill the SMTP credentials!"
+msgstr ""
+
+#: Backend/Ajax.php:87
+#, fuzzy
+#| msgid "Please fill custom fields form correctly!"
+msgid "Please fill the Gmail SMTP credentials!"
+msgstr "გთხოვთ სწორად შეავსოთ დამატებით ველები!"
+
+#: Backend/Ajax.php:93
+msgid "Please type the sender name field!"
+msgstr ""
+
+#: Backend/Ajax.php:100
+msgid "Please type the sender email field!"
+msgstr ""
+
+#: Backend/view/email_settings.php:15
+msgid "SAVE CHANGES"
+msgstr "ცვლილებების შენახვა"
+
+#: Backend/view/email_settings.php:20 EmailWorkflowAddon.php:27
+#: EmailWorkflowAddon.php:32 EmailWorkflowAddon.php:54
+msgid "Email settings"
+msgstr "ელ.ფოსტის პარამეტრები"
+
+#: Backend/view/email_settings.php:27
+msgid "Mail Gateway"
+msgstr ""
+
+#: Backend/view/email_settings.php:29
+msgid "WordPress Mail"
+msgstr ""
+
+#: Backend/view/email_settings.php:30
+msgid "SMTP"
+msgstr ""
+
+#: Backend/view/email_settings.php:31
+msgid "Gmail SMTP"
+msgstr ""
+
+#: Backend/view/email_settings.php:39
+msgid "SMTP Hostname"
+msgstr ""
+
+#: Backend/view/email_settings.php:43
+msgid "SMTP Port"
+msgstr ""
+
+#: Backend/view/email_settings.php:47
+msgid "SMTP Secure"
+msgstr ""
+
+#: Backend/view/email_settings.php:49
+msgid "TLS"
+msgstr ""
+
+#: Backend/view/email_settings.php:50
+msgid "SSL"
+msgstr ""
+
+#: Backend/view/email_settings.php:51
+msgid "Disabled ( not recommend )"
+msgstr ""
+
+#: Backend/view/email_settings.php:58
+msgid "Username"
+msgstr ""
+
+#: Backend/view/email_settings.php:62
+msgid "Password"
+msgstr ""
+
+#: Backend/view/email_settings.php:70
+msgid "Client ID"
+msgstr "კლიენტის ID"
+
+#: Backend/view/email_settings.php:74
+#, fuzzy
+#| msgid "Client ID"
+msgid "Client secret"
+msgstr "კლიენტის ID"
+
+#: Backend/view/email_settings.php:78
+#, fuzzy
+#| msgid "Redirecting..."
+msgid "Redirect URI"
+msgstr "გადამისამართება…"
+
+#: Backend/view/email_settings.php:84
+msgid "Authorize"
+msgstr ""
+
+#: Backend/view/email_settings.php:86
+#, php-format
+msgid "Logged as %s"
+msgstr ""
+
+#: Backend/view/email_settings.php:87
+msgid "Log out"
+msgstr "გასვლა"
+
+#: Backend/view/email_settings.php:96
+msgid "Sender E-mail"
+msgstr ""
+
+#: Backend/view/email_settings.php:100 Backend/view/email_settings.php:107
+msgid "Sender Name"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:30
+#, fuzzy
+#| msgid "Add Location"
+msgid "Edit action"
+msgstr "ლოკაციის დამატება"
+
+#: Backend/view/workflow_action_edit.php:40
+msgid "To"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:51
+#, fuzzy
+#| msgid "Email subject"
+msgid "Subject"
+msgstr "მეილის სათაური"
+
+#: Backend/view/workflow_action_edit.php:58
+msgid "Body"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:65
+msgid "Attachment(s)"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:82
+msgid "Enabled"
+msgstr "გამორთულია"
+
+#: Backend/view/workflow_action_edit.php:85
+msgid "CANCEL"
+msgstr "გაუქმება"
+
+#: Backend/view/workflow_action_edit.php:86
+msgid "SAVE & TEST"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:87
+msgid "SAVE"
+msgstr "შენახვა"
+
+#: EmailWorkflowAddon.php:26
+#, fuzzy
+#| msgid "Email Notifications"
+msgid "Email workflow integration"
+msgstr "ელ.ფოსტის შეტყობინებები"
+
+#: EmailWorkflowAddon.php:33
+msgid "Allowed maximum Email"
+msgstr ""
+
+#: EmailWorkflowAddon.php:55
+#, fuzzy
+#| msgid "You must set this settings for email notifications"
+msgid ""
+"You must set this settings for email workflow action ( wp_mail or SMTP "
+"settings )"
+msgstr "აქ შეგიძლიათ შეცვალოთ ელ.ფოსტის შეტყობინებების პარამეტრები"
+
+#: EmailWorkflowAddon.php:66
+msgid "Email"
+msgstr "ელ.ფოსტა"
+
+#: EmailWorkflowDriver.php:28
+#, fuzzy
+#| msgid "Send test email"
+msgid "Send Email"
+msgstr "სატესტო ელ.ფოსტის გაგზავნა"
+
+#~ msgid "Please fill in all required fields correctly!"
+#~ msgstr "გთხოვთ, შეავსოთ ყველა საჭირო ველი სწორად!"
+
+#~ msgid "Theme not found!"
+#~ msgstr "თემა ვერ მოიძებნა!"
+
+#~ msgid "You can not delete default theme!"
+#~ msgstr "ამ თემის წაშლა შეუძლებელია!"
+
+#~ msgid "Appearance"
+#~ msgstr "იერსახე"
+
+#~ msgid "GO BACK"
+#~ msgstr "დაბრუნება"
+
+#~ msgid "Options"
+#~ msgstr "პარამეტრები"
+
+#~ msgid "Style name"
+#~ msgstr "სტილის დასახელება"
+
+#~ msgid "Type name..."
+#~ msgstr "მიუთითეტ სახელი…"
+
+#~ msgid "Panel height"
+#~ msgstr "პანელის სიმაღლე"
+
+#~ msgid "Font family"
+#~ msgstr "ფონტი"
+
+#~ msgid "Panel background"
+#~ msgstr "პანელის ფონი"
+
+#~ msgid "Primary BG / text color"
+#~ msgstr "მთავარი ფონი / ტექსტის ფერი"
+
+#~ msgid "Compleated steps BG / label color"
+#~ msgstr "დასრულებული ნაბიჯების ფონი /  იარლიყის ფერი"
+
+#~ msgid "Active steps BG / label color"
+#~ msgstr "აქტიური ნაბიჯის ფონი / იარლიყის ფერი"
+
+#~ msgid "Other steps BG / label color"
+#~ msgstr "სხვა ნაბიჯების ფონი / იარლიყის ფერი"
+
+#~ msgid "Title color"
+#~ msgstr "სათაუირის ფერი"
+
+#~ msgid "Border color"
+#~ msgstr "ჩარჩოს საზღვრის ფერი"
+
+#~ msgid "Price color"
+#~ msgstr "ფასის ფერი"
+
+#, fuzzy
+#~| msgid "Custom"
+#~ msgid "Custom CSS"
+#~ msgstr "სხვა"
+
+#~ msgid "DELETE"
+#~ msgstr "წაშლა"
+
+#, php-format
+#~ msgid "Theme ID: %d"
+#~ msgstr "თემის ID: %d"
+
+#~ msgid "Design"
+#~ msgstr "დიზაინი"
+
+#~ msgid "Location"
+#~ msgstr "ლოკაცია"
+
+#~ msgid "Staff"
+#~ msgstr "ექსპერტები"
+
+#~ msgid "Service"
+#~ msgstr "სერვისი"
+
+#~ msgid "Service Extras"
+#~ msgstr "დამატებით"
+
+#~ msgid "Date & Time"
+#~ msgstr "თარიღი და დრო"
+
+#~ msgid "Information"
+#~ msgstr "ინფორმაცია"
+
+#~ msgid "Confirmation"
+#~ msgstr "დასტური"
+
+#~ msgid "Have any questions?"
+#~ msgstr "კითხვები ხომ არ გაქვთ?"
+
+#~ msgid "Select service"
+#~ msgstr "აირჩიეთ სერვისი"
+
+#~ msgid "Category 1"
+#~ msgstr "1 კატეგორია"
+
+#~ msgid "Service 1"
+#~ msgstr "1 სერვისი"
+
+#~ msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+#~ msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit…"
+
+#~ msgid "Service 2"
+#~ msgstr "მე-2 სერვისი"
+
+#~ msgid "Category 2"
+#~ msgstr "მე-2 კატეგორია"
+
+#~ msgid "Service 3"
+#~ msgstr "მე-3 სერვისი"
+
+#~ msgid "BACK"
+#~ msgstr "უკან"
+
+#~ msgid "NEXT STEP"
+#~ msgstr "შემდეგ"
+
+#~ msgid "SELECTED"
+#~ msgstr "არჩეული"
+
+#~ msgid "SELECT"
+#~ msgstr "არჩევა"
+
+#~ msgid "Create new style"
+#~ msgstr "ახალი სტილის შექმნა"
+
+#~ msgid "Selected appointment not found!"
+#~ msgstr "არჩეული ჯავშანი ვერ მოიძებნა!"
+
+#~ msgid "Appointment not found!"
+#~ msgstr "ჯავშანი ვერ მოიძებნა!"
+
+#~ msgid "Please fill the \"Date\" and \"Time\" field correctly!"
+#~ msgstr "გთხოვთ სწორად მიუთითოთ “თარიღი” და “დრო”!"
+
+#~ msgid "Please select customers!"
+#~ msgstr "გთხოვთ აირჩიოთ კლიენტები!"
+
+#~ msgid "Selected service extra doesn't exist!"
+#~ msgstr "არჩეული დამატებითი სერვისი არ არსებობს!"
+
+#, php-format
+#~ msgid "Max quantity of selected service extra (%s) is %d"
+#~ msgstr "არჩეული დამატებითი სერვისის მაქსიმალური რაოდენობა (%s) არის %d"
+
+#, php-format
+#~ msgid "Limited booking days is %d"
+#~ msgstr "შეზღუდული ჯავშნის დღეების რაოდენობაა %d"
+
+#, php-format
+#~ msgid "Please select a valid time! ( %s %s is busy! )"
+#~ msgstr "აირჩიეთ სწორი დრო! ( %s %s დაკავებულია!)"
+
+#, php-format
+#~ msgid "%s can not be empty, because it's a required field!"
+#~ msgstr "%s ცარიელი ვერ იქნება, სავალდებულო ველია!"
+
+#~ msgid "Selected custom field not found!"
+#~ msgstr "არჩეული დამატებითი ველი ვერ მოიძებნა!"
+
+#, php-format
+#~ msgid "\"%s\" can not be empty, because it's a required field!"
+#~ msgstr "“%s” ცარიელი ვერ იქნება, სავალდებულო ველია!"
+
+#, php-format
+#~ msgid "Minimum length of \"%s\" field is %d!"
+#~ msgstr "\"%s\" ველის მინიმალური სიგრძე არის %d!"
+
+#, php-format
+#~ msgid "Maximum length of \"%s\" field is %d!"
+#~ msgstr "“%s” ველის მაქსიმალური სიგრძე არის %d!"
+
+#~ msgid "File extension is not allowed!"
+#~ msgstr "ფაილის ეს გაფართოება აკრძალულია!"
+
+#~ msgid "Payment not found!"
+#~ msgstr "გადახდა ვერ მოიძებნა!"
+
+#~ msgid "Appointment not found or permission denied!"
+#~ msgstr "ჯავშანი ვერ მოიძებნა ან მომხმარებლის უფლებები შეზღუდულია!"
+
+#~ msgid "Due amound can't be a negative number!"
+#~ msgstr "გადასახდელი ჯამი უარყოფითი რიცხვი ვერ იქნება!"
+
+#~ msgid "Date"
+#~ msgstr "თარიღი"
+
+#~ msgid "Customer"
+#~ msgstr "კლიენტი"
+
+#~ msgid "Status"
+#~ msgstr "სტატუსი"
+
+#~ msgid "Approved"
+#~ msgstr "დადასტურებული"
+
+#~ msgid "Pending"
+#~ msgstr "მოლოდინში"
+
+#~ msgid "Canceled"
+#~ msgstr "გაუქმებული"
+
+#~ msgid "Rejected"
+#~ msgstr "უარყოფილი"
+
+#~ msgid "Appointments"
+#~ msgstr "ჯავშანი"
+
+#~ msgid "NEW APPOINTMENT"
+#~ msgstr "ახალი ჯავშანი"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "DATE"
+#~ msgstr "თარიღი"
+
+#~ msgid "CUSTOMER(S)"
+#~ msgstr "კლიენტ(ებ)ი"
+
+#, php-format
+#~ msgid "+ %d MORE"
+#~ msgstr "და კიდევ %d"
+
+#, fuzzy
+#~| msgid "Customers"
+#~ msgid "Customer (s)"
+#~ msgstr "კლიენტები"
+
+#~ msgid "STAFF"
+#~ msgstr "ექსპერტი"
+
+#~ msgid "SERVICE"
+#~ msgstr "სერვისი"
+
+#~ msgid "PAYMENT"
+#~ msgstr "გადახდა"
+
+#~ msgid "DURATION"
+#~ msgstr "ხანგრძლივობა"
+
+#~ msgid "CREATED AT"
+#~ msgstr "შექმნის თარიღი"
+
+#~ msgid "Permission denied!"
+#~ msgstr "მომხმარებლის უფლებები შეზღუდულია!"
+
+#~ msgid "Please fill \"Start date\" and \"End date\" fields!"
+#~ msgstr "გთხოვთ შეავსოთ “საწყისი თარიღი” და “სასრული თარიღი”!"
+
+#, php-format
+#~ msgid "Repeat frequency is %d for selected service!"
+#~ msgstr "გამეორების სიხშირე აჩეული სერვისისთვის არის %d!"
+
+#~ msgid "Repeat frequency is is invalid!"
+#~ msgstr "გამეორების სიხშირე არასწორია!"
+
+#~ msgid "Please fill \"Time\" field!"
+#~ msgstr "გთხოვთ შეავსოთ “დრო”-ს ველი!"
+
+#~ msgid ""
+#~ "Error! Full period is wrong on Service options! Please edit your service "
+#~ "info!"
+#~ msgstr ""
+#~ "შეცდომა! სერვისის ოფციებში მითითებული სრული პერიოდი არასწორია! გთხოვთ "
+#~ "შეასწოროთ ეს სერვისი!"
+
+#~ msgid "Coupon not found!"
+#~ msgstr "კუპონი ვერ მოიძებნა!"
+
+#~ msgid "Coupon usage limit exceeded!"
+#~ msgstr "კუპონის გამოყენების ლიმიტი ამოწურულია!"
+
+#, fuzzy
+#~| msgid "Staff not found!"
+#~ msgid "Giftcard not found!"
+#~ msgstr "ექსპერტი ვერ მოიძებნა!"
+
+#~ msgid "Customer name"
+#~ msgstr "კლიენტის სახელი"
+
+#~ msgid "New appointment"
+#~ msgstr "ახალი ჯავშანი"
+
+#~ msgid "Appointment details"
+#~ msgstr "ჯავშნის დეტალები"
+
+#~ msgid "Extras"
+#~ msgstr "დამატებით"
+
+#~ msgid "Category"
+#~ msgstr "კატეგორია"
+
+#~ msgid "Days of week"
+#~ msgstr "კვირის დღეები"
+
+#~ msgid "Mon"
+#~ msgstr "ორ"
+
+#~ msgid "Tue"
+#~ msgstr "სამ"
+
+#~ msgid "Wed"
+#~ msgstr "ოთხ"
+
+#~ msgid "Thu"
+#~ msgstr "ხუთ"
+
+#~ msgid "Fri"
+#~ msgstr "პარ"
+
+#~ msgid "Sat"
+#~ msgstr "შაბ"
+
+#~ msgid "Sun"
+#~ msgstr "კვი"
+
+#~ msgid "Monday"
+#~ msgstr "ორშაბათი"
+
+#~ msgid "Copy to all"
+#~ msgstr "ყველას კოპირება"
+
+#~ msgid "Tuesday"
+#~ msgstr "სამშაბათი"
+
+#~ msgid "Wednesday"
+#~ msgstr "ოთხშაბათი"
+
+#~ msgid "Thursday"
+#~ msgstr "ხუთშაბათი"
+
+#~ msgid "Friday"
+#~ msgstr "პარასკევი"
+
+#~ msgid "Saturday"
+#~ msgstr "შაბათი"
+
+#~ msgid "Sunday"
+#~ msgstr "კვირა"
+
+#~ msgid "Every"
+#~ msgstr "ყოველი"
+
+#~ msgid "DAYS"
+#~ msgstr "დღეები"
+
+#~ msgid "Time"
+#~ msgstr "დრო"
+
+#~ msgid "On"
+#~ msgstr " "
+
+#~ msgid "Specific day"
+#~ msgstr "კონკრეტული დღე"
+
+#~ msgid "First"
+#~ msgstr "პირველი"
+
+#~ msgid "Second"
+#~ msgstr "მეორე"
+
+#~ msgid "Third"
+#~ msgstr "მესამე"
+
+#~ msgid "Fourth"
+#~ msgstr "მეოთხე"
+
+#~ msgid "Last"
+#~ msgstr "ბოლო"
+
+#~ msgid "Start date"
+#~ msgstr "საწყისი თარიღი"
+
+#~ msgid "End date"
+#~ msgstr "სასრული თარიღი"
+
+#~ msgid "Times"
+#~ msgstr "დრო"
+
+#~ msgid "Select..."
+#~ msgstr "აირჩიეთ..."
+
+#~ msgid "Customers"
+#~ msgstr "კლიენტები"
+
+#~ msgid "Add Customer"
+#~ msgstr "კლიენტის დამატება"
+
+#~ msgid "Extras not found!"
+#~ msgstr "დამატებითი სერვისი ვერ მოიძებნა!"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "TIME"
+#~ msgstr "დრო"
+
+#~ msgid "Send notifications"
+#~ msgstr "შეტყობინებების გაგზავნა"
+
+#~ msgid "Payment"
+#~ msgstr "გადახდა"
+
+#~ msgid "Staff:"
+#~ msgstr "ექსპერტი:"
+
+#~ msgid "Location:"
+#~ msgstr "ლოკაცია:"
+
+#~ msgid "Service:"
+#~ msgstr "სერვისი:"
+
+#~ msgid "Date, time:"
+#~ msgstr "თარიღი, დრო:"
+
+#~ msgid "CUSTOMER"
+#~ msgstr "კლიენტი"
+
+#~ msgid "SUM AMOUNT"
+#~ msgstr "ჯამი"
+
+#~ msgid "DISCOUNT"
+#~ msgstr "დისქაუნთი"
+
+#~ msgid "PAID"
+#~ msgstr "გადახდილი"
+
+#~ msgid "DUE"
+#~ msgstr "ვალი"
+
+#~ msgid "STATUS"
+#~ msgstr "სტატუსი"
+
+#~ msgid "PAY"
+#~ msgstr "გადახდა"
+
+#~ msgid "CLOSE"
+#~ msgstr "დახურვა"
+
+#~ msgid "No custom data found!"
+#~ msgstr "მონაცემი ვერ მოიძებნა!"
+
+#~ msgid "Edit Appointment"
+#~ msgstr "ჯავშნის რედაქტირება"
+
+#~ msgid "Custom fields"
+#~ msgstr "დამატებითი ველები"
+
+#~ msgid "Appointment info"
+#~ msgstr "ინფორმაცია ჯავშანზე"
+
+#~ msgid "APPOINTMENT INFO"
+#~ msgstr "ინფორმაცია ჯავშანზე"
+
+#~ msgid "CUSTOM FIELDS"
+#~ msgstr "დამატებითი ველები"
+
+#~ msgid "EXTRAS"
+#~ msgstr "დამატებითი სერვისები"
+
+#~ msgid "Date, time"
+#~ msgstr "თარიღი, დრო"
+
+#~ msgid "Extra name"
+#~ msgstr "დამატებითი სერვისის სათაური"
+
+#~ msgid "Duration"
+#~ msgstr "ხანგრძლივობა"
+
+#~ msgid "Price"
+#~ msgstr "ფასი"
+
+#~ msgid "START MEETING"
+#~ msgstr "შეხვედრის დაწყება"
+
+#~ msgid "EDIT"
+#~ msgstr "შეცვლა"
+
+#~ msgid "PAYMENTS"
+#~ msgstr "გადახდები"
+
+#~ msgid "Service amount"
+#~ msgstr "სერვისის ფასი"
+
+#~ msgid "Extras amount"
+#~ msgstr "დამატებითი სერვისების ფასი"
+
+#~ msgid "Discount"
+#~ msgstr "დისქაუნთი"
+
+#, fuzzy
+#~| msgid "Paid amount"
+#~ msgid "Tax amount"
+#~ msgstr "გადახდილი"
+
+#~ msgid "Paid amount"
+#~ msgstr "გადახდილი"
+
+#~ msgid "Payment status"
+#~ msgstr "გადახდის სტატუსი"
+
+#~ msgid "Paid"
+#~ msgstr "გადახდილი"
+
+#~ msgid "Paid (deposit)"
+#~ msgstr "გადახდილი (დეპოზიტი)"
+
+#~ msgid "EXPORT TO CSV"
+#~ msgstr "ექსპორტი CSV ფაილად"
+
+#~ msgid "IMPORT"
+#~ msgstr "იმპორტი"
+
+#~ msgid "Quick search"
+#~ msgstr "სწრაფი ძიება"
+
+#~ msgid "Info"
+#~ msgstr "ინფო"
+
+#~ msgid "Edit"
+#~ msgstr "შეცვლა"
+
+#~ msgid "Delete"
+#~ msgstr "წაშლა"
+
+#~ msgid "No any data!"
+#~ msgstr "მონაცემი ვერ მოიძებნა!"
+
+#, php-format
+#~ msgid "Showing %d of %d total"
+#~ msgstr "სულ %d, ნაჩვენებია %d"
+
+#~ msgid "Need Help?"
+#~ msgstr "დახმარება ხომ არ გჭირდებათ?"
+
+#~ msgid "Selected"
+#~ msgstr "არჩეული"
+
+#~ msgid "Loading..."
+#~ msgstr "იტვირთება…"
+
+#~ msgid "( it can take some time, please wait... )"
+#~ msgstr "( მოითმინეთ, ცოტა დრო დაჭირდება… )"
+
+#~ msgid "Your plugin is disabled. Please activate the plugin."
+#~ msgstr "ფლაგინი გამორთულია. გთხოვთ გააქტიუროთ ფლაგინი."
+
+#, php-format
+#~ msgid "Reason: %s"
+#~ msgstr "მიზეზი: %s"
+
+#~ msgid "Enter the purchase key"
+#~ msgstr "მიუთითეთ შესყიდვის კოდი"
+
+#~ msgid "RE-ACTIVATE"
+#~ msgstr "რე-აქტივაცია"
+
+#~ msgid "Are you sure?"
+#~ msgstr "დარწმუნებული ხართ?"
+
+#~ msgid "Searching..."
+#~ msgstr "ძიება..."
+
+#~ msgid "Please firstly choose a service!"
+#~ msgstr "ჯერ სერვისი უნდა აირჩიოთ!"
+
+#~ msgid "This time slot is not available!"
+#~ msgstr "დროის ეს პერიოდი მიუწვდომელია!"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "Deleted"
+#~ msgstr "წაშლა"
+
+#~ msgid "Are you sure you want to delete?"
+#~ msgstr "დარწმუნებული ხართ რომ წაშლა გსურთ ?"
+
+#~ msgid "Rows deleted!"
+#~ msgstr "წაიშალა!"
+
+#~ msgid "Dear user"
+#~ msgstr "ძვირფასო მომხმარებელო"
+
+#~ msgid "Group appointment"
+#~ msgstr "ჯგუფური ჯავშანი"
+
+#~ msgid "Select services..."
+#~ msgstr "აირჩიეთ სერვისები…."
+
+#~ msgid "Changes has been saved!"
+#~ msgstr "ცვლილებები დამახსოვრებულია!"
+
+#~ msgid "Cancel"
+#~ msgstr "უარყოფა"
+
+#, fuzzy
+#~| msgid "Appointment info"
+#~ msgid "Appointment count"
+#~ msgstr "ინფორმაცია ჯავშანზე"
+
+#~ msgid "Fill the form correctly!"
+#~ msgstr "გთხოვთ სწორად შეავსოთ ფორმა!"
+
+#~ msgid "Saved succesfully!"
+#~ msgstr "შენახულია!"
+
+#~ msgid "Please type email!"
+#~ msgstr "გთხოვთ მიუთითოთ ელ.ფოსტის მისამართი!"
+
+#~ msgid "Please type phone number!"
+#~ msgstr "გთხოვთ მიუთითოთ ტელეფონის ნომერი!"
+
+#~ msgid "Are you sure that you want to delete this service extra?"
+#~ msgstr "დარწმუნებული ხართ რომ ამ დამატებითი სერვისის წაშლა გსურთ?"
+
+#~ msgid "No more Staff exists for select!"
+#~ msgstr "არც ერთი ექსპერტი არ დარჩა მოსანიშნად!"
+
+#~ msgid "Are you sure to delete this special day?"
+#~ msgstr "დარწმუნებული ხართ რომ გამონაკლისი დღის წაშლა გსურთ?"
+
+#~ msgid "time(s) per month"
+#~ msgstr "დრო / თვეში"
+
+#~ msgid "time(s) per week"
+#~ msgstr "დრო / კვირაში"
+
+#~ msgid "Every n day(s)"
+#~ msgstr "ყოველ n დღეს"
+
+#~ msgid "Are you sure you want to delete this service?"
+#~ msgstr "დარწმუნებული ხართ რომ ამ სერვისის წაშლა გსურთ?"
+
+#~ msgid "Are you sure you want to delete this category?"
+#~ msgstr "დარწმუნებული ხართ რომ ამ კატეგორიის წაშლა გსურთ?"
+
+#~ msgid "Category name"
+#~ msgstr "კატეგორიის დასახელება"
+
+#, fuzzy
+#~| msgid "CATEGORY"
+#~ msgid "ADD CATEGORY"
+#~ msgstr "კატეგორია"
+
+#~ msgid "January"
+#~ msgstr "იანვარი"
+
+#~ msgid "February"
+#~ msgstr "თებერვალი"
+
+#~ msgid "March"
+#~ msgstr "მარტი"
+
+#~ msgid "April"
+#~ msgstr "აპრილი"
+
+#~ msgid "May"
+#~ msgstr "მაისი"
+
+#~ msgid "June"
+#~ msgstr "ივნისი"
+
+#~ msgid "July"
+#~ msgstr "ივლისი"
+
+#~ msgid "August"
+#~ msgstr "აგვისტო"
+
+#~ msgid "September"
+#~ msgstr "სექტემბერი"
+
+#~ msgid "October"
+#~ msgstr "ოქტომბერი"
+
+#~ msgid "November"
+#~ msgstr "ნოემბერი"
+
+#~ msgid "December"
+#~ msgstr "დეკემბერი"
+
+#, fuzzy
+#~| msgid "Please refresh the page and try again."
+#~ msgid "Your session has expired. Please refresh the page and try again."
+#~ msgstr "გადატვირთეთ გვერდი და ხელახლა სცადეთ."
+
+#~ msgid "Back to WordPress"
+#~ msgstr "საიტის მართვის პანელში დაბრუნება"
+
+#, fuzzy
+#~| msgid "Share your page"
+#~ msgid "Share your page "
+#~ msgstr "გააზიარე შენი გვერდი"
+
+#~ msgid "WORDPRESS"
+#~ msgstr "საიტის მართვის პანელი"
+
+#~ msgid "Share your page"
+#~ msgstr "გააზიარე შენი გვერდი"
+
+#, php-format
+#~ msgid "Hello %s"
+#~ msgstr "გამარჯობა %s"
+
+#~ msgid "Starting guide"
+#~ msgstr "საწყისი ვადა"
+
+#~ msgid "Company details"
+#~ msgstr "კომპანიის დეტალები"
+
+#~ msgid "Business hours"
+#~ msgstr "სამუშაო საათები"
+
+#~ msgid "Create location"
+#~ msgstr "ლოკაციის დამატება"
+
+#~ msgid "Create staff"
+#~ msgstr "ექსპერტის დამატება"
+
+#~ msgid "Create service"
+#~ msgstr "სერვისის დამატება"
+
+#~ msgid "Installing..."
+#~ msgstr "ინსტალირება…"
+
+#~ msgid "Purchase code"
+#~ msgstr "შესყიდვის კოდი"
+
+#~ msgid "Where did You find us?"
+#~ msgstr "სად გაიგეთ ჩვენს შესახებ?"
+
+#~ msgid "Email | Subscribe newsletter"
+#~ msgstr "სიახლეების გამოწერა"
+
+#~ msgid "INSTALL"
+#~ msgstr "დაინსტალირება"
+
+#~ msgid "Install process can take 30-60 sec., please wait..."
+#~ msgstr "ინსტალაცია დაახლოებით 30-60 წმ-ს გასტანს. გთხოვთ დაელოდეთ…."
+
+#~ msgid "Upgrade needed!"
+#~ msgstr "საჭიროა განახლება!"
+
+#~ msgid "UPGRADE NOW"
+#~ msgstr "გაანახლე"
+
+#~ msgid "Billing"
+#~ msgstr "გადახდები"
+
+#~ msgid "Plan"
+#~ msgstr "პაკეტი"
+
+#~ msgid "PAYMENT METHOD"
+#~ msgstr "გადახდის მეთოდი"
+
+#~ msgid "Monthly"
+#~ msgstr "თვიური"
+
+#~ msgid "Annually"
+#~ msgstr "წლიური"
+
+#, php-format
+#~ msgid "%d%% off ( Normally %s )"
+#~ msgstr "%d%% ფასდაკლება ( ზოგადად %s )"
+
+#~ msgid "per month"
+#~ msgstr "თვეში"
+
+#~ msgid "per year"
+#~ msgstr "წელიწადში"
+
+#~ msgid "CHOOSE"
+#~ msgstr "აირჩიეთ"
+
+#~ msgid "back"
+#~ msgstr "უკან"
+
+#~ msgid "Select payment method"
+#~ msgstr "აირჩიეთ გადახდის მეთოდი"
+
+#, php-format
+#~ msgid "You have chosen %s plan"
+#~ msgstr "თქვენ აირჩიეთ %s პაკეტი"
+
+#~ msgid "Credit card"
+#~ msgstr "საკრედიტო ბარათი"
+
+#~ msgid "No available payment methods!"
+#~ msgstr "გადახდის მეთოდი ხელმისაწვდომი არ არის!"
+
+#~ msgid "Payment Successful"
+#~ msgstr "გადახდილია"
+
+#~ msgid "It might take some time to activate your new plan."
+#~ msgstr "არჩეული პაკეტის აქტივაციას რამოდენი ხანი შეიძლება დაჭირდეს."
+
+#~ msgid "Payment Canceled"
+#~ msgstr "გადახდა გაუქმებულია"
+
+#~ msgid "We aren't able to process your payment. Please try again."
+#~ msgstr "გადახდის ოპეაცია წარუმატებლად დასრულდა. ხელახლა სცადეთ."
+
+#~ msgid "Are you sure you want to cancel subscription?"
+#~ msgstr "დარწმუნებული ხართ რომ გსურთ გააქუმოთ გამოწერა?"
+
+#~ msgid "YES"
+#~ msgstr "კი"
+
+#~ msgid "NO"
+#~ msgstr "არა"
+
+#~ msgid "Your page URL"
+#~ msgstr "შენი გვერდის მისამართი"
+
+#~ msgid "Schedule time with me"
+#~ msgstr "დაჯავნეთ შეხვედრა ჩემთან"
+
+#, fuzzy
+#~| msgid "Share your page"
+#~ msgid "The QR for your page"
+#~ msgstr "გააზიარე შენი გვერდი"
+
+#~ msgid "Customer panel URL"
+#~ msgstr "მომხმარებლის პანელის მისამართი"
+
+#~ msgid "Add to your Website"
+#~ msgstr "დაამატე შენს ვებ-გვერდზე"
+
+#~ msgid "Calendar"
+#~ msgstr "კალენდარი"
+
+#~ msgid "Location filter"
+#~ msgstr "ლოკაციები"
+
+#~ msgid "Service filter"
+#~ msgstr "სერვისები"
+
+#~ msgid "TODAY"
+#~ msgstr "დღეს"
+
+#~ msgid "month"
+#~ msgstr "თვე"
+
+#~ msgid "week"
+#~ msgstr "კვირა"
+
+#~ msgid "day"
+#~ msgstr "დღე"
+
+#~ msgid "list"
+#~ msgstr "სია"
+
+#~ msgid "Discount cannot be negative number!"
+#~ msgstr "დისქაუნთი უარყოფითი ციფრი ვერ იქნება!"
+
+#~ msgid "Discount percent count cannot be more than 100%!"
+#~ msgstr "დისქაუნთი 100%-ზე მეტი ვერ იქნება!"
+
+#~ msgid "Please type the coupon code field!"
+#~ msgstr "გთხოვთ შეავსოთ კუპონის ველი!"
+
+#~ msgid "Coupons"
+#~ msgstr "კუპონები"
+
+#~ msgid "ADD COUPON"
+#~ msgstr "კუპონის დამატება"
+
+#~ msgid "CODE"
+#~ msgstr "კოდი"
+
+#~ msgid "USAGE LIMIT"
+#~ msgstr "გამოყენების ლიმიტი"
+
+#~ msgid "Times Used"
+#~ msgstr "გამოყენების დრო"
+
+#~ msgid "Add Coupon"
+#~ msgstr "კუპონის დამატება"
+
+#~ msgid "Type"
+#~ msgstr "ტიპი"
+
+#~ msgid "One coupon"
+#~ msgstr "ერთი კუპონი"
+
+#~ msgid "Coupon series"
+#~ msgstr "კუპონების სერია"
+
+#~ msgid "Amount"
+#~ msgstr "რაოდენობა"
+
+#~ msgid "Code"
+#~ msgstr "კოდი"
+
+#~ msgid "Applies date from"
+#~ msgstr "თარიღიდან"
+
+#~ msgid "Life time"
+#~ msgstr "უსასრულოდ"
+
+#~ msgid "Applies date to"
+#~ msgstr "თარიღამდე"
+
+#~ msgid "Usage limit"
+#~ msgstr "გამოყენების ლიმიტი"
+
+#~ msgid "No limit"
+#~ msgstr "ულიმიტო"
+
+#~ msgid "Once per customer"
+#~ msgstr "ყოველ მომხმარებლისზე ერთხელ"
+
+#~ msgid "Services filter"
+#~ msgstr "სერვისები"
+
+#~ msgid "Staff filter"
+#~ msgstr "ექსპერტები"
+
+#~ msgid "Customer not found or permission denied!"
+#~ msgstr "მომხმარებელი ვერ მოიძებნა ან ოპერაციის შესრულების უფლება არ გაქვთ!"
+
+#, fuzzy
+#~| msgid "The WordPress user with the same email address already exists!"
+#~ msgid "There is another customer with the same email adress!"
+#~ msgstr "მომხმარებლი ამ ელ.ფოსტის მისამართით უკვე არსებობს სისტემაში!"
+
+#~ msgid "Please select WordPress user!"
+#~ msgstr "აირჩიეთ WordPress-ის მომხმარებელი!"
+
+#~ msgid "Please type the password of the WordPress user!"
+#~ msgstr "მიუთითეთ WordPress-ის მოხმარებლის პაროლი!"
+
+#~ msgid "Only JPG and PNG images allowed!"
+#~ msgstr "მხოლოდ JPG და PNG სურათები!"
+
+#~ msgid "Please select CSV file!"
+#~ msgstr "არჩიეთ CSV ფაილი!"
+
+#~ msgid "Too many fields detected on CSV file!"
+#~ msgstr "CSV ფაილში აღმოჩენილია ზედმეტი ველები!"
+
+#~ msgid "ADD CUSTOMER"
+#~ msgstr "კლიენტის დამატება"
+
+#~ msgid "CUSTOMER NAME"
+#~ msgstr "კლიენტის სახელი და გვარი"
+
+#~ msgid "First name"
+#~ msgstr "სახელი"
+
+#~ msgid "Last name"
+#~ msgstr "გვარი"
+
+#~ msgid "PHONE"
+#~ msgstr "ტელეფონი"
+
+#~ msgid "LAST APPOINTMENT"
+#~ msgstr "ბოლო ჯავშანი"
+
+#~ msgid "GENDER"
+#~ msgstr "სქესი"
+
+#~ msgid "Date of birth"
+#~ msgstr "დაბადების თარიღი"
+
+#~ msgid "Note"
+#~ msgstr "შენიშვნა"
+
+#~ msgid "The Customer has been added some Appointments. Firstly remove them!"
+#~ msgstr "ამ მომხმარებელს აქვს აქტიური ჯავშნები. ჯერ ისინი უნდა გააუქმოთ!"
+
+#~ msgid "First Name"
+#~ msgstr "სახელი"
+
+#~ msgid "Last Name"
+#~ msgstr "გვარი"
+
+#~ msgid "Phone"
+#~ msgstr "ტელ"
+
+#~ msgid "Allow to log in"
+#~ msgstr "უფლება აქვს დალოგინდეს"
+
+#~ msgid "Use existing WordPress user"
+#~ msgstr "გამოიყენეთ საიტის არსებული მომხარებელი"
+
+#~ msgid "Create new WordPress user"
+#~ msgstr "შექმენით ახალი საიტის მომხმარებელი"
+
+#~ msgid "WordPress user"
+#~ msgstr "საიტის მომხმარებელი"
+
+#~ msgid "User password"
+#~ msgstr "პაროლი"
+
+#~ msgid "Image"
+#~ msgstr "სურათი"
+
+#~ msgid "BROWSE"
+#~ msgstr "არჩევა"
+
+#~ msgid "PNG, JPG, max 800x800 to 5mb)"
+#~ msgstr "PNG, JPG, მაქს 800x800 და 5mb)"
+
+#~ msgid "Gender"
+#~ msgstr "სქესი"
+
+#~ msgid "Male"
+#~ msgstr "მამრობითი"
+
+#~ msgid "Female"
+#~ msgstr "მდედრობითი"
+
+#~ msgid "Import"
+#~ msgstr "იმპორტი"
+
+#~ msgid "You may import list of clients in CSV format."
+#~ msgstr "კლიენტების სიის დაიმპორტება შესაძლებელია CSV ფორმატში."
+
+#~ msgid "Select file"
+#~ msgstr "აირჩიეთ ფაილი"
+
+#~ msgid "(CSV, max 10k customers)"
+#~ msgstr "(CSV, მაქს 10.000 კლიენტი)"
+
+#~ msgid "Delimiter"
+#~ msgstr "გამყოფი"
+
+#~ msgid "Comma ( , )"
+#~ msgstr "მძიმე ( , )"
+
+#~ msgid "Semicolon ( ; )"
+#~ msgstr "წერტილ-მძიმე"
+
+#~ msgid "Custom forms"
+#~ msgstr "ფორმების შექმნა"
+
+#~ msgid "CREATE NEW FORM"
+#~ msgstr "ახალი ფორმის შექმნა"
+
+#~ msgid "NAME"
+#~ msgstr "სათაური"
+
+#~ msgid "Choice 1"
+#~ msgstr "არჩევანი 1"
+
+#~ msgid "Choice 2"
+#~ msgstr "არჩევანი 2"
+
+#~ msgid "Custom Forms"
+#~ msgstr "ფორმები"
+
+#~ msgid "Customize"
+#~ msgstr "ქასთომიზაცია"
+
+#~ msgid "Form name"
+#~ msgstr "ფორმის სახელი"
+
+#~ msgid "SAVE FORM"
+#~ msgstr "ფორმის შენახვა"
+
+#, fuzzy
+#~| msgid "Payments"
+#~ msgid "Elements"
+#~ msgstr "გადახდები"
+
+#~ msgid "Label"
+#~ msgstr "იარლიყი"
+
+#~ msgid "Text input"
+#~ msgstr "ტექსტური ველი"
+
+#~ msgid "Textarea"
+#~ msgstr "პარაგრაფული ველი"
+
+#~ msgid "Number input"
+#~ msgstr "ციფრული ველი"
+
+#~ msgid "Date input"
+#~ msgstr "თარიღის ველი"
+
+#~ msgid "Time input"
+#~ msgstr "დროს ველი"
+
+#~ msgid "Select"
+#~ msgstr "ჩამოსაშლელი სია"
+
+#~ msgid "Check-box"
+#~ msgstr "ჩექ-ბოქსი"
+
+#~ msgid "Radio buttons"
+#~ msgstr "რადიო ღილაკი"
+
+#~ msgid "File"
+#~ msgstr "ფაილი"
+
+#~ msgid "Link"
+#~ msgstr "ბმული"
+
+#~ msgid "Form"
+#~ msgstr "ფომრმა"
+
+#~ msgid "Max: 255 symbol"
+#~ msgstr "მაქს.: 255 სიმბოლო"
+
+#~ msgid "Placeholder"
+#~ msgstr "მინიშნება"
+
+#~ msgid "Max: 200 symbol"
+#~ msgstr "მაქს.: 200 სიმბოლო"
+
+#~ msgid "Min length"
+#~ msgstr "მინ. სიგრძე"
+
+#~ msgid "Max length"
+#~ msgstr "მაქს. სიგრძე"
+
+#~ msgid "Help text"
+#~ msgstr "დახმარების ტექსტი"
+
+#~ msgid "Max: 500 symbol"
+#~ msgstr "მაქს.: 500 სიმბოლო"
+
+#~ msgid "Allowed file formats"
+#~ msgstr "დაშვებული ფაილების გაფართოებები"
+
+#~ msgid "Is required"
+#~ msgstr "სავალდებულოა"
+
+#~ msgid "URL"
+#~ msgstr "მისამართი"
+
+#~ msgid "Choices"
+#~ msgstr "ასარჩევი ვარიანტები"
+
+#~ msgid "Add new"
+#~ msgstr "ახალის დამატება"
+
+#~ msgid "Dashboard"
+#~ msgstr "დეშბორდი"
+
+#~ msgid "Today"
+#~ msgstr "დღეს"
+
+#~ msgid "Yesterday"
+#~ msgstr "გუშინ"
+
+#~ msgid "Tomorrow"
+#~ msgstr "ხვალ"
+
+#~ msgid "This week"
+#~ msgstr "ამ კვირაში"
+
+#~ msgid "Last week"
+#~ msgstr "გასულ კვირას"
+
+#~ msgid "This month"
+#~ msgstr "ამ თვეში"
+
+#~ msgid "This year"
+#~ msgstr "წელს"
+
+#~ msgid "Custom"
+#~ msgstr "სხვა"
+
+#~ msgid "Durations"
+#~ msgstr "ხანგრძლივობა"
+
+#~ msgid "Revenue"
+#~ msgstr "შემოსავალი"
+
+#, fuzzy
+#~| msgid "Upcomming"
+#~ msgid "Upcoming"
+#~ msgstr "ახლო მომავალში"
+
+#~ msgid "APPOINTMENT DATE"
+#~ msgstr "თარიღი"
+
+#~ msgid "INFO"
+#~ msgstr "ინფო"
+
+#~ msgid ""
+#~ "You have reached your allowed maximum Email limit. Please upgrade your "
+#~ "plan."
+#~ msgstr ""
+#~ "ელ.ფოსტის შეტყობინებების მაქსიმალური ლიმიტი მიღწეულია. შეიძინეთ უკეთესი "
+#~ "პაკეტი."
+
+#~ msgid "Couldn't send email."
+#~ msgstr "ელ.ფოსტა ვერ გაიგზავნა."
+
+#~ msgid "Notifications"
+#~ msgstr "შეტყობინებები"
+
+#~ msgid "New Appointment"
+#~ msgstr "ახალი ჯავშანი"
+
+#~ msgid "Appointment re-scheduled"
+#~ msgstr "ჯავშნის დრო და თარიღი შეიცვალა"
+
+#~ msgid "Appointment approved"
+#~ msgstr "ჯავშანი დადასტურდა"
+
+#~ msgid "Appointment pending"
+#~ msgstr "ჯავშანი დასტურის მოლოდინშია"
+
+#~ msgid "Appointment rejected"
+#~ msgstr "ჯავშანი უარყოფილია"
+
+#~ msgid "Appointment canceled"
+#~ msgstr "ჯავშანი გაუქმებულია"
+
+#~ msgid "Reminder before appointment"
+#~ msgstr "შეხსენება ჯავშნამდე"
+
+#~ msgid "Reminder after appointment"
+#~ msgstr "შეხსენება ჯავშნის შემდეგ"
+
+#~ msgid "Access to Customer Panel"
+#~ msgstr "კლიენტის პანელზე წვდომა"
+
+#, php-format
+#~ msgid "Your monthly balance is %s/%s."
+#~ msgstr "თქვენი თვიური ბალანსია %s/%s."
+
+#~ msgid "SEND TEST EMAIL"
+#~ msgstr "სატესტო ელ.ფოსტის გაგზავნა"
+
+#~ msgid "TO CUSTOMER"
+#~ msgstr "კლიენტს"
+
+#~ msgid "TO STAFF"
+#~ msgstr "ექსპერტს"
+
+#~ msgid "Appointment Notifications"
+#~ msgstr "ჯავშნის შეტყობინებები"
+
+#~ msgid "Remind after"
+#~ msgstr "შეახსენე (მდე)"
+
+#~ msgid "Remind before"
+#~ msgstr "შეახსენე (ადრე)"
+
+#~ msgid "Email body"
+#~ msgstr "მეილის შიგთავსი"
+
+#~ msgid "Attach PDF"
+#~ msgstr "PDF ფაილის მიბმა"
+
+#~ msgid ""
+#~ "To send reminders on time, you need to configure the following cron task:"
+#~ msgstr ""
+#~ "შეხსენების დროულად გასაგზავნად, აუცილებელია cron ბრძაბების დაკონფიგურიება:"
+
+#~ msgid "Every 15 minutes"
+#~ msgstr "ყოველ 15 წუთში ერთხელ"
+
+#~ msgid "SHORT TAGS"
+#~ msgstr "მოკლე ტეგები"
+
+#~ msgid "Appointment Info"
+#~ msgstr "ჯავშნის ინფო"
+
+#~ msgid "Service Info"
+#~ msgstr "სერვისის ინფო"
+
+#~ msgid "Customer Info"
+#~ msgstr "კლიენტის ინფო"
+
+#~ msgid "Staff Info"
+#~ msgstr "ექსპერტის ინფო"
+
+#~ msgid "Location Info"
+#~ msgstr "ლოკაციის ინფო"
+
+#~ msgid "Company Info"
+#~ msgstr "კომპანიის ინფო"
+
+#~ msgid "Zoom Info"
+#~ msgstr "Zoom-ის ინფო"
+
+#~ msgid "Find custom field ID"
+#~ msgstr "მოძებნე დამატებითი ველის ID"
+
+#~ msgid "Custom field:"
+#~ msgstr "დამატებითი ველი:"
+
+#~ msgid "Keyword to use:"
+#~ msgstr "საკვანძო სიტყვა:"
+
+#~ msgid "Fistly select the custom field"
+#~ msgstr "პირველ რიგში აირჩიერთ დამატებითი ველი"
+
+#~ msgid "SEND"
+#~ msgstr "გაგზავა"
+
+#, fuzzy
+#~| msgid "Discount cannot be negative number!"
+#~ msgid "Amount cannot be zero or negative number!"
+#~ msgstr "დისქაუნთი უარყოფითი ციფრი ვერ იქნება!"
+
+#, fuzzy
+#~| msgid "Please type the coupon code field!"
+#~ msgid "Please type the giftcard code field!"
+#~ msgstr "გთხოვთ შეავსოთ კუპონის ველი!"
+
+#, fuzzy
+#~| msgid "Credit card"
+#~ msgid "Giftcards"
+#~ msgstr "საკრედიტო ბარათი"
+
+#, fuzzy
+#~| msgid "CANCEL"
+#~ msgid "BALANCE"
+#~ msgstr "გაუქმება"
+
+#, fuzzy
+#~| msgid "USAGE LIMIT"
+#~ msgid "USAGE HISTORY"
+#~ msgstr "გამოყენების ლიმიტი"
+
+#, fuzzy
+#~| msgid "Credit card"
+#~ msgid "Add Giftcard"
+#~ msgstr "საკრედიტო ბარათი"
+
+#, fuzzy
+#~| msgid "Amount"
+#~ msgid "Amount ("
+#~ msgstr "რაოდენობა"
+
+#, fuzzy
+#~| msgid "Usage limit"
+#~ msgid "Usage history"
+#~ msgstr "გამოყენების ლიმიტი"
+
+#, fuzzy
+#~| msgid "SUM AMOUNT"
+#~ msgid "USED AMOUNT"
+#~ msgstr "ჯამი"
+
+#~ msgid "Invoices"
+#~ msgstr "ინვოისები"
+
+#~ msgid "ADD INVOICE"
+#~ msgstr "ინვოისის შექმნა"
+
+#~ msgid "SAVE & DOWNLOAD PREVIEW"
+#~ msgstr "შენახვა და პრევიუს გადმოწერა"
+
+#~ msgid "INVOICE"
+#~ msgstr "ინვოისი"
+
+#~ msgid "PDF Name"
+#~ msgstr "PDF-ის სათაური"
+
+#~ msgid "Content"
+#~ msgstr "კონტენტი"
+
+#~ msgid "Locations"
+#~ msgstr "ლოკაციები"
+
+#~ msgid "ADD LOCATION"
+#~ msgstr "ლოკაციის დამატება"
+
+#~ msgid "ADDRESS"
+#~ msgstr "მისამართი"
+
+#~ msgid "This location is using some Appointments. Firstly remove them!"
+#~ msgstr "ამ ლოკაციას იყენებს რამოდენიმე ჯავშანი. ჯერ ისინ უნდა წაშალოთ!"
+
+#~ msgid "Location Name"
+#~ msgstr "ლოკაციის სათაური"
+
+#~ msgid "(PNG, JPG, max 800x800 to 5mb)"
+#~ msgstr "(PNG, JPG, მაქს. 800x800 და 5mb)"
+
+#~ msgid "Address"
+#~ msgstr "მისამართი"
+
+#~ msgid "Description"
+#~ msgstr "მოკლე არწერა"
+
+#~ msgid "UNHIDE LOCATION"
+#~ msgstr "ლოკაციის გამოჩენა"
+
+#~ msgid "HIDE LOCATION"
+#~ msgstr "ლოკაციის დამალვა"
+
+#~ msgid "SMS Notifications"
+#~ msgstr "SMS შეტყობინებები"
+
+#~ msgid "WhatsApp Notifications"
+#~ msgstr "WhatsApp შეტყობინებები"
+
+#, fuzzy
+#~| msgid "Edit"
+#~ msgid "Tab Edit"
+#~ msgstr "შეცვლა"
+
+#, fuzzy
+#~| msgid "Add break"
+#~ msgid "Add Tab"
+#~ msgstr "ბრეიქის დამატება"
+
+#, fuzzy
+#~| msgid "Selected"
+#~ msgid "Select Type"
+#~ msgstr "არჩეული"
+
+#, fuzzy
+#~| msgid "Last Name"
+#~ msgid "Tab Name"
+#~ msgstr "გვარი"
+
+#, fuzzy
+#~| msgid "Select date"
+#~ msgid "Select Language"
+#~ msgstr "აირჩიეთ თარიღი"
+
+#, fuzzy
+#~| msgid "Select service"
+#~ msgid "Select Service"
+#~ msgstr "აირჩიეთ სერვისი"
+
+#, fuzzy
+#~| msgid "Select staff"
+#~ msgid "Select Staff"
+#~ msgstr "აირჩიეთ ექსპერტი"
+
+#, fuzzy
+#~| msgid "Select location"
+#~ msgid "Select Location"
+#~ msgstr "აირჩიეთ ლოკაცია"
+
+#, fuzzy
+#~| msgid "ADD STAFF"
+#~ msgid "ADD TAB"
+#~ msgstr "ექსპერტის დამატება"
+
+#~ msgid "Payments"
+#~ msgstr "გადახდები"
+
+#~ msgid "METHOD"
+#~ msgstr "მეთოდი"
+
+#~ msgid "SERVICE AMOUNT"
+#~ msgstr "სერვისის ფასი"
+
+#~ msgid "EXTRAS AMOUNT"
+#~ msgstr "დამატებითი ფასი"
+
+#, fuzzy
+#~| msgid "EXTRAS AMOUNT"
+#~ msgid "TAX AMOUNT"
+#~ msgstr "დამატებითი ფასი"
+
+#~ msgid "PAID AMOUNT"
+#~ msgstr "გადახდილი"
+
+#~ msgid "Payment info"
+#~ msgstr "გადახდის ინფო"
+
+#~ msgid "COMPLETE PAYMENT"
+#~ msgstr "გადახდა"
+
+#~ msgid "Reports"
+#~ msgstr "რეპორტები"
+
+#~ msgid "Reports by the number of appointments"
+#~ msgstr "რაოდენობის მიხედვით"
+
+#~ msgid "Daily"
+#~ msgstr "ყოველდღიური"
+
+#, fuzzy
+#~| msgid "Annually"
+#~ msgid "Annualy"
+#~ msgstr "წლიური"
+
+#~ msgid "Reports by appointment earnings"
+#~ msgstr "შემოსავლის მიხედვით"
+
+#~ msgid "Most earning locations"
+#~ msgstr "შემოსავალი ლოკაციის მიხედვით"
+
+#, fuzzy
+#~| msgid "This week"
+#~ msgid "Previous week"
+#~ msgstr "ამ კვირაში"
+
+#, fuzzy
+#~| msgid "This month"
+#~ msgid "Previous month"
+#~ msgstr "ამ თვეში"
+
+#, fuzzy
+#~| msgid "This year"
+#~ msgid "Previous year"
+#~ msgstr "წელს"
+
+#~ msgid "Most earning staffs"
+#~ msgstr "შემოსავალი კადრების მიხედვით"
+
+#~ msgid "Firstly remove sub categories!"
+#~ msgstr "ჯერ ქვე კატეგორიები უნდა წაშალოთ!"
+
+#~ msgid "Firstly delete sub services."
+#~ msgstr "ჯერ ქვე სერვისები უნდა წაშალოთ."
+
+#~ msgid "This category is already exist! Please choose an other name."
+#~ msgstr "ეს კატეგორია უკვე არსებობს! გთხოვთ აირჩიოთ სხვა სათაური."
+
+#~ msgid "Deposit can not exceed the price!"
+#~ msgstr "დეპოზიტი ფასზე მეტი ვერ იქნება!"
+
+#~ msgid "This service name is already exist! Please choose an other name."
+#~ msgstr "სერვისი ამ სათაურით უკვე არსბობს."
+
+#~ msgid "Duplicate Staff selected!"
+#~ msgstr "ექსპერტი ორჯერ არის არჩეული!"
+
+#~ msgid "Max quantity can not be zero!"
+#~ msgstr "მაქსიმალური რაოდენობა 0 ვერ იქნება!"
+
+#, php-format
+#~ msgid "This extra is using some Appointments (ID: %d). Firstly remove them!"
+#~ msgstr ""
+#~ "ეს დამატებითი სერვისი დაჯავშნულია (ID: %d). ჯერ ჯავშნები უნდა გააუქმოთ!"
+
+#~ msgid "Requested Service Extra not found!"
+#~ msgstr "დამატებითი სერვისი ვერ მოიძებნა!"
+
+#~ msgid "Services"
+#~ msgstr "სერვისები"
+
+#~ msgid "ADD SERVICE"
+#~ msgstr "სერვისის დამატება"
+
+#~ msgid "CATEGORY"
+#~ msgstr "კატეგორია"
+
+#~ msgid "PRICE"
+#~ msgstr "ფასი"
+
+#~ msgid "This service is using some Appointments. Firstly remove them!"
+#~ msgstr "ეს სერვისი ჯერ კიდევ არის ჯავშნებში. ჯერ ისინი უნდა გააუქმოთ!"
+
+#~ msgid "Staff not selected"
+#~ msgstr "ექსპერტი არჩეული არ არის"
+
+#~ msgid "Go to center"
+#~ msgstr "ცენტრში დაბრუნება"
+
+#~ msgid "Categories"
+#~ msgstr "კატეგორები"
+
+#~ msgid "What do you want to create?"
+#~ msgstr "რისი შექმნა გსურთ?"
+
+#~ msgid "Breaks"
+#~ msgstr "ბრეიქები"
+
+#~ msgid "Specific price"
+#~ msgstr "სპეციფიური ფასი"
+
+#~ msgid "Start time"
+#~ msgstr "საწყისი დრო"
+
+#~ msgid "End time"
+#~ msgstr "სასრული დრო"
+
+#~ msgid "Add break"
+#~ msgstr "ბრეიქის დამატება"
+
+#~ msgid "Remove special day"
+#~ msgstr "მოაშორე გამონაკლისი დღე"
+
+#~ msgid "Name"
+#~ msgstr "სახელი"
+
+#~ msgid "Max. quantity"
+#~ msgstr "მაქს. რაოდენობა"
+
+#, fuzzy
+#~| msgid "Copy to all"
+#~ msgid "Copy to all services"
+#~ msgstr "ყველას კოპირება"
+
+#~ msgid "Add Service"
+#~ msgstr "სერვისის დამატება"
+
+#~ msgid "SERVICE DETAILS"
+#~ msgstr "სერვისის დეტალები"
+
+#~ msgid "TIME SHEET"
+#~ msgstr "განრიგი"
+
+#~ msgid "Service name"
+#~ msgstr "სერვისის სათაური"
+
+#~ msgid "Deposit"
+#~ msgstr "დეპოზიტი"
+
+#~ msgid "Time slot length"
+#~ msgstr "დროს სლოთის ხანგრძლივობა"
+
+#~ msgid "Default"
+#~ msgstr "ნაგულისხმევი"
+
+#~ msgid "Slot length as service duration"
+#~ msgstr "სლოტის ხანგრძლივობა გახდეს სერვირის ხანგრძლივობა"
+
+#~ msgid "Buffer Time Before"
+#~ msgstr "ბუფერი მდე"
+
+#~ msgid "Buffer Time After"
+#~ msgstr "ბუფერი შემდეგ"
+
+#~ msgid "Hide price in booking panel:"
+#~ msgstr "დამალე ფასი ჯავშნის პანელში:"
+
+#~ msgid "Hide duration in booking panel:"
+#~ msgstr "დამალე ხანგრძლივობა ჯავშნის პანელში:"
+
+#~ msgid "Recurring"
+#~ msgstr "განმეორებადი"
+
+#~ msgid "Repeat"
+#~ msgstr "გამეორება"
+
+#~ msgid "Weekly"
+#~ msgstr "ყოველკვირეული"
+
+#~ msgid "Fixed full period"
+#~ msgstr "ფიქსირებული პერიოდი"
+
+#~ msgid "time(s)"
+#~ msgstr "დრო"
+
+#~ msgid "Fixed frequency"
+#~ msgstr "ფიქსირებული სიხშირე"
+
+#~ msgid "time per week"
+#~ msgstr "დრო კვირაში"
+
+#~ msgid "The Customer pays separately for each appointment"
+#~ msgstr "მომხმარებელი ყველა ჯავშანს იხდის სათითაოდ"
+
+#~ msgid "The Customer pays full amount of recurring appointments"
+#~ msgstr "მომხმარებელი იხდის განმეორებადი ჯავშნების სრულ საფასურს"
+
+#~ msgid "Fix time"
+#~ msgstr "ფიქსირებული დრო"
+
+#~ msgid "Capacity"
+#~ msgstr "ტევადობა"
+
+#~ msgid "Alone"
+#~ msgstr "მარტო"
+
+#~ msgid "Group"
+#~ msgstr "ჯგუფი"
+
+#~ msgid "Min. / Max. capacity"
+#~ msgstr "მინ./მაქს. ტევადობა"
+
+#~ msgid "Activate Zoom for the service"
+#~ msgstr "გააქტიურეთ Zoomi ამ სერვისისთვის"
+
+#~ msgid "WEEKLY SCHEDULE"
+#~ msgstr "კვირის განრიგი"
+
+#~ msgid "SPECIAL DAYS"
+#~ msgstr "გამონაკლისი დღეები"
+
+#~ msgid "Configure specific timesheet"
+#~ msgstr "სპეც-განრიგის შექმნა"
+
+#~ msgid "Add day off"
+#~ msgstr "უქმე დღის დამატება"
+
+#~ msgid "ADD SPECIAL DAY"
+#~ msgstr "გამონაკლისი დღის დამატება"
+
+#~ msgid "Add staff"
+#~ msgstr "ექსპერტის დამატება"
+
+#~ msgid "NEW EXTRA"
+#~ msgstr "ახალი დამატებითი სერვისი"
+
+#~ msgid "SAVE EXTRA"
+#~ msgstr "დამატებითი სერვისის შენახვა"
+
+#~ msgid "UNHIDE SERVICE"
+#~ msgstr "სერვისის გამოჩენა"
+
+#~ msgid "HIDE SERVICE"
+#~ msgstr "სერვისის დამალვა"
+
+#~ msgid "SAVE SERVICE"
+#~ msgstr "სერვისის შენახვა"
+
+#~ msgid "Select colors"
+#~ msgstr "აირჩიეთ ფერები"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "Add Category"
+#~ msgstr "კატეგორია"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "Parent category"
+#~ msgstr "კატეგორია"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "Root category"
+#~ msgstr "კატეგორია"
+
+#~ msgid "Local"
+#~ msgstr "ნაღდი"
+
+#~ msgid "Any staff"
+#~ msgstr "ნებისმიერი ექსპერტი"
+
+#~ msgid "Select an available staff"
+#~ msgstr "აირჩიეთ ხელმისაწვდომი ექსპერტი"
+
+#~ msgid "Add coupon"
+#~ msgstr "კუპონი"
+
+#~ msgid "Please select location."
+#~ msgstr "აირჩიეთ ლოკაცია."
+
+#~ msgid "Please select staff."
+#~ msgstr "აირჩიეთ ექსპერტი."
+
+#~ msgid "Please select service"
+#~ msgstr "აირჩიეთ სერვისი"
+
+#~ msgid "Please select week day(s)"
+#~ msgstr "აირჩიეთ სამუშაო დღე"
+
+#~ msgid "Please select week day(s) and time(s) correctly"
+#~ msgstr "გთხოვთ სწორად აირჩიოთ დრო და თარიღი"
+
+#~ msgid "Please select start date"
+#~ msgstr "აირჩიეთ საწყისი თარიღი"
+
+#~ msgid "Please select end date"
+#~ msgstr "გთხოვთ აირჩიოთ თარიღი და დრო"
+
+#~ msgid "Please select date."
+#~ msgstr "მიუთითეთ თარიღი."
+
+#~ msgid "Please select time."
+#~ msgstr "მიუთითეთ დრო."
+
+#~ msgid "Please select an available time"
+#~ msgstr "აირჩიეთ ხელმისაწვდომი დრო"
+
+#~ msgid "Please enter a valid email address!"
+#~ msgstr "გთხოვთ მიუთითოთ სწორი ელ-ფოსტის მისამართი!"
+
+#~ msgid "Please enter a valid phone number!"
+#~ msgstr "გთხოვთ მიუთითოთ სწორი ტელეფონის ნომერი!"
+
+#~ msgid "CONFIRM BOOKING"
+#~ msgstr "ჯავშნის დასტური"
+
+#~ msgid "There is no any Location for select."
+#~ msgstr "There is no any Location for select."
+
+#~ msgid "Staff not found. Please go back and select a different option."
+#~ msgstr "Staff not found. Please go back and select a different option."
+
+#~ msgid "Service not found. Please go back and select a different option."
+#~ msgstr "Service not found. Please go back and select a different option."
+
+#~ msgid "There isn't any available staff for the selected date/time."
+#~ msgstr "There isn&#039;t any available staff for the selected date/time."
+
+#~ msgid ""
+#~ "Extras not found in this service. You can select other service or click "
+#~ "the <span class=\"booknetic_text_primary\">\"Next step\"</span> button."
+#~ msgstr ""
+#~ "ამ სერვისს არ აქვს დამატებითი სერვისები. შეგიძლიათ აირჩიოთ სხვა სერვისი "
+#~ "და დააჭიროთ <span class=“booknetic_text_primary”>”შემდეგი”</span> ღილაკს."
+
+#~ msgid "w"
+#~ msgstr "კვ"
+
+#~ msgid "d"
+#~ msgstr "დღე"
+
+#~ msgid "h"
+#~ msgstr "სთ"
+
+#~ msgid "m"
+#~ msgstr "წთ"
+
+#~ msgid "s"
+#~ msgstr "წმ"
+
+#~ msgid "The Extra step cannot be ordered before the Service step."
+#~ msgstr "დამატებითი სერვისის ბიჯი ვერ გამოისახება ძირითადი სერვისის ბიჯამდე."
+
+#~ msgid "The Date & Time step cannot be ordered before the Service step."
+#~ msgstr "თარიღი და დროს ბიჯი ვერ გამოისახება ძირითადი სერვისის ბიჯამდე."
+
+#~ msgid "You must add at least one Location to hide the Location step."
+#~ msgstr ""
+#~ "იმისთვის რომ ლოკაციის ბიჯი დამალოთ ერთი ლოკაცია მაინც უნდა არსებობდეს."
+
+#~ msgid "You must add at least one Staff to hide the Staff step."
+#~ msgstr ""
+#~ "იმისთვის რომ ექსპერტის ბიჯი დამალოთ ერთი ექსპერტი მაინც უნდა არსებობდეს."
+
+#~ msgid "You must add at least one Service to hide the Service step."
+#~ msgstr ""
+#~ "იმისთვის რომ სერვისის ბიჯი დამალოთ ერთი სერვისი მაინც უნდა არსებობდეს."
+
+#~ msgid "Confirmation number is invalid!"
+#~ msgstr "დასტურის ელ.ფოსტა არასწორია!"
+
+#~ msgid "Please enable at least one payment gateway."
+#~ msgstr "გთხოვთ აირჩიოთ ერთი გადახდის მეთოდი მაინც."
+
+#~ msgid "Settings"
+#~ msgstr "პარამეტრები"
+
+#~ msgid "General settings"
+#~ msgstr "ძირითადი პარამეტები"
+
+#~ msgid "You can customize general settings about booking from here"
+#~ msgstr "აქ შეგიძლიათ შეცვალოთ ჯავშნის სისტემის ძირითადი პარამეტრები"
+
+#~ msgid "Front-end panels"
+#~ msgstr "Front-end პანელები"
+
+#~ msgid ""
+#~ "You can customize booking and customer panel and change labels from here"
+#~ msgstr "აქ შეგიძლიათ შეცვალოთ ჯავშნის და კლიენტის პანელის პარამეტრები"
+
+#~ msgid "Booking Steps"
+#~ msgstr "ჯავნის ბიჯები"
+
+#~ msgid "Customer Panel"
+#~ msgstr "კლიენტის პანელი"
+
+#~ msgid "Labels"
+#~ msgstr "იარლიყები"
+
+#~ msgid "Payment settings"
+#~ msgstr "გადახდის პარამეტები"
+
+#~ msgid ""
+#~ "Currency, price format , general settings about payment , paypal, stripe "
+#~ "and so on"
+#~ msgstr "ძირითადი პარამეტრები, ვალუტა, ფასის ფორმატი და სხვა"
+
+#~ msgid "General"
+#~ msgstr "ძირითადი"
+
+#~ msgid "Payment methods"
+#~ msgstr "გადახდის მეთოდები"
+
+#~ msgid ""
+#~ "Enter your company name, logo, address, phone number, website from here"
+#~ msgstr ""
+#~ "აქ მიუთითებთ თქვენი კომპაანის სახელს, ლოგოს, მისამართის, ნომერს და ვებ-"
+#~ "გვერდს"
+
+#~ msgid "Business Hours"
+#~ msgstr "სამუშაო საათები"
+
+#~ msgid "You will be able to co-ordinate your company's overall work schedule"
+#~ msgstr "თქვენ შეძლებთ კოორდინაცია გაუწიოთ კომპაანის სამუშაო განრიგს"
+
+#~ msgid "Holidays"
+#~ msgstr "უქმე დღეები"
+
+#~ msgid "You can select dates that you are unavailable or on holiday"
+#~ msgstr "აირჩიეთ დასვენების ან შვებულების დღეები"
+
+#~ msgid "Integrations settings"
+#~ msgstr "ინეგრაციები"
+
+#~ msgid "You can change settings for integrated services from here."
+#~ msgstr "აქ შეგიძლიათ შეცვალოთ ინტეგრირებული სერვისების პარამეტრები."
+
+#~ msgid "Google calendar"
+#~ msgstr "Google კალენდარი"
+
+#~ msgid "Export & Import data"
+#~ msgstr "მონაცემების ექსპორტ-იმპორტი"
+
+#~ msgid "You can export all Booknetic data and import from here."
+#~ msgstr ""
+#~ "აქ შეგიძლიათ დაა-იმპორტოთ ან დაა-ექსპორტოთ ჯავშნის სიტემის ყველა "
+#~ "პარამეტრი."
+
+#~ msgid "Integration with Zoom"
+#~ msgstr "ინტეგრაცია Zoom-თან"
+
+#~ msgid "You can change settings for zoom integration from here."
+#~ msgstr "აქ შეძლებთ შეცვალოთ Zoom-თან ინტეგრაციის პარამეტრები."
+
+#~ msgid ""
+#~ "You can easily set with selecting special days, holidays over the calendar"
+#~ msgstr "მარტივად აირჩიეთ უქმე და შვებულების დღეები კალენდარზე"
+
+#~ msgid "EXPORT DATA"
+#~ msgstr "მონაცემთა ექსპორტი"
+
+#~ msgid "Select file to restore"
+#~ msgstr "აირჩიეთ ფაილი აღდგენისთვის"
+
+#~ msgid "IMPORT DATA"
+#~ msgstr "მონაცემდა იმპორტი"
+
+#~ msgid "TRANSLATE"
+#~ msgstr "თარგმანი"
+
+#~ msgid "SET AS DEFAULT LANGUAGE"
+#~ msgstr "ნაგულისმევ ენად დამახსოვრება"
+
+#~ msgid "Other"
+#~ msgstr "სხვა"
+
+#~ msgid "Finish"
+#~ msgstr "დასრულება"
+
+#~ msgid "Steps"
+#~ msgstr "ბიჯები"
+
+#~ msgid "Hide address of Location"
+#~ msgstr "დამალე ლოკაციის მისამართი"
+
+#~ msgid "No settings found for this step."
+#~ msgstr "ამ ბიჯის პარამეტრები ვერ მოიძებნა."
+
+#~ msgid "Footer text per staff"
+#~ msgstr "ფუტერის თექსტი თითოეული ექსპერტისთვის"
+
+#~ msgid "Show both phone number and emaill address"
+#~ msgstr "აჩვენე ორივე: ტელეფონი და ელ.ფოსტა"
+
+#~ msgid "Show only Staff email address"
+#~ msgstr "აჩვენე მხოლოდ ელ.ფოსტა"
+
+#~ msgid "Show only Staff phone number"
+#~ msgstr "აჩვენე მხოლოდ ტელეფონი"
+
+#~ msgid "Don't show both phone number and emaill address"
+#~ msgstr "არცერთი არ აჩვენო"
+
+#~ msgid "Enable Any staff option"
+#~ msgstr "ნებისმეირი ხელმისაწვდომი ექსპერტი"
+
+#~ msgid "Auto assignment rule"
+#~ msgstr "ექსპერტის ავტომატური არჩევა"
+
+#~ msgid "Least assigned by the day"
+#~ msgstr "დღის მიხედვით ნაკლებად დაკავებული"
+
+#~ msgid "Most assigned by the day"
+#~ msgstr "დღის მიხედვით მეტად დაკავებული"
+
+#~ msgid "Least assigned by the week"
+#~ msgstr "კვირის მიხედვით ნაკლებად დაკავებული"
+
+#~ msgid "Most assigned by the week"
+#~ msgstr "კვირის მიხედვით მეტად დაკავებული"
+
+#~ msgid "Least assigned by the month"
+#~ msgstr "თვის მიხედვით ნაკლებად დაკავებული"
+
+#~ msgid "Most assigned by the month"
+#~ msgstr "თვის მიხედვით ნაკლებად დაკავებული"
+
+#~ msgid "Most expensive"
+#~ msgstr "ყველაძე ძვირადღირებული"
+
+#~ msgid "Least expensive"
+#~ msgstr "ყველაზე დაბალფასიანი"
+
+#~ msgid "If a Service does not have an extra skip the step"
+#~ msgstr "თუ სერვისს არ აქვს დამატებით სერვისები, მაშინ გამოტოვე"
+
+#~ msgid "The time format for the booking form"
+#~ msgstr "დროს ფორმატი ჯავშნის ფორმაში"
+
+#~ msgid "Show both Start and End time (e.g.: 10:00 - 11:00)"
+#~ msgstr "აჩვენე ორივე - საწყისი და სასრული დრო (მაგ.: 10:00 - 11:00)"
+
+#~ msgid "Show only Start time (e.g.: 10:00)"
+#~ msgstr "აჩვენე მხოლოდ საწყისი დრო (მაგ.: 10:00)"
+
+#~ msgid "Hide the number of available slots"
+#~ msgstr "დამალე ხელმისაწვდომი სლოტები"
+
+#~ msgid "Separate First and Last name inputs"
+#~ msgstr "სახელის და გვარის ინდივიდუალურ ველებად დაყოფა"
+
+#~ msgid "Set Email as a required field"
+#~ msgstr "ელ.ფოსტა სავალდებულო ველია"
+
+#~ msgid "Set Phone number as a required field"
+#~ msgstr "ტელ. ნომერი სავალდებულო ველია"
+
+#~ msgid "Default phone country code"
+#~ msgstr "ნაგულისხმევი ქვეყნის სატელეფონო კოდი"
+
+#~ msgid "Hide payment methods section"
+#~ msgstr "გადახდის მეთოდების სექციის დამალვა"
+
+#~ msgid "Hide coupon section"
+#~ msgstr "კუპონის სექციის დამალვა"
+
+#, fuzzy
+#~| msgid "Hide price section"
+#~ msgid "Hide giftcard section"
+#~ msgstr "ფასის სექციის დამალვა"
+
+#~ msgid "Do not show the discount row if a coupon is not added"
+#~ msgstr "არ აჩვენო დისქაუნთის რიგი თუ კუპონი არ არის დამატებული"
+
+#~ msgid "Hide price section"
+#~ msgstr "ფასის სექციის დამალვა"
+
+#~ msgid "URL of \"FINISH BOOKING\" button"
+#~ msgstr "ჯავშნის “დასრულება” ღილაკის მისამრთი"
+
+#~ msgid "Default: Reload current page."
+#~ msgstr "ნაგულისხმევი: მოცემული გვერდის გადატვირთვა."
+
+#~ msgid "Hide the \"ADD TO GOOGLE CALENDAR\" button"
+#~ msgstr "დამალე “Google კალენდარში დამატების” ღილაკი"
+
+#~ msgid "Hide the \"START NEW BOOKING\" button"
+#~ msgstr "დამალე “ახალი ჯავშნის დაწყების” ღილაკი"
+
+#~ msgid "Hide a confirmation number"
+#~ msgstr "დამალე დასტურის ნომერი"
+
+#~ msgid "Starting confirmation number"
+#~ msgstr "საწყისი დასტურის კოდი"
+
+#~ msgid "Company name"
+#~ msgstr "კომპანიის სახელწოდება"
+
+#~ msgid "Website"
+#~ msgstr "ვებ-გვერდი"
+
+#~ msgid "CLICK TO CONNECT ZOOM ACCOUNT"
+#~ msgstr "დააჭირეთ Zoom ექაუნთის დასაკავშირებლად"
+
+#, php-format
+#~ msgid "Zoom account ( %s ) has been connected successfully."
+#~ msgstr "Zoom-ის ექაუნთი ( %s ) წარმატებით დაკავშირდა."
+
+#~ msgid "DISCONNECT"
+#~ msgstr "კავშირის გაწყვეტა"
+
+#~ msgid "Disabled"
+#~ msgstr "ჩართულია"
+
+#~ msgid "Page of Customer Panel"
+#~ msgstr "მომხმარებლის პანელის გვერდი"
+
+#, fuzzy
+#~| msgid "Allow customers to cancel their appointments"
+#~ msgid "Time restriction to change appointments"
+#~ msgstr "კლიენტებს შეუძლიათ გააუქმონ ჯავშანი"
+
+#~ msgid "Allow customers to reschedule their appointments"
+#~ msgstr "კლიენტებს შეუძლიათ შეცვალონ ჯავშნის თარიღი და დრო"
+
+#~ msgid "Allow customers to cancel their appointments"
+#~ msgstr "კლიენტებს შეუძლიათ გააუქმონ ჯავშანი"
+
+#~ msgid "Allow customers to delete their account"
+#~ msgstr "კლიენტებს შეუძლიათ საიტიდან წაშალონ საკუთარი პროფილი"
+
+#~ msgid "Minimum time requirement prior to booking"
+#~ msgstr "სავალდებულო მინიმალური დრო ჯავშნამდე"
+
+#~ msgid "Limited booking days"
+#~ msgstr "შეზღუდული ჯავშნის დღეების"
+
+#~ msgid "Week starts on"
+#~ msgstr "კვირა იწყება"
+
+#~ msgid "Date format"
+#~ msgstr "თარიღის ფორმატი"
+
+#~ msgid "Time format"
+#~ msgstr "დროს ფორმატი"
+
+#~ msgid "24 hour format"
+#~ msgstr "24 სთ.-ნი ფორმატი"
+
+#~ msgid "12 hour format"
+#~ msgstr "12 სთ.-ნი ფორმატი"
+
+#~ msgid "Default appointment status"
+#~ msgstr "ნაგულისხმევი ჯავშნის სტატუსი"
+
+#~ msgid "Show time slots in client time-zone"
+#~ msgstr "სარაჩევი საათები ნაჩვენებია კლიენტის ლოკალური დროით"
+
+#~ msgid "Remove branding"
+#~ msgstr "ბრენდინგის მოშორება"
+
+#, fuzzy
+#~| msgid "Time"
+#~ msgid "Timezone"
+#~ msgstr "დრო"
+
+#~ msgid "List of keywords"
+#~ msgstr "საკვანძო სიტყვები"
+
+#~ msgid "Meeting topic"
+#~ msgstr "შეხვედრის თემა"
+
+#~ msgid "Meeting description"
+#~ msgstr "შეხვედრი აღწერა"
+
+#~ msgid "Set random password for meetings"
+#~ msgstr "შემთხვევითი პაროლის გენერირება"
+
+#~ msgid "Local payment"
+#~ msgstr "ნაღდი ანგარიშსწორება"
+
+#~ msgid "Mode"
+#~ msgstr "რეჟიმი"
+
+#~ msgid "Live"
+#~ msgstr "პირდაპირი"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Location ID"
+#~ msgstr "ლოკაცია"
+
+#, fuzzy
+#~| msgid "Confirmation"
+#~ msgid "Skip the Confirmation step"
+#~ msgstr "დასტური"
+
+#~ msgid "Redirect customer to"
+#~ msgstr "მომხმარებელი გადამისამართდეს"
+
+#~ msgid "Cart page"
+#~ msgstr "კალათაში"
+
+#~ msgid "Checkout page"
+#~ msgstr "გადახდის გვერდზე"
+
+#~ msgid "Woocommerce order details"
+#~ msgstr "შეკვეთის დეტალები"
+
+#~ msgid "Currency"
+#~ msgstr "ვალუტა"
+
+#~ msgid "Currency symbol"
+#~ msgstr "ვალუტის სიმბოლო"
+
+#~ msgid "Currency format"
+#~ msgstr "ვალუტის ფორმატი"
+
+#~ msgid "Price number format"
+#~ msgstr "ფასის რიცხვის ფორმატი"
+
+#~ msgid "Price number of decimals"
+#~ msgstr "ფასის რიცხვის წილადები"
+
+#~ msgid "Customer can pay full amount"
+#~ msgstr "კლიენტს შეუძლია გადაიხადოს სრული საფასური"
+
+#~ msgid "SMS/WhatsApp settings"
+#~ msgstr "SMS/WhatsApp პარამეტრები"
+
+#~ msgid "Sender phone number for SMS"
+#~ msgstr "გამგზავნის ტელ. ნომერი SMS-ისთვის"
+
+#~ msgid "Sender phone number for WhatsApp"
+#~ msgstr "გამგზავნის ტელ. ნომერი WhatsApp-ისთვის"
+
+#~ msgid ""
+#~ "You have reached your allowed maximum SMS limit. Please upgrade your plan."
+#~ msgstr ""
+#~ "SMS-ების მაქსიმალური ლიმიტი მიღწეულია. გთხოვთ შეიძინოთ უკეთესი პაკეტი."
+
+#~ msgid "Please configure SMS settings!"
+#~ msgstr "დააკონფიგურირეთ SMS პარამეტრები!"
+
+#~ msgid "SEND TEST SMS"
+#~ msgstr "სატესტო SMS გაგზავნა"
+
+#~ msgid "APPOINTMENT APPROVED"
+#~ msgstr "ჯავშანი დადასტურებულია"
+
+#~ msgid "SMS body"
+#~ msgstr "SMS-ის ტექსტი"
+
+#~ msgid "Send test SMS"
+#~ msgstr "სატესტო SMS-ის გაგზავნა"
+
+#~ msgid "Phone number"
+#~ msgstr "ტელ"
+
+#~ msgid "Staff not found!"
+#~ msgstr "ექსპერტი ვერ მოიძებნა!"
+
+#~ msgid "You do not have sufficient permissions to perform this action"
+#~ msgstr "ამ მოქმედების განხორციელებისთვის საკმარისი უფლება არ გაქვთ"
+
+#~ msgid "Staff not found or permission denied!"
+#~ msgstr "ექსპერტი ვერ მოიძებნა, ამ ოპერაციის შესრულების უფლება არ გაქვთ!"
+
+#~ msgid "Please select location!"
+#~ msgstr "აირჩიეთ ლოკაცია!"
+
+#~ msgid "The WordPress user with the same email address already exists!"
+#~ msgstr "მომხმარებლი ამ ელ.ფოსტის მისამართით უკვე არსებობს სისტემაში!"
+
+#~ msgid "Firstly click the login button!"
+#~ msgstr "პირველ რიგში დააჭირეთ ღილაკს “შესვლა”!"
+
+#~ msgid "ADD STAFF"
+#~ msgstr "ექსპერტის დამატება"
+
+#~ msgid "STAFF NAME"
+#~ msgstr "ექპერტის სახელი"
+
+#~ msgid "EMAIL"
+#~ msgstr "ელ.ფოსტა"
+
+#~ msgid "This staff has been added some Appointments. Firstly remove them!"
+#~ msgstr "ეს ექსპერტი მიმაგრებულია არსებულ ჯავშანზე. ჯერ ისინი წაშალეთ!"
+
+#~ msgid "Add Staff"
+#~ msgstr "ექსპერტის დამატება"
+
+#~ msgid "DETAILS"
+#~ msgstr "დეტალები"
+
+#~ msgid "HOLIDAYS"
+#~ msgstr "უქმე დღეები"
+
+#~ msgid "Full Name"
+#~ msgstr "სრული სახელი"
+
+#~ msgid "Zoom user"
+#~ msgstr "Zoom-ის იუზერი"
+
+#~ msgid "UNHIDE STAFF"
+#~ msgstr "ექსპერტის გამოჩენა"
+
+#~ msgid "HIDE STAFF"
+#~ msgstr "ექსპერტის დამალვა"
+
+#~ msgid "SAVE STAFF"
+#~ msgstr "ექსპერტის დამახსოვრება"
+
+#~ msgid ""
+#~ "You have reached your allowed maximum WhatsApp message limit. Please "
+#~ "upgrade your plan."
+#~ msgstr ""
+#~ "WhatsApp შეტყობინებების მაქსიმალური ლიმიტი ამოწურულია. გთხოვთ განაახლოთ "
+#~ "თქვენი გამოწერის გეგმა."
+
+#~ msgid "Please configure WhatsApp settings!"
+#~ msgstr "დააკონფიგურირეთ WhatsApp პარამეტრები!"
+
+#~ msgid "Whatsapp Notifications"
+#~ msgstr "WhatsApp შეტყობინებები"
+
+#~ msgid "SEND TEST MESSAGE"
+#~ msgstr "სატესტო შეტყობინების გაგზავნა"
+
+#~ msgid "Message body"
+#~ msgstr "შეტყობინების ტექსტი"
+
+#~ msgid "Send test message"
+#~ msgstr "სატესტო შეტყობინების გაგზავნა"
+
+#~ msgid "Fistly You have to select Service, Staff and Date fields!"
+#~ msgstr "პირველ რიგში უნდა აირჩიოთ სერვისის, ექსპერტის და თარიღის ველები!"
+
+#~ msgid "Please choose dates"
+#~ msgstr "გთხოვთ აირჩიოთ თარიღი"
+
+#~ msgid "There is no Location to match your request."
+#~ msgstr "ასეთი ლოკაცია არ მოიძებნა."
+
+#~ msgid "Please select payment method!"
+#~ msgstr "აირჩეთ გადახდის მეთოდი!"
+
+#~ msgid "Please refresh the page and try again."
+#~ msgstr "გადატვირთეთ გვერდი და ხელახლა სცადეთ."
+
+#, fuzzy
+#~| msgid "This service name is already exist! Please choose an other name."
+#~ msgid "This email address is already used by another customer."
+#~ msgstr "სერვისი ამ სათაურით უკვე არსბობს."
+
+#~ msgid "Profile data was saved successfully"
+#~ msgstr "პროფილის მონაწამები შენახულია"
+
+#~ msgid "Password does not match!"
+#~ msgstr "პაროლი არ ემთხვევა!"
+
+#~ msgid "Current password is wrong!"
+#~ msgstr "ამჟამინდელი პაროლი არასწორია!"
+
+#~ msgid "Password was changed successfully"
+#~ msgstr "პაროლი წამრმატებით შეიცვალა"
+
+#, fuzzy
+#~| msgid "You have not changed the date and time."
+#~ msgid "You can not change the date and time to past."
+#~ msgstr "თარიღი და დრო არ შეგიცვლიათ."
+
+#, fuzzy, php-format
+#~| msgid "Minimum time requirement prior to booking"
+#~ msgid ""
+#~ "Minimum time requirement prior to change the appointment date and time is "
+#~ "%s"
+#~ msgstr "სავალდებულო მინიმალური დრო ჯავშნამდე"
+
+#, fuzzy, php-format
+#~| msgid "You have not changed the date and time."
+#~ msgid "You cannot change the appointment less than %s in advance"
+#~ msgstr "თარიღი და დრო არ შეგიცვლიათ."
+
+#~ msgid "You have not changed the date and time."
+#~ msgstr "თარიღი და დრო არ შეგიცვლიათ."
+
+#~ msgid "Appointment was rescheduled successfully!"
+#~ msgstr "ჯავშნის დრო შეცვლილია!"
+
+#~ msgid "You have canceled the appointment!"
+#~ msgstr "ჯავშანი გაუქმებულია!"
+
+#~ msgid "We aren’t able to process your payment. Please, try again."
+#~ msgstr "გადახდის ვერ მოხერხდა. ხელახლა სცადეთ."
+
+#~ msgid "TRY AGAIN"
+#~ msgstr "ხელახლა სცადეთ"
+
+#~ msgid "Thank you for your request!"
+#~ msgstr "Thank you for your request!"
+
+#~ msgid "Your confirmation number:"
+#~ msgstr "Your confirmation number:"
+
+#~ msgid "ADD TO GOOGLE CALENDAR"
+#~ msgstr "GOOGLE კალენდარში დამატება"
+
+#~ msgid "START NEW BOOKING"
+#~ msgstr "ახალი ჯავშანი"
+
+#~ msgid "FINISH BOOKING"
+#~ msgstr "დასრულება"
+
+#, php-format
+#~ msgid "Powered by %s"
+#~ msgstr "ტექნიკური მხარდაჭერა %s-ის მიერ"
+
+#, fuzzy
+#~| msgid "Coupons"
+#~ msgid "Coupon"
+#~ msgstr "კუპონები"
+
+#~ msgid "OK"
+#~ msgstr "თანხმობა"
+
+#, fuzzy
+#~| msgid "Credit card"
+#~ msgid "Giftcard"
+#~ msgstr "საკრედიტო ბარათი"
+
+#, fuzzy
+#~| msgid "ADDRESS"
+#~ msgid "ADD"
+#~ msgstr "მისამართი"
+
+#~ msgid "Total price"
+#~ msgstr "ჯამური ფასი"
+
+#~ msgid "Full amount"
+#~ msgstr "სრული თანხა"
+
+#~ msgid "Please wait, You are automatically redirecting to order page..."
+#~ msgstr "მიმდინარეობს გადამისამართება შეკვეთის გვერდზე…."
+
+#~ msgid "Select date"
+#~ msgstr "აირჩიეთ თარიღი"
+
+#~ msgid "Bring People with You"
+#~ msgstr "ჩემს გარდა შეხვედრას სხვებიც დაესწრებიან"
+
+#~ msgid "Number of people:"
+#~ msgstr "რაოდენობა:"
+
+#~ msgid "CONTINUE WITH FACEBOOK"
+#~ msgstr "შესვლა FACEBOOK-ით"
+
+#~ msgid "CONTINUE WITH GOOGLE"
+#~ msgstr "შესვლა GOOGLE-ით"
+
+#~ msgid "Surname"
+#~ msgstr "გვარი"
+
+#~ msgid "LOGOUT"
+#~ msgstr "გასვლა"
+
+#~ msgid "Profile"
+#~ msgstr "პროფილი"
+
+#~ msgid "Change password"
+#~ msgstr "პაროლის შეცვლა"
+
+#, fuzzy
+#~| msgid "Company Info"
+#~ msgid "Company"
+#~ msgstr "კომპანიის ინფო"
+
+#~ msgid "Reschedule"
+#~ msgstr "თარიღის/დროს შეცვლა"
+
+#~ msgid "DELETE MY PROFILE"
+#~ msgstr "ჩემი პროფილის წაშლა"
+
+#~ msgid "Current password"
+#~ msgstr "მიმდინარე პაროლი"
+
+#~ msgid "New password"
+#~ msgstr "ახალი პაროლი"
+
+#~ msgid "Repeat new password"
+#~ msgstr "გამეორეთ პაროლი"
+
+#~ msgid "CHANGE PASSWORD"
+#~ msgstr "პაროლის შეცვლა"
+
+#~ msgid "RESCHEDULE"
+#~ msgstr "თარიღის/დროს შეცვლა"
+
+#~ msgid "Are you sure you want to cancel the appointment?"
+#~ msgstr "დარწმუნებული ხართ რომ ჯავშნის გაუქმება გსურთ?"
+
+#~ msgid "Are you sure you want to delete your profile?"
+#~ msgstr "დარწმუნებული ხართ რომ პროფილის წაშლა გსურთ?"
+
+#~ msgid ""
+#~ "An error occurred while processing your request! Please close the window "
+#~ "and try again!"
+#~ msgstr ""
+#~ "თქვენი მოთხოვნის დამუშავებისას დაფიქსირდა შეცდომა! გთხოვთ დახურეთ ფანჯარა "
+#~ "და ხელახლა სცადეთ!"
+
+#, fuzzy
+#~| msgid "Colud't create a payment!"
+#~ msgid "Couldn't create a payment!"
+#~ msgstr "გადახდა ვერ განხორციელდა!"
+
+#~ msgid "An error occurred, please try again later"
+#~ msgstr "დაფიქსირდა შეცდომა, სდაცეთ კიდევ ერთხელ"
+
+#~ msgid "Please enter the purchase code!"
+#~ msgstr "გთხოვთ მიუთითოთ გადახდის კოდი!"
+
+#, php-format
+#~ msgid ""
+#~ "Your server can not access our license server via CURL! Our license "
+#~ "server is \"%s\". Please contact your hosting provider/server "
+#~ "administrator and ask them to solve the problem. If you are sure that "
+#~ "problem is not your server/hosting side then contact FS Poster "
+#~ "administrators."
+#~ msgstr ""
+#~ "თქვენი სერვერი ვერ უკავშირდება ჩვენს სალიცენზიო სერვერს CURL-ის "
+#~ "მეშვეობით! ჩვენი სალიცენზიო სერვერია %s”. გთხოვთ დაუკავშირდით თქვენს "
+#~ "ჰოსტინგ პროვაიდერს და სთხოვეთ მათ გადაჭრან ეს პრობლემა. თუ თქვენ თვლით, "
+#~ "რომ თქვენს სერვერზე პრობლემა ნამდვილად არ არის დაუკავშირდით FS Poster-ის "
+#~ "ადმინისტრაციას."
+
+#, php-format
+#~ msgid "Reactivation failed! Response: %s"
+#~ msgstr "რეაქტივაცია ვერ მოხერხდა! განმარტება: %s"
+
+#, php-format
+#~ msgid "Error! Response: %s"
+#~ msgstr "შეცდომა: %s"
+
+#~ msgid "Plugin reactivated!"
+#~ msgstr "პლაგინი გააქტიურდა!"
+
+#, php-format
+#~ msgid ""
+#~ "Booknetic! Your server can not access our license server via CURL! Our "
+#~ "license server is \"%s\". Please contact your hosting provider/server "
+#~ "administrator and ask them to solve the problem. If you are sure that "
+#~ "problem is not your server/hosting side then contact Booknetic "
+#~ "administrators."
+#~ msgstr ""
+#~ "Booknetic! თქვენი სერვერი ვერ უკავშირდება ჩვენს სალიცენზიო სერვერს CURL-"
+#~ "ის მეშვეობით! ჩვენი სალიცენზიო სერვერია %s”. გთხოვთ დაუკავშირდით თქვენს "
+#~ "ჰოსტინგ პროვაიდერს და სთხოვეთ მათ გადაჭრან ეს პრობლემა. თუ თქვენ თვლით, "
+#~ "რომ თქვენს სერვერზე პრობლემა ნამდვილად არ არის დაუკავშირდით Booknetic-ის "
+#~ "ადმინისტრაციას."
+
+#, php-format
+#~ msgid "Booknetic! Installation error! Rosponse error! Response: %s"
+#~ msgstr "Booknetic! შეცდომა ინსტალაციისას! განმარტება: %s"
+
+#~ msgid "Booknetic Customers"
+#~ msgstr "ჯავშნის სისტემის კლიენტები"
+
+#~ msgid "Booknetic Staff"
+#~ msgstr "ჯავშნის სისტემის ექსპერტები"
+
+#~ msgid "Select staff"
+#~ msgstr "აირჩიეთ ექსპერტი"
+
+#~ msgid "Select location"
+#~ msgstr "აირჩიეთ ლოკაცია"
+
+#~ msgid "Select service extras"
+#~ msgstr "აირჩიეთ დამატებითი სერვის(ებ)ი"
+
+#~ msgid "Fill information"
+#~ msgstr "შეავსეთ ინფორმაცია"
+
+#~ msgid "Select Date & Time"
+#~ msgstr "აირჩიეთ თარიღი და დრო"
+
+#~ msgid "Recurring info"
+#~ msgstr "განმეორებადი ინფო"
+
+#~ msgid "Confirm Details"
+#~ msgstr "დეტალების დასტური"
+
+#, fuzzy
+#~| msgid "week"
+#~ msgid "weeks"
+#~ msgstr "კვირა"
+
+#, fuzzy
+#~| msgid "Holidays"
+#~ msgid "days"
+#~ msgstr "უქმე დღეები"
+
+#, fuzzy
+#~| msgid "Every 15 minutes"
+#~ msgid "minutes"
+#~ msgstr "ყოველ 15 წუთში ერთხელ"
+
+#, fuzzy
+#~| msgid "Second"
+#~ msgid "second"
+#~ msgstr "მეორე"
+
+#, fuzzy
+#~| msgid "Second"
+#~ msgid "seconds"
+#~ msgstr "მეორე"
+
+#~ msgid ""
+#~ "\"allow_url_fopen\" disabled in your php.ini settings! Please actiavte id "
+#~ "and try again!"
+#~ msgstr ""
+#~ "“allow_url_fopen” გამორთულია თქვენს  php.ini პარამეტერებში!  გთხოვთ "
+#~ "გააქტიურეთ id და ხელხალხა სცადეთ!"
+
+#~ msgid "On site"
+#~ msgstr "საიტზე"
+
+#, php-format
+#~ msgid "View ( %s ) not found!"
+#~ msgstr "ხედი ( %s ) ვერ მოიძებნა!"
+
+#~ msgid "Share you page"
+#~ msgstr "გააზიარე შენი გვერდი"
+
+#~ msgid "Last month"
+#~ msgstr "გასულ თვეს"
+
+#~ msgid "Last year"
+#~ msgstr "გასულ წელს"
+
+#~ msgid "LIST VIEW"
+#~ msgstr "სია"
+
+#~ msgid "Other payment methods:"
+#~ msgstr "გადახდის სხვა მეთოდები:"
+
+#~ msgid "Your plugin is already activated!"
+#~ msgstr "პლაგინი უკვე აქტიურია!"

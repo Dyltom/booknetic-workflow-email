@@ -1,0 +1,568 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: test\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-24 14:37+0400\n"
+"PO-Revision-Date: 2022-09-24 14:37+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ../app\n"
+"X-Poedit-KeywordsList: bkntc__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: Frontend/assets/js/datepicker.min.js\n"
+"X-Poedit-SearchPathExcluded-1: Frontend/assets/js/intlTelInput.min.js\n"
+"X-Poedit-SearchPathExcluded-2: Frontend/assets/js/jquery.nicescroll.min."
+"js\n"
+"X-Poedit-SearchPathExcluded-3: Frontend/assets/js/utilsIntlTelInput.js\n"
+
+#: Backend/Ajax.php:84
+msgid "Please fill the SMTP credentials!"
+msgstr ""
+
+#: Backend/Ajax.php:87
+msgid "Please fill the Gmail SMTP credentials!"
+msgstr ""
+
+#: Backend/Ajax.php:93
+msgid "Please type the sender name field!"
+msgstr ""
+
+#: Backend/Ajax.php:100
+msgid "Please type the sender email field!"
+msgstr ""
+
+#: Backend/view/email_settings.php:15
+msgid "SAVE CHANGES"
+msgstr ""
+
+#: Backend/view/email_settings.php:20 EmailWorkflowAddon.php:27
+#: EmailWorkflowAddon.php:32 EmailWorkflowAddon.php:54
+msgid "Email settings"
+msgstr ""
+
+#: Backend/view/email_settings.php:27
+msgid "Mail Gateway"
+msgstr ""
+
+#: Backend/view/email_settings.php:29
+msgid "WordPress Mail"
+msgstr ""
+
+#: Backend/view/email_settings.php:30
+msgid "SMTP"
+msgstr ""
+
+#: Backend/view/email_settings.php:31
+msgid "Gmail SMTP"
+msgstr ""
+
+#: Backend/view/email_settings.php:39
+msgid "SMTP Hostname"
+msgstr ""
+
+#: Backend/view/email_settings.php:43
+msgid "SMTP Port"
+msgstr ""
+
+#: Backend/view/email_settings.php:47
+msgid "SMTP Secure"
+msgstr ""
+
+#: Backend/view/email_settings.php:49
+msgid "TLS"
+msgstr ""
+
+#: Backend/view/email_settings.php:50
+msgid "SSL"
+msgstr ""
+
+#: Backend/view/email_settings.php:51
+msgid "Disabled ( not recommend )"
+msgstr ""
+
+#: Backend/view/email_settings.php:58
+msgid "Username"
+msgstr ""
+
+#: Backend/view/email_settings.php:62
+msgid "Password"
+msgstr ""
+
+#: Backend/view/email_settings.php:70
+msgid "Client ID"
+msgstr ""
+
+#: Backend/view/email_settings.php:74
+msgid "Client secret"
+msgstr ""
+
+#: Backend/view/email_settings.php:78
+msgid "Redirect URI"
+msgstr ""
+
+#: Backend/view/email_settings.php:84
+msgid "Authorize"
+msgstr ""
+
+#: Backend/view/email_settings.php:86
+#, php-format
+msgid "Logged as %s"
+msgstr ""
+
+#: Backend/view/email_settings.php:87
+msgid "Log out"
+msgstr ""
+
+#: Backend/view/email_settings.php:96
+msgid "Sender E-mail"
+msgstr ""
+
+#: Backend/view/email_settings.php:100 Backend/view/email_settings.php:107
+msgid "Sender Name"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:30
+msgid "Edit action"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:40
+msgid "To"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:51
+msgid "Subject"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:58
+msgid "Body"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:65
+msgid "Attachment(s)"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:82
+msgid "Enabled"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:85
+msgid "CANCEL"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:86
+msgid "SAVE & TEST"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:87
+msgid "SAVE"
+msgstr ""
+
+#: EmailWorkflowAddon.php:26
+msgid "Email workflow integration"
+msgstr ""
+
+#: EmailWorkflowAddon.php:33
+msgid "Allowed maximum Email"
+msgstr ""
+
+#: EmailWorkflowAddon.php:55
+msgid ""
+"You must set this settings for email workflow action ( wp_mail or SMTP "
+"settings )"
+msgstr ""
+
+#: EmailWorkflowAddon.php:66
+msgid "Email"
+msgstr ""
+
+#: EmailWorkflowDriver.php:28
+#, fuzzy
+#| msgid "Email"
+msgid "Send Email"
+msgstr "البريد الإلكتروني"
+
+#~ msgid "Please fill in all required fields correctly!"
+#~ msgstr "الرجاء تعبئة جميع الحقول الإلزامية"
+
+#~ msgid "Location"
+#~ msgstr "موقع الخدمة"
+
+#~ msgid "Staff"
+#~ msgstr "المستشار"
+
+#~ msgid "Service"
+#~ msgstr "الخدمات"
+
+#~ msgid "Service Extras"
+#~ msgstr "خدمات إضافية"
+
+#~ msgid "Date & Time"
+#~ msgstr "الوقت و التاريخ"
+
+#~ msgid "Information"
+#~ msgstr "معلومات"
+
+#~ msgid "Confirmation"
+#~ msgstr "تأكيد الحجز"
+
+#~ msgid "Have any questions?"
+#~ msgstr "هل لديك استفسار"
+
+#~ msgid "Select service"
+#~ msgstr "اختر خدمة"
+
+#~ msgid "BACK"
+#~ msgstr "العودة"
+
+#~ msgid "NEXT STEP"
+#~ msgstr "التالي"
+
+#, php-format
+#~ msgid "Minimum length of \"%s\" field is %d!"
+#~ msgstr "Minimum length of \"%s\" field is %d!"
+
+#, php-format
+#~ msgid "Maximum length of \"%s\" field is %d!"
+#~ msgstr "Maximum length of \"%s\" field is %d!"
+
+#~ msgid "File extension is not allowed!"
+#~ msgstr "امتداد الملف غير مسموح"
+
+#~ msgid "DATE"
+#~ msgstr "التاريخ"
+
+#~ msgid "Days of week"
+#~ msgstr "أيام الأسبوع"
+
+#~ msgid "Mon"
+#~ msgstr "الإثنين"
+
+#~ msgid "Tue"
+#~ msgstr "الثلاثاء"
+
+#~ msgid "Wed"
+#~ msgstr "الإربعاء"
+
+#~ msgid "Thu"
+#~ msgstr "الخميس"
+
+#~ msgid "Fri"
+#~ msgstr "الجمعة"
+
+#~ msgid "Sat"
+#~ msgstr "السبت"
+
+#~ msgid "Sun"
+#~ msgstr "الأحد"
+
+#~ msgid "Monday"
+#~ msgstr "الإثنين"
+
+#~ msgid "Tuesday"
+#~ msgstr "الثلاثاء"
+
+#~ msgid "Wednesday"
+#~ msgstr "الأربعاء"
+
+#~ msgid "Thursday"
+#~ msgstr "الخميس"
+
+#~ msgid "Friday"
+#~ msgstr "الجمعة"
+
+#~ msgid "Saturday"
+#~ msgstr "السبت"
+
+#~ msgid "Sunday"
+#~ msgstr "الإحد"
+
+#~ msgid "Every"
+#~ msgstr "كل"
+
+#~ msgid "DAYS"
+#~ msgstr "الإيام"
+
+#~ msgid "Time"
+#~ msgstr "الوقت"
+
+#~ msgid "On"
+#~ msgstr "في"
+
+#~ msgid "Specific day"
+#~ msgstr "يوم محدد"
+
+#~ msgid "First"
+#~ msgstr "الأول"
+
+#~ msgid "Second"
+#~ msgstr "الثاني"
+
+#~ msgid "Third"
+#~ msgstr "الثالث"
+
+#~ msgid "Fourth"
+#~ msgstr "الرابع"
+
+#~ msgid "Last"
+#~ msgstr "الأخير"
+
+#~ msgid "Start date"
+#~ msgstr "تاريخ الإنتهاء"
+
+#~ msgid "End date"
+#~ msgstr "تاريخ البدء"
+
+#~ msgid "Times"
+#~ msgstr "الأوقات"
+
+#~ msgid "Select..."
+#~ msgstr "إختيار..."
+
+#~ msgid "TIME"
+#~ msgstr "الوقت"
+
+#~ msgid "EDIT"
+#~ msgstr "تحرير"
+
+#~ msgid "Discount"
+#~ msgstr "الخصم"
+
+#, fuzzy
+#~| msgid "Full amount"
+#~ msgid "Tax amount"
+#~ msgstr "Full amount"
+
+#~ msgid "January"
+#~ msgstr "يناير"
+
+#~ msgid "February"
+#~ msgstr "فبراير"
+
+#~ msgid "March"
+#~ msgstr "مارس"
+
+#~ msgid "April"
+#~ msgstr "إبريل"
+
+#~ msgid "May"
+#~ msgstr "مايو"
+
+#~ msgid "June"
+#~ msgstr "يونيو"
+
+#~ msgid "July"
+#~ msgstr "يوليو"
+
+#~ msgid "August"
+#~ msgstr "أغسطس"
+
+#~ msgid "September"
+#~ msgstr "سبتمبر"
+
+#~ msgid "October"
+#~ msgstr "أكتوبر"
+
+#~ msgid "November"
+#~ msgstr "نوفمبر"
+
+#~ msgid "December"
+#~ msgstr "ديسمبر"
+
+#~ msgid "Phone"
+#~ msgstr "رقم الجوال"
+
+#, fuzzy
+#~| msgid "Select date"
+#~ msgid "Select Type"
+#~ msgstr "اختر الوقت"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Tab Name"
+#~ msgstr "الاسم"
+
+#, fuzzy
+#~| msgid "Select date"
+#~ msgid "Select Language"
+#~ msgstr "اختر الوقت"
+
+#, fuzzy
+#~| msgid "Select service"
+#~ msgid "Select Service"
+#~ msgstr "اختر خدمة"
+
+#, fuzzy
+#~| msgid "Select staff"
+#~ msgid "Select Staff"
+#~ msgstr "اختر مستشار"
+
+#, fuzzy
+#~| msgid "Select location"
+#~ msgid "Select Location"
+#~ msgstr "Select location"
+
+#~ msgid "Daily"
+#~ msgstr "يومي"
+
+#~ msgid "Name"
+#~ msgstr "الاسم"
+
+#~ msgid "Deposit"
+#~ msgstr "Deposit"
+
+#~ msgid "Local"
+#~ msgstr "التحويل"
+
+#~ msgid "Any staff"
+#~ msgstr "أي مستشار"
+
+#~ msgid "Select an available staff"
+#~ msgstr "اختر المستشار"
+
+#~ msgid "Add coupon"
+#~ msgstr "إضافة قسيمة"
+
+#~ msgid "Please select location."
+#~ msgstr "الرجاء اختيار موقع"
+
+#~ msgid "Please select staff."
+#~ msgstr "الرجاء اختيار مستشار"
+
+#~ msgid "Please select service"
+#~ msgstr "الرجاء اختيار الخدمة"
+
+#~ msgid "Please select week day(s)"
+#~ msgstr "الرجاء اختيار يوم"
+
+#~ msgid "Please select week day(s) and time(s) correctly"
+#~ msgstr "الرجاء اختيار يوم و وقت"
+
+#~ msgid "Please select start date"
+#~ msgstr "الرجاء اختيار تاريخ البدء"
+
+#~ msgid "Please select end date"
+#~ msgstr "الرجاء اختيار تاريخ الانتهاء"
+
+#~ msgid "Please select date."
+#~ msgstr "الرجاء اختيار يوم"
+
+#~ msgid "Please select time."
+#~ msgstr "الرجاء اختيار وقت"
+
+#~ msgid "Please select an available time"
+#~ msgstr "الرجاء اختيار وقت من الأوقات المتاحة"
+
+#~ msgid "Please enter a valid email address!"
+#~ msgstr "الرجاء إدخال بريد الكتروني صحيح"
+
+#~ msgid "Please enter a valid phone number!"
+#~ msgstr "الرجاء إدخال رقم جوال صحيح"
+
+#~ msgid "CONFIRM BOOKING"
+#~ msgstr "تأكيد الحجز"
+
+#~ msgid "There is no any Location for select."
+#~ msgstr "There is no any Location for select."
+
+#~ msgid "Staff not found. Please go back and select a different option."
+#~ msgstr "Staff not found. Please go back and select a different option."
+
+#~ msgid "Service not found. Please go back and select a different option."
+#~ msgstr "Service not found. Please go back and select a different option."
+
+#~ msgid "There isn't any available staff for the selected date/time."
+#~ msgstr "There isn&#039;t any available staff for the selected date/time."
+
+#~ msgid ""
+#~ "Extras not found in this service. You can select other service or click "
+#~ "the <span class=\"booknetic_text_primary\">\"Next step\"</span> button."
+#~ msgstr ""
+#~ "Extras not found in this service. You can select other service or click "
+#~ "the <span class=\"booknetic_text_primary\">\"Next step\"</span> button."
+
+#~ msgid "w"
+#~ msgstr "أسبوع"
+
+#~ msgid "d"
+#~ msgstr "يوم"
+
+#~ msgid "h"
+#~ msgstr "ساعة"
+
+#~ msgid "m"
+#~ msgstr "دقيقة"
+
+#~ msgid "s"
+#~ msgstr "ثانية"
+
+#~ msgid "Finish"
+#~ msgstr "النهاية"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Location ID"
+#~ msgstr "موقع الخدمة"
+
+#~ msgid "Thank you for your request!"
+#~ msgstr "شكراً لحجزك معنا"
+
+#~ msgid "Your confirmation number:"
+#~ msgstr "رقم الحجز:"
+
+#~ msgid "ADD TO GOOGLE CALENDAR"
+#~ msgstr "إضافة إلى قوقل كالندر"
+
+#~ msgid "START NEW BOOKING"
+#~ msgstr "حجز جديد"
+
+#~ msgid "FINISH BOOKING"
+#~ msgstr "إنهاء الحجز"
+
+#~ msgid "OK"
+#~ msgstr "حسناً"
+
+#~ msgid "Total price"
+#~ msgstr "الإجمالي"
+
+#~ msgid "Full amount"
+#~ msgstr "Full amount"
+
+#~ msgid "Select date"
+#~ msgstr "اختر الوقت"
+
+#~ msgid "Surname"
+#~ msgstr "اسم العائلة"
+
+#~ msgid "Select staff"
+#~ msgstr "اختر مستشار"
+
+#~ msgid "Select location"
+#~ msgstr "Select location"
+
+#~ msgid "Select service extras"
+#~ msgstr "اختر الخدمات الإضافية"
+
+#~ msgid "Fill information"
+#~ msgstr "معلومات"
+
+#~ msgid "Select Date & Time"
+#~ msgstr "اختر الوقت و التاريخ"
+
+#~ msgid "Confirm Details"
+#~ msgstr "تأكيد الحجز"
+
+#, fuzzy
+#~| msgid "Second"
+#~ msgid "second"
+#~ msgstr "الثاني"
+
+#, fuzzy
+#~| msgid "Second"
+#~ msgid "seconds"
+#~ msgstr "الثاني"

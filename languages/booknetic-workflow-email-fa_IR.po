@@ -1,0 +1,3126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: test\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-24 14:36+0400\n"
+"PO-Revision-Date: 2022-09-24 14:36+0400\n"
+"Last-Translator: admin\n"
+"Language-Team: فارسی\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ../app\n"
+"X-Poedit-KeywordsList: bkntc__\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: Frontend/assets/js/datepicker.min.js\n"
+"X-Poedit-SearchPathExcluded-1: Frontend/assets/js/intlTelInput.min.js\n"
+"X-Poedit-SearchPathExcluded-2: Frontend/assets/js/jquery.nicescroll.min.js\n"
+"X-Poedit-SearchPathExcluded-3: Frontend/assets/js/utilsIntlTelInput.js\n"
+
+#: Backend/Ajax.php:84
+msgid "Please fill the SMTP credentials!"
+msgstr "لطفا ملزومات SMTP را پر کنید!"
+
+#: Backend/Ajax.php:87
+#, fuzzy
+#| msgid "Please fill the SMTP credentials!"
+msgid "Please fill the Gmail SMTP credentials!"
+msgstr "لطفا ملزومات SMTP را پر کنید!"
+
+#: Backend/Ajax.php:93
+msgid "Please type the sender name field!"
+msgstr "لطفاً قسمت نام فرستنده را تایپ کنید!"
+
+#: Backend/Ajax.php:100
+msgid "Please type the sender email field!"
+msgstr "لطفاً قسمت ایمیل ارسال کننده را تکمیل کنید!"
+
+#: Backend/view/email_settings.php:15
+msgid "SAVE CHANGES"
+msgstr "ذخیره تغییرات"
+
+#: Backend/view/email_settings.php:20 EmailWorkflowAddon.php:27
+#: EmailWorkflowAddon.php:32 EmailWorkflowAddon.php:54
+msgid "Email settings"
+msgstr "تنظیمات  ایمیل"
+
+#: Backend/view/email_settings.php:27
+msgid "Mail Gateway"
+msgstr "درگاه ایمیل"
+
+#: Backend/view/email_settings.php:29
+msgid "WordPress Mail"
+msgstr "ایمیل وردپرس"
+
+#: Backend/view/email_settings.php:30
+msgid "SMTP"
+msgstr "SMTP"
+
+#: Backend/view/email_settings.php:31
+msgid "Gmail SMTP"
+msgstr ""
+
+#: Backend/view/email_settings.php:39
+msgid "SMTP Hostname"
+msgstr "نام میزبان SMTP"
+
+#: Backend/view/email_settings.php:43
+msgid "SMTP Port"
+msgstr "پورت SMTP"
+
+#: Backend/view/email_settings.php:47
+msgid "SMTP Secure"
+msgstr "SMTP امن"
+
+#: Backend/view/email_settings.php:49
+msgid "TLS"
+msgstr "TLS"
+
+#: Backend/view/email_settings.php:50
+msgid "SSL"
+msgstr "SSL"
+
+#: Backend/view/email_settings.php:51
+msgid "Disabled ( not recommend )"
+msgstr "غیرفعال (توصیه نمی شود)"
+
+#: Backend/view/email_settings.php:58
+msgid "Username"
+msgstr "نام کاربری"
+
+#: Backend/view/email_settings.php:62
+msgid "Password"
+msgstr "رمز عبور"
+
+#: Backend/view/email_settings.php:70
+msgid "Client ID"
+msgstr "شناسه مشتری"
+
+#: Backend/view/email_settings.php:74
+#, fuzzy
+#| msgid "Client Secret"
+msgid "Client secret"
+msgstr "رمز مشتری"
+
+#: Backend/view/email_settings.php:78
+msgid "Redirect URI"
+msgstr "لینک انتقال"
+
+#: Backend/view/email_settings.php:84
+#, fuzzy
+#| msgid "Auth Token"
+msgid "Authorize"
+msgstr "سرویس دهنده"
+
+#: Backend/view/email_settings.php:86
+#, php-format
+msgid "Logged as %s"
+msgstr ""
+
+#: Backend/view/email_settings.php:87
+msgid "Log out"
+msgstr "خروج از حساب کاربری"
+
+#: Backend/view/email_settings.php:96
+msgid "Sender E-mail"
+msgstr "ارسال کننده ایمیل"
+
+#: Backend/view/email_settings.php:100 Backend/view/email_settings.php:107
+msgid "Sender Name"
+msgstr "نام ارسال کننده"
+
+#: Backend/view/workflow_action_edit.php:30
+#, fuzzy
+#| msgid "Add Location"
+msgid "Edit action"
+msgstr "افزودن موقعیت مکانی"
+
+#: Backend/view/workflow_action_edit.php:40
+msgid "To"
+msgstr "تا"
+
+#: Backend/view/workflow_action_edit.php:51
+#, fuzzy
+#| msgid "Email subject"
+msgid "Subject"
+msgstr "موضوع ایمیل"
+
+#: Backend/view/workflow_action_edit.php:58
+msgid "Body"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:65
+msgid "Attachment(s)"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:82
+msgid "Enabled"
+msgstr "فعالسازی"
+
+#: Backend/view/workflow_action_edit.php:85
+msgid "CANCEL"
+msgstr "لغو کردن"
+
+#: Backend/view/workflow_action_edit.php:86
+msgid "SAVE & TEST"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:87
+msgid "SAVE"
+msgstr "ذخیره"
+
+#: EmailWorkflowAddon.php:26
+#, fuzzy
+#| msgid "Email Notifications"
+msgid "Email workflow integration"
+msgstr "اعلانات ایمیلی"
+
+#: EmailWorkflowAddon.php:33
+msgid "Allowed maximum Email"
+msgstr ""
+
+#: EmailWorkflowAddon.php:55
+#, fuzzy
+#| msgid "You must set this settings for email notifications"
+msgid ""
+"You must set this settings for email workflow action ( wp_mail or SMTP "
+"settings )"
+msgstr "شما باید تنظیمات اعلانات ایمیلی را انجام دهید."
+
+#: EmailWorkflowAddon.php:66
+msgid "Email"
+msgstr "ایمیل"
+
+#: EmailWorkflowDriver.php:28
+#, fuzzy
+#| msgid "Sender E-mail"
+msgid "Send Email"
+msgstr "ارسال کننده ایمیل"
+
+#~ msgid "Please fill in all required fields correctly!"
+#~ msgstr "لطفاً تمام قسمتهای مورد نیاز را به درستی پر کنید!"
+
+#~ msgid "Theme not found!"
+#~ msgstr "تم یافت نشد!"
+
+#~ msgid "You can not delete default theme!"
+#~ msgstr "شما نمی توانید تم پیش فرض را حذف کنید!"
+
+#~ msgid "Appearance"
+#~ msgstr "ظاهر"
+
+#~ msgid "GO BACK"
+#~ msgstr "بازگشت به عقب"
+
+#~ msgid "Options"
+#~ msgstr "گزینه ها"
+
+#~ msgid "Style name"
+#~ msgstr "نام سبک"
+
+#~ msgid "Type name..."
+#~ msgstr "نام را تایپ کنید..."
+
+#~ msgid "Panel height"
+#~ msgstr "ارتفاع پنل"
+
+#~ msgid "Font family"
+#~ msgstr "خانواده فونت"
+
+#~ msgid "Panel background"
+#~ msgstr "پس زمینه پنل"
+
+#~ msgid "Primary BG / text color"
+#~ msgstr "رنگ اصلی پس زمینه / رنگ متن"
+
+#~ msgid "Compleated steps BG / label color"
+#~ msgstr "رنگ گام های تکمیل شده و رنگ برچسب ها"
+
+#~ msgid "Active steps BG / label color"
+#~ msgstr "رنگ گام ها و برچسب های فعال"
+
+#~ msgid "Other steps BG / label color"
+#~ msgstr "رنگ پس زمینه گامهای دیگر / رنگ برچسب ها"
+
+#~ msgid "Title color"
+#~ msgstr "رنگ عنوان"
+
+#~ msgid "Border color"
+#~ msgstr "رنگ خطوط"
+
+#~ msgid "Price color"
+#~ msgstr "رنگ قیمت"
+
+#~ msgid "Custom CSS"
+#~ msgstr "CSS دلخواه"
+
+#~ msgid "DELETE"
+#~ msgstr "حذف"
+
+#, php-format
+#~ msgid "Theme ID: %d"
+#~ msgstr "شناسه تم : %d"
+
+#~ msgid "Design"
+#~ msgstr "طراحی"
+
+#~ msgid "Location"
+#~ msgstr "موقعیت مکانی"
+
+#~ msgid "Staff"
+#~ msgstr "کارمند"
+
+#~ msgid "Service"
+#~ msgstr "سرویس"
+
+#~ msgid "Service Extras"
+#~ msgstr "خدمات اضافی"
+
+#~ msgid "Date & Time"
+#~ msgstr "تاریخ و زمان"
+
+#~ msgid "Information"
+#~ msgstr "اطلاعات"
+
+#~ msgid "Confirmation"
+#~ msgstr "تایید"
+
+#~ msgid "Have any questions?"
+#~ msgstr "سوالی دارید؟"
+
+#~ msgid "Select service"
+#~ msgstr "انتخاب سرویس"
+
+#~ msgid "Category 1"
+#~ msgstr "دسته بندی 1"
+
+#~ msgid "Service 1"
+#~ msgstr "سرویس 1"
+
+#~ msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+#~ msgstr "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+
+#~ msgid "Service 2"
+#~ msgstr "سرویس 2"
+
+#~ msgid "Category 2"
+#~ msgstr "دسته بندی 2"
+
+#~ msgid "Service 3"
+#~ msgstr "سرویس 3"
+
+#~ msgid "BACK"
+#~ msgstr "بازگشت"
+
+#~ msgid "NEXT STEP"
+#~ msgstr "گام بعدی"
+
+#~ msgid "SELECTED"
+#~ msgstr "انتخاب شده"
+
+#~ msgid "SELECT"
+#~ msgstr "انتخاب"
+
+#~ msgid "Create new style"
+#~ msgstr "ایجاد ظاهر جدید"
+
+#~ msgid "Selected appointment not found!"
+#~ msgstr "رزرو انتخاب شده یافت نشد!"
+
+#~ msgid "Appointment not found!"
+#~ msgstr "رزرو یافت نشد"
+
+#~ msgid "Please fill the \"Date\" and \"Time\" field correctly!"
+#~ msgstr "لطفاً قسمتهای \"تاریخ\" و \"زمان\" را به درستی پر کنید!"
+
+#~ msgid "Please select customers!"
+#~ msgstr "لطفا مشتریان را انتخاب کنید"
+
+#~ msgid ""
+#~ "Selected service is not group service. So you cannot add more than 1 "
+#~ "customer."
+#~ msgstr ""
+#~ "سرویس انتخابی سرویس گروهی نیست. بنابراین نمی توانید بیش از 1 مشتری اضافه "
+#~ "کنید."
+
+#, php-format
+#~ msgid ""
+#~ "The maximum capacity of the service is %d. You cannot add more than %d "
+#~ "customers."
+#~ msgstr "حداکثر ظرفیت سرویس %d است. نمی توانید بیشتر از %d مشتری اضافه کنید."
+
+#~ msgid "Selected service extra doesn't exist!"
+#~ msgstr "خدمات اضافی موجود نیست."
+
+#, php-format
+#~ msgid "Max quantity of selected service extra (%s) is %d"
+#~ msgstr "حداکثر تعداد سرویس های اضافی انتخاب شده (%s) است %d"
+
+#, php-format
+#~ msgid "Limited booking days is %d"
+#~ msgstr "روزهای رزرو محدود %d است"
+
+#, php-format
+#~ msgid "Please select a valid time! ( %s %s is busy! )"
+#~ msgstr "لطفاً یک زمان معتبر انتخاب کنید! (%s% s مشغول است!)"
+
+#, php-format
+#~ msgid "%s can not be empty, because it's a required field!"
+#~ msgstr "\"%s\" نمی تواند خالی باشد. این قسمت الزامی است."
+
+#~ msgid "Please fill custom fields form correctly!"
+#~ msgstr "لطفا قسمت فیلد سفارشی را به درستی تکمیل کنید"
+
+#~ msgid "Selected custom field not found!"
+#~ msgstr "فیلد سفارشی انتخاب شده یافت نشد"
+
+#, php-format
+#~ msgid "\"%s\" can not be empty, because it's a required field!"
+#~ msgstr "\"%s\" نمی تواند خالی باشد. این قسمت الزامی است."
+
+#, php-format
+#~ msgid "Minimum length of \"%s\" field is %d!"
+#~ msgstr "کمترین طول فیلد \"%s\" ،  %d است."
+
+#, php-format
+#~ msgid "Maximum length of \"%s\" field is %d!"
+#~ msgstr "Maximum length of \"%s\" field is %d!"
+
+#~ msgid "File extension is not allowed!"
+#~ msgstr "پسوند فایل مجاز نیست!"
+
+#~ msgid "Payment not found!"
+#~ msgstr "پرداخت یافت نشد!"
+
+#~ msgid "Appointment not found or permission denied!"
+#~ msgstr "رزرو یافت نشد و یا دسترسی محدود شده است."
+
+#~ msgid "Due amound can't be a negative number!"
+#~ msgstr "مبلغ قابل پرداخت نمی تواند عددی منفی باشد."
+
+#~ msgid "Date"
+#~ msgstr "تاریخ"
+
+#~ msgid "Customer"
+#~ msgstr "مشتری"
+
+#~ msgid "Status"
+#~ msgstr "وضعیت"
+
+#~ msgid "Approved"
+#~ msgstr "تایید شد"
+
+#~ msgid "Pending"
+#~ msgstr "در انتظار"
+
+#~ msgid "Canceled"
+#~ msgstr "لغو شده"
+
+#~ msgid "Rejected"
+#~ msgstr "رد شده"
+
+#~ msgid "Appointments"
+#~ msgstr "رزرو ها"
+
+#~ msgid "NEW APPOINTMENT"
+#~ msgstr "رزرو جدید"
+
+#~ msgid "ID"
+#~ msgstr "شماره"
+
+#~ msgid "DATE"
+#~ msgstr "تاریخ"
+
+#~ msgid "CUSTOMER(S)"
+#~ msgstr "مشتری (ها)"
+
+#, php-format
+#~ msgid "+ %d MORE"
+#~ msgstr "+ %d بیشتر"
+
+#~ msgid "Customer (s)"
+#~ msgstr "مشتری"
+
+#~ msgid "STAFF"
+#~ msgstr "کارمند"
+
+#~ msgid "SERVICE"
+#~ msgstr "سرویس"
+
+#~ msgid "PAYMENT"
+#~ msgstr "پرداخت "
+
+#~ msgid "DURATION"
+#~ msgstr "مدت زمان"
+
+#~ msgid "CREATED AT"
+#~ msgstr "ایجاد شده در"
+
+#~ msgid "Permission denied!"
+#~ msgstr "اجازه دسترسی رد شد!"
+
+#~ msgid "Please fill \"Start date\" and \"End date\" fields!"
+#~ msgstr "لطفاً قسمتهای \"تاریخ شروع\" و \"تاریخ پایان\" را پر کنید!"
+
+#, php-format
+#~ msgid "Repeat frequency is %d for selected service!"
+#~ msgstr "تکرار دوره برای سرویس انتخاب شده =  %d "
+
+#~ msgid "Repeat frequency is is invalid!"
+#~ msgstr "تکرار دوره نامعتبر است!"
+
+#~ msgid "Please fill \"Time\" field!"
+#~ msgstr "لطفا قسمت \"زمان\" را پر کنید"
+
+#~ msgid ""
+#~ "Error! Full period is wrong on Service options! Please edit your service "
+#~ "info!"
+#~ msgstr ""
+#~ "خطا ! دوره کامل در گزینه های سرویس اشتباه است! لطفا اطلاعات خدمات خود را "
+#~ "ویرایش کنید!"
+
+#~ msgid "Coupon not found!"
+#~ msgstr "کوپن تخفیف یافت نشد."
+
+#~ msgid "Coupon usage limit exceeded!"
+#~ msgstr "محدودیت استفاده از این کوپن به پایان رسیده است."
+
+#~ msgid "Giftcard not found!"
+#~ msgstr "کارت هدیه یافت نشد!"
+
+#~ msgid "Giftcard balance is not enough!"
+#~ msgstr "موجودی کارت هدیه کافی نیست!"
+
+#~ msgid "Selected date and time have not enough capacity"
+#~ msgstr "تاریخ و زمان انتخاب شده ظرفیت کافی ندارد."
+
+#, php-format
+#~ msgid "This service requires minimum %d customers"
+#~ msgstr "این سرویس حداقل به %d مشتری نیاز دارد"
+
+#~ msgid "Customer name"
+#~ msgstr "نام مشتری"
+
+#~ msgid "New appointment"
+#~ msgstr "رزرو جدید"
+
+#~ msgid "Appointment details"
+#~ msgstr "جزئیات رزرو"
+
+#~ msgid "Extras"
+#~ msgstr "خدمات اضافی"
+
+#~ msgid "Category"
+#~ msgstr "دسته بندی"
+
+#~ msgid "Days of week"
+#~ msgstr "روزهای هفته"
+
+#~ msgid "Mon"
+#~ msgstr "د"
+
+#~ msgid "Tue"
+#~ msgstr "س"
+
+#~ msgid "Wed"
+#~ msgstr "چ"
+
+#~ msgid "Thu"
+#~ msgstr "پ"
+
+#~ msgid "Fri"
+#~ msgstr "ج"
+
+#~ msgid "Sat"
+#~ msgstr "ش"
+
+#~ msgid "Sun"
+#~ msgstr "ی"
+
+#~ msgid "Monday"
+#~ msgstr "دوشنبه"
+
+#~ msgid "Copy to all"
+#~ msgstr "کپی کردن برای همه"
+
+#~ msgid "Tuesday"
+#~ msgstr "سه شنبه"
+
+#~ msgid "Wednesday"
+#~ msgstr "چهارشنبه"
+
+#~ msgid "Thursday"
+#~ msgstr "پنجشنبه"
+
+#~ msgid "Friday"
+#~ msgstr "جمعه"
+
+#~ msgid "Saturday"
+#~ msgstr "شنبه"
+
+#~ msgid "Sunday"
+#~ msgstr "یکشنبه"
+
+#~ msgid "Every"
+#~ msgstr "هر"
+
+#~ msgid "DAYS"
+#~ msgstr "روزها"
+
+#~ msgid "Time"
+#~ msgstr "زمان"
+
+#~ msgid "On"
+#~ msgstr "در"
+
+#~ msgid "Specific day"
+#~ msgstr "روز خاص"
+
+#~ msgid "First"
+#~ msgstr "اول"
+
+#~ msgid "Second"
+#~ msgstr "دوم"
+
+#~ msgid "Third"
+#~ msgstr "سوم"
+
+#~ msgid "Fourth"
+#~ msgstr "چهارم"
+
+#~ msgid "Last"
+#~ msgstr "آخرین"
+
+#~ msgid "Start date"
+#~ msgstr "تاریخ شروع"
+
+#~ msgid "End date"
+#~ msgstr "تاریخ پایان"
+
+#~ msgid "Times"
+#~ msgstr "زمان ها"
+
+#~ msgid "Select..."
+#~ msgstr "انتخاب کنید..."
+
+#~ msgid "Customers"
+#~ msgstr "مشتریان"
+
+#~ msgid "Add Customer"
+#~ msgstr "افزودن مشتری"
+
+#~ msgid "Extras not found!"
+#~ msgstr "خدمات اضافی یافت نشد"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "TIME"
+#~ msgstr "زمان"
+
+#~ msgid "Send notifications"
+#~ msgstr "ارسال اعلانات"
+
+#~ msgid "Payment"
+#~ msgstr "پرداخت "
+
+#~ msgid "Staff:"
+#~ msgstr "کارمند"
+
+#~ msgid "Location:"
+#~ msgstr "موقعیت مکانی:"
+
+#~ msgid "Service:"
+#~ msgstr "سرویس :"
+
+#~ msgid "Date, time:"
+#~ msgstr "تاریخ ، زمان :"
+
+#~ msgid "CUSTOMER"
+#~ msgstr "مشتری"
+
+#~ msgid "SUM AMOUNT"
+#~ msgstr "جمع مبلغ"
+
+#~ msgid "DISCOUNT"
+#~ msgstr "تخفیف"
+
+#~ msgid "GIFTCARD"
+#~ msgstr "کارت هدیه"
+
+#~ msgid "PAID"
+#~ msgstr "پرداخت شده"
+
+#~ msgid "DUE"
+#~ msgstr "قابل پرداخت"
+
+#~ msgid "STATUS"
+#~ msgstr "وضعیت"
+
+#~ msgid "PAY"
+#~ msgstr "پرداخت"
+
+#~ msgid "CLOSE"
+#~ msgstr "بستن"
+
+#~ msgid "No custom data found!"
+#~ msgstr "هیچ داده ی سفارشی یافت نشد"
+
+#~ msgid "Waiting"
+#~ msgstr "در انتظار"
+
+#~ msgid "Edit Appointment"
+#~ msgstr "ویرایش رزرو"
+
+#~ msgid "Custom fields"
+#~ msgstr "فیلدهای سفارشی"
+
+#~ msgid "Appointment info"
+#~ msgstr "اطلاعات رزرو"
+
+#~ msgid "APPOINTMENT INFO"
+#~ msgstr "اطلاعات رزرو"
+
+#~ msgid "CUSTOM FIELDS"
+#~ msgstr "فیلدهای سفارشی"
+
+#~ msgid "EXTRAS"
+#~ msgstr "خدمات اضافی"
+
+#~ msgid "Date, time"
+#~ msgstr "تاریخ ، زمان"
+
+#~ msgid "Extra name"
+#~ msgstr "نام اضافی"
+
+#~ msgid "Duration"
+#~ msgstr "مدت زمان"
+
+#~ msgid "Price"
+#~ msgstr "قیمت"
+
+#~ msgid "START MEETING"
+#~ msgstr "شروع جلسه"
+
+#~ msgid "EDIT"
+#~ msgstr "ویرایش"
+
+#~ msgid "PAYMENTS"
+#~ msgstr "پرداخت ها"
+
+#~ msgid "Service amount"
+#~ msgstr "هزینه ی سرویس"
+
+#~ msgid "Extras amount"
+#~ msgstr "هزینه خدمات اضافه"
+
+#~ msgid "Discount"
+#~ msgstr "تخفیف"
+
+#~ msgid "Tax amount"
+#~ msgstr "هزینه مالیات"
+
+#~ msgid "Paid amount"
+#~ msgstr "مبلغ پرداخت شده"
+
+#~ msgid "Payment status"
+#~ msgstr "وضعیت پرداخت "
+
+#~ msgid "Paid"
+#~ msgstr "پرداخت شده"
+
+#~ msgid "Paid (deposit)"
+#~ msgstr "پرداخت شده (سپرده)"
+
+#~ msgid "EXPORT TO CSV"
+#~ msgstr "CSV خروجی به صورت فایل"
+
+#~ msgid "IMPORT"
+#~ msgstr "وارد کردن"
+
+#~ msgid "Quick search"
+#~ msgstr "جستجوی سریع"
+
+#~ msgid "Info"
+#~ msgstr "اطلاعات"
+
+#~ msgid "Edit"
+#~ msgstr "ویرایش"
+
+#~ msgid "Delete"
+#~ msgstr "حذف"
+
+#~ msgid "No any data!"
+#~ msgstr "اطلاعاتی یافت نشد!"
+
+#, php-format
+#~ msgid "Showing %d of %d total"
+#~ msgstr "نمایش %d از %d کل"
+
+#~ msgid "Need Help?"
+#~ msgstr "کمک می خواهید؟"
+
+#~ msgid "Selected"
+#~ msgstr "انتخاب شده"
+
+#~ msgid "Loading..."
+#~ msgstr "در حال بازگذاری ..."
+
+#~ msgid "( it can take some time, please wait... )"
+#~ msgstr "( ممکن است کمی زمانبر باشد. لطفا صبور باشید... )"
+
+#~ msgid "Your plugin is disabled. Please activate the plugin."
+#~ msgstr "افزونه ی شما غیرفعال شده است. لطفا آن را فعال کنید."
+
+#, php-format
+#~ msgid "Reason: %s"
+#~ msgstr "دلیل: %s"
+
+#~ msgid "Enter the purchase key"
+#~ msgstr "کد خرید را وارد کنید"
+
+#~ msgid "RE-ACTIVATE"
+#~ msgstr "فعالسازی مجدد"
+
+#~ msgid "Are you sure?"
+#~ msgstr "آیا مطمئن هستید؟"
+
+#~ msgid "Searching..."
+#~ msgstr "در حال جستجو..."
+
+#~ msgid "Please firstly choose a service!"
+#~ msgstr "در ابتدا باید یک سرویس را انتخاب کنید"
+
+#~ msgid "This time slot is not available!"
+#~ msgstr "این بازه ی زمانی در دسترس نیست!"
+
+#~ msgid "Deleted"
+#~ msgstr "حذف شده"
+
+#~ msgid "Are you sure you want to delete?"
+#~ msgstr "آیا مطمئنید که میخواهید حذف کنید؟"
+
+#~ msgid "Rows deleted!"
+#~ msgstr "ردیف ها حذف شدند!"
+
+#~ msgid "Dear user"
+#~ msgstr "کاربر گرامی"
+
+#~ msgid "Group appointment"
+#~ msgstr "رزرو گروهی"
+
+#~ msgid "Select services..."
+#~ msgstr "انتخاب خدمات..."
+
+#~ msgid "Changes has been saved!"
+#~ msgstr "تغییرات اعمال شد."
+
+#~ msgid "Apply"
+#~ msgstr "اعمال کردن"
+
+#~ msgid "Cancel"
+#~ msgstr "لغو کردن"
+
+#~ msgid "From"
+#~ msgstr "از"
+
+#~ msgid "Appointment count"
+#~ msgstr "تعداد رزروها"
+
+#~ msgid "Fill the form correctly!"
+#~ msgstr "فرم را به درستی تکمیل کنید"
+
+#~ msgid "Saved succesfully!"
+#~ msgstr "با موفقیت ذخیره شد!"
+
+#~ msgid "Please type email!"
+#~ msgstr "لطفا ایمیل را وارد کنید."
+
+#~ msgid "Please type phone number!"
+#~ msgstr "لطفا شماره تلفن را وارد کنید"
+
+#~ msgid "Are you sure that you want to delete this service extra?"
+#~ msgstr "آیا مطمئن هستید که می خواهید این سرویس اضافی را حذف کنید؟"
+
+#~ msgid "No more Staff exists for select!"
+#~ msgstr "کارمندی برای انتخاب شما موجود نیست"
+
+#~ msgid "Are you sure to delete this special day?"
+#~ msgstr "آیا از حذف این روز خاص مطمئن هستید؟"
+
+#~ msgid "time(s) per month"
+#~ msgstr "بار در ماه"
+
+#~ msgid "time(s) per week"
+#~ msgstr "بار(ها) در هفته"
+
+#~ msgid "Every n day(s)"
+#~ msgstr "هر چند روز"
+
+#~ msgid "Are you sure you want to delete this service?"
+#~ msgstr "آیا از حذف این سرویس مطمئن هستید؟"
+
+#~ msgid "Are you sure you want to delete this category?"
+#~ msgstr "آیا مطمئن هستید که می خواهید این دسته بندی را حذف کنید؟"
+
+#~ msgid "Category name"
+#~ msgstr "نام دسته بندی"
+
+#~ msgid "ADD CATEGORY"
+#~ msgstr "افزدون دسته بندی"
+
+#~ msgid "January"
+#~ msgstr "ژانویه"
+
+#~ msgid "February"
+#~ msgstr "فوریه"
+
+#~ msgid "March"
+#~ msgstr "مارس"
+
+#~ msgid "April"
+#~ msgstr "آوریل"
+
+#~ msgid "May"
+#~ msgstr "می"
+
+#~ msgid "June"
+#~ msgstr "ژوئن"
+
+#~ msgid "July"
+#~ msgstr "جولای"
+
+#~ msgid "August"
+#~ msgstr "آگوست"
+
+#~ msgid "September"
+#~ msgstr "سپتامبر"
+
+#~ msgid "October"
+#~ msgstr "اکتبر"
+
+#~ msgid "November"
+#~ msgstr "نوامبر"
+
+#~ msgid "December"
+#~ msgstr "دسامبر"
+
+#~ msgid "Your session has expired. Please refresh the page and try again."
+#~ msgstr ""
+#~ "جلسه شما منقضی شده است لطفا صفحه را مجددا بارگزاری کرده و دوباره تلاش کنید."
+
+#~ msgid "Graphic view"
+#~ msgstr "نمای گرافیکی"
+
+#~ msgid "Back to WordPress"
+#~ msgstr "بازگشت به وردپرس"
+
+#~ msgid "Share your page "
+#~ msgstr "صفحه خود را به اشتراک بگذارید"
+
+#~ msgid "WORDPRESS"
+#~ msgstr "وردپرس"
+
+#~ msgid "Share your page"
+#~ msgstr "صفحه خود را به اشتراک بگذارید"
+
+#, php-format
+#~ msgid "Hello %s"
+#~ msgstr "سلام %s"
+
+#~ msgid "Starting guide"
+#~ msgstr "راهنمای شروع"
+
+#~ msgid "Company details"
+#~ msgstr "جزئیات شرکت"
+
+#~ msgid "Business hours"
+#~ msgstr "ساعات کاری"
+
+#~ msgid "Create location"
+#~ msgstr "ایجاد موقعیت مکانی"
+
+#~ msgid "Create staff"
+#~ msgstr "افزودن کارمند"
+
+#~ msgid "Create service"
+#~ msgstr "ایجاد سرویس"
+
+#~ msgid "Installing..."
+#~ msgstr "در حال نصب ..."
+
+#~ msgid "Purchase code"
+#~ msgstr "کد خرید"
+
+#~ msgid "Where did You find us?"
+#~ msgstr "چطور با ما آشنا شدید؟"
+
+#~ msgid "Email | Subscribe newsletter"
+#~ msgstr "ایمیل / عضویت در خبرنامه"
+
+#~ msgid "INSTALL"
+#~ msgstr "نصب کردن"
+
+#~ msgid "Install process can take 30-60 sec., please wait..."
+#~ msgstr "فرایند نصب ممکن است 30 تا 60 ثانیه زمان ببرد. لطفا منتظر باشید..."
+
+#~ msgid "Upgrade needed!"
+#~ msgstr "نیازمند ارتقاء"
+
+#~ msgid "UPGRADE NOW"
+#~ msgstr "اکنون ارتقاء بده"
+
+#~ msgid "Billing"
+#~ msgstr "صورتحساب"
+
+#~ msgid "Plan"
+#~ msgstr "برنامه"
+
+#~ msgid "AMOUNT"
+#~ msgstr "مبلغ"
+
+#~ msgid "PAYMENT METHOD"
+#~ msgstr "روش پرداخت "
+
+#, php-format
+#~ msgid "Your current plan is %s."
+#~ msgstr "برنامه فعلی شما %s است."
+
+#, php-format
+#~ msgid "The plan expiration date is %s."
+#~ msgstr "تاریخ انقضای برنامه  %s است."
+
+#~ msgid "CANCEL SUBSCRIPTION"
+#~ msgstr "لغو عضویت"
+
+#~ msgid "UPGRADE PLAN"
+#~ msgstr "ارتقاء پلن"
+
+#~ msgid "Choose a plan"
+#~ msgstr "یک پلن انتخاب کنید"
+
+#~ msgid "Upgrade your account"
+#~ msgstr "حساب کاربری خود را ارتقاء دهید"
+
+#~ msgid "Monthly"
+#~ msgstr "ماهانه"
+
+#~ msgid "Annually"
+#~ msgstr "سالانه"
+
+#, php-format
+#~ msgid "%d%% off ( Normally %s )"
+#~ msgstr "%d%% از ( به طور معمول %s )"
+
+#~ msgid "per month"
+#~ msgstr "هر ماه"
+
+#~ msgid "per year"
+#~ msgstr "در سال"
+
+#~ msgid "CHOOSE"
+#~ msgstr "انتخاب "
+
+#~ msgid "back"
+#~ msgstr "بازگشت"
+
+#~ msgid "Select payment method"
+#~ msgstr "انتخاب روش پرداخت "
+
+#, php-format
+#~ msgid "You have chosen %s plan"
+#~ msgstr "شما پلن  %s  را انتخاب کرده اید."
+
+#~ msgid "Credit card"
+#~ msgstr "کارت اعتباری"
+
+#~ msgid "No available payment methods!"
+#~ msgstr "روش پرداخت در دسترس نیست"
+
+#~ msgid "Payment Successful"
+#~ msgstr "پرداخت موفق"
+
+#~ msgid "It might take some time to activate your new plan."
+#~ msgstr "ممکن است مدتی طول بکشد تا برنامه جدید شما فعال شود."
+
+#~ msgid "Payment Canceled"
+#~ msgstr "پرداخت  کنسل شده"
+
+#~ msgid "We aren't able to process your payment. Please try again."
+#~ msgstr "ما قادر به پردازش پرداخت  شما نیستیم. لطفا مجددا تلاش کنید."
+
+#~ msgid "Are you sure you want to cancel subscription?"
+#~ msgstr "آیا مطمئن هستید که می خواهید اشتراک را لغو کنید؟"
+
+#~ msgid "YES"
+#~ msgstr "بله"
+
+#~ msgid "NO"
+#~ msgstr "خیر"
+
+#~ msgid "Your page URL"
+#~ msgstr "لینک صفحه ی شما"
+
+#~ msgid "Schedule time with me"
+#~ msgstr "زمان خود را با من هماهنگ کنید"
+
+#, php-format
+#~ msgid "You can see my real-time availability and schedule time with me at %s"
+#~ msgstr ""
+#~ "شما می توانید زمان واقعی دسترسی مرا مشاهده کنید و زمان خود را با من در %s "
+#~ "هماهنگ کنید."
+
+#~ msgid "Send link via Email"
+#~ msgstr "ارسال لینک از طریق ایمیل"
+
+#~ msgid "The QR for your page"
+#~ msgstr "کد QR برای صفحه شما"
+
+#~ msgid "Click to download QR"
+#~ msgstr "برای دانلود QR کلیک کنید"
+
+#~ msgid "Customer panel URL"
+#~ msgstr "لینک پنل مشتری"
+
+#~ msgid "Add to your Website"
+#~ msgstr "افزودن به سایت خود"
+
+#~ msgid "Calendar"
+#~ msgstr "تقویم"
+
+#~ msgid "Location filter"
+#~ msgstr "فیلتر کردن موقعیت مکانی"
+
+#~ msgid "Service filter"
+#~ msgstr "فیلتر کردن سرویس"
+
+#~ msgid "TODAY"
+#~ msgstr "امروز"
+
+#~ msgid "month"
+#~ msgstr "ماه"
+
+#~ msgid "week"
+#~ msgstr "هفته"
+
+#~ msgid "day"
+#~ msgstr "روز"
+
+#~ msgid "list"
+#~ msgstr "لیست"
+
+#~ msgid "all-day"
+#~ msgstr "تمام روز"
+
+#~ msgid "Discount cannot be negative number!"
+#~ msgstr "تخفیف نمی تواند عددی منفی باشد!"
+
+#~ msgid "Discount percent count cannot be more than 100%!"
+#~ msgstr "درصد تخفیف نمی تواند بیش از 100٪ باشد!"
+
+#~ msgid "Please type the coupon code field!"
+#~ msgstr "لطفاً قسمت کد کوپن را تایپ کنید!"
+
+#~ msgid "Coupons"
+#~ msgstr "کوپن ها"
+
+#~ msgid "ADD COUPON"
+#~ msgstr "افزودن کوپن تخفیف"
+
+#~ msgid "№"
+#~ msgstr "ردیف"
+
+#~ msgid "CODE"
+#~ msgstr "کد"
+
+#~ msgid "USAGE LIMIT"
+#~ msgstr "محدوده استفاده"
+
+#~ msgid "Times Used"
+#~ msgstr "زمانهای رزرو شده"
+
+#~ msgid "Add Coupon"
+#~ msgstr "افزودن کوپن تخفیف"
+
+#~ msgid "Type"
+#~ msgstr "نوع"
+
+#~ msgid "One coupon"
+#~ msgstr "یک کوپن"
+
+#~ msgid "Coupon series"
+#~ msgstr "سریال کوپن"
+
+#~ msgid "Amount"
+#~ msgstr "مبلغ"
+
+#~ msgid "Code"
+#~ msgstr "کد"
+
+#~ msgid "Applies date from"
+#~ msgstr "شروع می شود از تاریخ"
+
+#~ msgid "Life time"
+#~ msgstr "طول عمر"
+
+#~ msgid "Applies date to"
+#~ msgstr "تمام می شود تا تاریخ"
+
+#~ msgid "Usage limit"
+#~ msgstr "محدوده استفاده"
+
+#~ msgid "No limit"
+#~ msgstr "بدون محدودیت"
+
+#~ msgid "Once per customer"
+#~ msgstr "یکبار به ازای هر مشتری"
+
+#~ msgid "Services filter"
+#~ msgstr "فیلتر کردن خدمات"
+
+#~ msgid "Staff filter"
+#~ msgstr "فیلتر کارمند"
+
+#~ msgid "Customer not found or permission denied!"
+#~ msgstr "مشتری یافت نشد یا دسترسی محدود شده است."
+
+#~ msgid "There is another customer with the same email adress!"
+#~ msgstr "مشتری دیگری با این ایمیل وجود دارد"
+
+#~ msgid "Please select WordPress user!"
+#~ msgstr "لطفا کاربر وردپرس را انتخاب کنید!"
+
+#~ msgid "Please type the password of the WordPress user!"
+#~ msgstr "لطفا رمز عبور کاربر وردپرس را وارد کنید."
+
+#~ msgid "Only JPG and PNG images allowed!"
+#~ msgstr "تنها تصاویر با پسوند JPG و PNG مجاز است."
+
+#~ msgid "Please select CSV file!"
+#~ msgstr "لطفاً فایل CSV را انتخاب کنید!"
+
+#~ msgid "Too many fields detected on CSV file!"
+#~ msgstr "قسمتهای زیادی در پرونده CSV شناسایی شده است!"
+
+#~ msgid "ADD CUSTOMER"
+#~ msgstr "افزودن مشتری"
+
+#~ msgid "CUSTOMER NAME"
+#~ msgstr "نام مشتری"
+
+#~ msgid "First name"
+#~ msgstr "نام"
+
+#~ msgid "Last name"
+#~ msgstr "نام خانوادگی"
+
+#~ msgid "PHONE"
+#~ msgstr "تلفن"
+
+#~ msgid "LAST APPOINTMENT"
+#~ msgstr "آخرین رزرو"
+
+#~ msgid "GENDER"
+#~ msgstr "جنسیت"
+
+#~ msgid "Date of birth"
+#~ msgstr "تاریخ تولد"
+
+#~ msgid "Note"
+#~ msgstr "یادداشت"
+
+#~ msgid "The Customer has been added some Appointments. Firstly remove them!"
+#~ msgstr "مشتری یک رزرو داشته است . در ابتدا آن را حذف کنید."
+
+#~ msgid "First Name"
+#~ msgstr "نام"
+
+#~ msgid "Last Name"
+#~ msgstr "نام خانوادگی"
+
+#~ msgid "Phone"
+#~ msgstr "تلفن"
+
+#~ msgid "Allow to log in"
+#~ msgstr "اجازه ی ورود"
+
+#~ msgid "Use existing WordPress user"
+#~ msgstr "از کاربر موجود وردپرس استفاده کنید."
+
+#~ msgid "Create new WordPress user"
+#~ msgstr "ایجاد کاربر جدید وردپرس"
+
+#~ msgid "WordPress user"
+#~ msgstr "کاربر وردپرس"
+
+#~ msgid "User password"
+#~ msgstr "رمز عبور"
+
+#~ msgid "Image"
+#~ msgstr "تصویر"
+
+#~ msgid "BROWSE"
+#~ msgstr "نمایش"
+
+#~ msgid "PNG, JPG, max 800x800 to 5mb)"
+#~ msgstr "(PNG, JPG, حداکثر 800x800 تا 5mb)"
+
+#~ msgid "Gender"
+#~ msgstr "جنسیت"
+
+#~ msgid "Male"
+#~ msgstr "آقا"
+
+#~ msgid "Female"
+#~ msgstr "خانم"
+
+#~ msgid "Import"
+#~ msgstr "وارد کردن"
+
+#~ msgid "You may import list of clients in CSV format."
+#~ msgstr "شما می توانید لیست مشتریان را در قالب فایل CSV وارد کنید."
+
+#~ msgid "Select file"
+#~ msgstr "انتخاب فایل"
+
+#~ msgid "(CSV, max 10k customers)"
+#~ msgstr "(CSV, حداکثر 10k مشتری)"
+
+#~ msgid "Delimiter"
+#~ msgstr "جداکننده"
+
+#~ msgid "Comma ( , )"
+#~ msgstr "ویرگول ( , )"
+
+#~ msgid "Semicolon ( ; )"
+#~ msgstr "نقطه ویرگول ( ; )"
+
+#~ msgid "Custom forms"
+#~ msgstr "فرمهای سفارشی"
+
+#~ msgid "CREATE NEW FORM"
+#~ msgstr "ایجاد فرم جدید"
+
+#~ msgid "NAME"
+#~ msgstr "نام"
+
+#~ msgid "Choice 1"
+#~ msgstr "انتخاب 1"
+
+#~ msgid "Choice 2"
+#~ msgstr "انتخاب 2"
+
+#~ msgid "Custom Forms"
+#~ msgstr "فرمهای سفارشی"
+
+#~ msgid "Customize"
+#~ msgstr "سفارشی کردن"
+
+#~ msgid "Form name"
+#~ msgstr "نام فرم"
+
+#~ msgid "SAVE FORM"
+#~ msgstr "ذخیره فرم"
+
+#~ msgid "Elements"
+#~ msgstr "المان ها"
+
+#~ msgid "Label"
+#~ msgstr "برچسب"
+
+#~ msgid "Text input"
+#~ msgstr "فیلد متنی"
+
+#~ msgid "Textarea"
+#~ msgstr "ناحیه متنی"
+
+#~ msgid "Number input"
+#~ msgstr "ورودی شماره"
+
+#~ msgid "Date input"
+#~ msgstr "ورودی تاریخ"
+
+#~ msgid "Time input"
+#~ msgstr "وارد کردن زمان"
+
+#~ msgid "Select"
+#~ msgstr "انتخاب"
+
+#~ msgid "Check-box"
+#~ msgstr "کادر تأیید"
+
+#~ msgid "Radio buttons"
+#~ msgstr "دکمه های رادیویی"
+
+#~ msgid "File"
+#~ msgstr "فایل"
+
+#~ msgid "Link"
+#~ msgstr "لینک"
+
+#~ msgid "Form"
+#~ msgstr "فرم"
+
+#~ msgid "Max: 255 symbol"
+#~ msgstr "حداکثر: 255 علامت"
+
+#~ msgid "Placeholder"
+#~ msgstr "متن جایگزین"
+
+#~ msgid "Max: 200 symbol"
+#~ msgstr "حداکثر: 200 علامت"
+
+#~ msgid "Min length"
+#~ msgstr "حداقل طول"
+
+#~ msgid "Max length"
+#~ msgstr "حداکثر طول"
+
+#~ msgid "Help text"
+#~ msgstr "متن کمک"
+
+#~ msgid "Max: 500 symbol"
+#~ msgstr "حداکثر: 500 علامت"
+
+#~ msgid "Allowed file formats"
+#~ msgstr "فرمت مجاز فایل ها"
+
+#~ msgid "Is required"
+#~ msgstr "الزامی است"
+
+#~ msgid "URL"
+#~ msgstr "لینک"
+
+#~ msgid "Choices"
+#~ msgstr "انتخاب ها"
+
+#~ msgid "Add new"
+#~ msgstr "افزودن جدید"
+
+#~ msgid "Dashboard"
+#~ msgstr "داشبورد"
+
+#~ msgid "Today"
+#~ msgstr "امروز"
+
+#~ msgid "Yesterday"
+#~ msgstr "دیروز"
+
+#~ msgid "Tomorrow"
+#~ msgstr "فردا"
+
+#~ msgid "This week"
+#~ msgstr "این هفته"
+
+#~ msgid "Last week"
+#~ msgstr "هفته گذشته"
+
+#~ msgid "This month"
+#~ msgstr "ماه جاری"
+
+#~ msgid "This year"
+#~ msgstr "امسال"
+
+#~ msgid "Custom"
+#~ msgstr "سفارشی"
+
+#~ msgid "Durations"
+#~ msgstr "مدت زمان ها"
+
+#~ msgid "Revenue"
+#~ msgstr "درآمد"
+
+#~ msgid "Upcoming"
+#~ msgstr "در آینده"
+
+#~ msgid "APPOINTMENT DATE"
+#~ msgstr "تاریخ رزرو"
+
+#~ msgid "INFO"
+#~ msgstr "اطلاعات"
+
+#~ msgid ""
+#~ "You have reached your allowed maximum Email limit. Please upgrade your "
+#~ "plan."
+#~ msgstr ""
+#~ "شما به حداکثر تعداد مجاز ایمیل خود رسیده اید. لطفاً برنامه خود را ارتقا "
+#~ "دهید."
+
+#~ msgid "Couldn't send email."
+#~ msgstr "ایمیل ارسال نشد"
+
+#~ msgid "Waiting for payment"
+#~ msgstr "در انتظار برای پرداخت"
+
+#~ msgid "Notifications"
+#~ msgstr "اعلانات"
+
+#~ msgid "New Appointment"
+#~ msgstr "رزرو جدید"
+
+#~ msgid "Appointment re-scheduled"
+#~ msgstr "رزروهای تکراری"
+
+#~ msgid "Appointment approved"
+#~ msgstr "رزرو تایید شد"
+
+#~ msgid "Appointment pending"
+#~ msgstr "رزروهای در انتظار"
+
+#~ msgid "Appointment rejected"
+#~ msgstr "رزرو های رد شده"
+
+#~ msgid "Appointment canceled"
+#~ msgstr "رزرو لغو شد."
+
+#~ msgid "Reminder before appointment"
+#~ msgstr "یادآوری قبل از رزرو"
+
+#~ msgid "Reminder after appointment"
+#~ msgstr "یادآوری بعد از رزرو"
+
+#~ msgid "Access to Customer Panel"
+#~ msgstr "دسترسی به پنل مشتری"
+
+#, php-format
+#~ msgid "Your monthly balance is %s/%s."
+#~ msgstr "مانده ماهانه ی شما  %s/%s  است."
+
+#~ msgid "SEND TEST EMAIL"
+#~ msgstr "ارسال ایمیل تست"
+
+#~ msgid "DEFAULT"
+#~ msgstr "پیشفرض"
+
+#~ msgid "TO CUSTOMER"
+#~ msgstr "به مشتری"
+
+#~ msgid "TO STAFF"
+#~ msgstr "به کارمند"
+
+#~ msgid "Appointment Notifications"
+#~ msgstr "اعلان های رزرو"
+
+#~ msgid "Remind after"
+#~ msgstr "یادآوری بعد"
+
+#~ msgid "Remind before"
+#~ msgstr "یادآوری قبل"
+
+#~ msgid "Email body"
+#~ msgstr "بدنه ایمیل"
+
+#~ msgid "Attach PDF"
+#~ msgstr "الحاق فایل pdf"
+
+#~ msgid ""
+#~ "To send reminders on time, you need to configure the following cron task:"
+#~ msgstr "برای ارسال به موقع یادآوری ها ، باید cron زیر را پیکربندی کنید:"
+
+#~ msgid "Every 15 minutes"
+#~ msgstr "هر 15 دقیقه"
+
+#~ msgid "SHORT TAGS"
+#~ msgstr "برچسب های کوتاه"
+
+#~ msgid "Appointment Info"
+#~ msgstr "اطلاعات رزرو"
+
+#~ msgid "Service Info"
+#~ msgstr "اطلاعات سرویس"
+
+#~ msgid "Customer Info"
+#~ msgstr "اطلاعات مشتری"
+
+#~ msgid "Staff Info"
+#~ msgstr "اطلاعات کارمند"
+
+#~ msgid "Location Info"
+#~ msgstr "اطلاعات موقعیت مکانی"
+
+#~ msgid "Company Info"
+#~ msgstr "اطلاعات شرکت"
+
+#~ msgid "Zoom Info"
+#~ msgstr "اطلاعات Zoom"
+
+#~ msgid "Find custom field ID"
+#~ msgstr "یافت شماره فیلد سفارشی"
+
+#~ msgid "Custom field:"
+#~ msgstr "فیلد سفارشی:"
+
+#~ msgid "Keyword to use:"
+#~ msgstr "کلیدواژه هایی برای استفاده"
+
+#~ msgid "Fistly select the custom field"
+#~ msgstr "در ابتدا باید فیلد سفارشی را انتخاب کنید"
+
+#~ msgid "Send test email"
+#~ msgstr "ارسال ایمیل تست"
+
+#~ msgid "SEND"
+#~ msgstr "ارسال"
+
+#~ msgid "The code already exists!"
+#~ msgstr "این کد از قبل موجود است!"
+
+#~ msgid "Amount cannot be zero or negative number!"
+#~ msgstr "مبلغ نمی تواند صفر یا یک عدد منفی باشد"
+
+#~ msgid "Please type the giftcard code field!"
+#~ msgstr "لطفا کد کارت هدیه را وارد کنید."
+
+#~ msgid "The gift card balance cannot be less than the amount spent!"
+#~ msgstr "مانده کارت هدیه نمی تواند کمتر از مبلغ هزینه شده باشد!"
+
+#~ msgid "Giftcard is not used yet!"
+#~ msgstr "کارت هدیه هنوز استفاده نشده است!"
+
+#~ msgid "Giftcards"
+#~ msgstr "کارتهای هدیه"
+
+#~ msgid "ADD GIFTCARD"
+#~ msgstr "افزودن کارت هدیه"
+
+#~ msgid "BALANCE"
+#~ msgstr "اعتبار"
+
+#~ msgid "SPENT"
+#~ msgstr "صرف شده"
+
+#~ msgid "LEFTOVER"
+#~ msgstr "باقیمانده"
+
+#~ msgid "USAGE HISTORY"
+#~ msgstr "تاریخچه استفاده"
+
+#~ msgid "Add Giftcard"
+#~ msgstr "افزودن کارت هدیه"
+
+#~ msgid "Amount ("
+#~ msgstr "مبلغ"
+
+#~ msgid "Usage history"
+#~ msgstr "تاریخچه استفاده"
+
+#~ msgid "USED AMOUNT"
+#~ msgstr "مبلغ استفاده شده"
+
+#~ msgid "Invoices"
+#~ msgstr "فاکتورها"
+
+#~ msgid "ADD INVOICE"
+#~ msgstr "افزودن فاکتور"
+
+#~ msgid "SAVE & DOWNLOAD PREVIEW"
+#~ msgstr "ذخیره و دانلود پیش نمایش"
+
+#~ msgid "INVOICE"
+#~ msgstr "فاکتور"
+
+#~ msgid "PDF Name"
+#~ msgstr "نام فایل PDF"
+
+#~ msgid "Content"
+#~ msgstr "محتوا"
+
+#~ msgid "Locations"
+#~ msgstr "موقعیتهای مکانی"
+
+#~ msgid "ADD LOCATION"
+#~ msgstr "افزودن موقعیت مکانی"
+
+#~ msgid "ADDRESS"
+#~ msgstr "نشانی"
+
+#~ msgid "This location is using some Appointments. Firstly remove them!"
+#~ msgstr ""
+#~ "این موقعیت مکانی در یک رزرو به کار رفته است . در ابتدا  آن را حذف کنید."
+
+#~ msgid "Location Name"
+#~ msgstr "نام موقعیت مکانی"
+
+#~ msgid "(PNG, JPG, max 800x800 to 5mb)"
+#~ msgstr "(PNG, JPG, حداکثر 800x800 تا 5mb)"
+
+#~ msgid "Address"
+#~ msgstr "نشانی"
+
+#~ msgid "Description"
+#~ msgstr "توضیحات"
+
+#~ msgid "UNHIDE LOCATION"
+#~ msgstr "ظاهر کردن موقعیت مکانی"
+
+#~ msgid "HIDE LOCATION"
+#~ msgstr "مخفی کردن موقعیت مکانی"
+
+#~ msgid "SMS Notifications"
+#~ msgstr "اعلانات پیام کوتاه"
+
+#~ msgid "WhatsApp Notifications"
+#~ msgstr "اعلانات واتس اپ"
+
+#~ msgid "You did not choose a notification type!"
+#~ msgstr "شما نوع اعلان را انتخاب نکردید!"
+
+#~ msgid "Tab Edit"
+#~ msgstr "ویرایش زبانه"
+
+#~ msgid "Add Tab"
+#~ msgstr "افزودن تب"
+
+#~ msgid "Select Type"
+#~ msgstr "انتخاب نوع"
+
+#~ msgid "Tab Name"
+#~ msgstr "نام زبانه"
+
+#~ msgid "Enter Tab Name"
+#~ msgstr "نام زبانه را وارد کنید"
+
+#~ msgid "Select Language"
+#~ msgstr "انتخاب زبان"
+
+#~ msgid "Select Service"
+#~ msgstr "انتخاب سرویس"
+
+#~ msgid "Select Staff"
+#~ msgstr "انتخاب کارمند"
+
+#~ msgid "Select Location"
+#~ msgstr "انتخاب موقعیت مکانی"
+
+#~ msgid "ADD TAB"
+#~ msgstr "افزودن تب"
+
+#~ msgid "Payments"
+#~ msgstr "پرداخت ها"
+
+#~ msgid "METHOD"
+#~ msgstr "روش"
+
+#~ msgid "Paid from giftcard: "
+#~ msgstr "پرداخت های انجام شده با کارت هدیه:"
+
+#~ msgid "SERVICE AMOUNT"
+#~ msgstr "هزینه ی سرویس"
+
+#~ msgid "EXTRAS AMOUNT"
+#~ msgstr "هزینه خدمات اضافی"
+
+#~ msgid "TAX AMOUNT"
+#~ msgstr "هزینه مالیات"
+
+#~ msgid "PAID AMOUNT"
+#~ msgstr "مبلغ پرداخت شده"
+
+#~ msgid "Payment info"
+#~ msgstr "اطلاعات پرداخت "
+
+#~ msgid "COMPLETE PAYMENT"
+#~ msgstr "پرداخت کامل"
+
+#~ msgid "Reports"
+#~ msgstr "گزارشات"
+
+#~ msgid "Reports by the number of appointments"
+#~ msgstr "گزارش بر اساس تعداد رزروها"
+
+#~ msgid "Daily"
+#~ msgstr "روزانه"
+
+#~ msgid "Annualy"
+#~ msgstr "سالانه"
+
+#~ msgid "Reports by appointment earnings"
+#~ msgstr "گزارش بر اساس درآمد رزروها"
+
+#~ msgid "Most earning locations"
+#~ msgstr "موقعیت هایی با بیشترین درآمد"
+
+#~ msgid "Previous week"
+#~ msgstr "هفته گذشته"
+
+#~ msgid "Previous month"
+#~ msgstr "ماه گذشته"
+
+#~ msgid "Previous year"
+#~ msgstr "سال گذشته"
+
+#~ msgid "Most earning staffs"
+#~ msgstr "کارمندانی با بیشترین درآمد"
+
+#~ msgid "Firstly remove sub categories!"
+#~ msgstr "ابتدا زیر گروه ها را حذف کنید"
+
+#~ msgid "Firstly delete sub services."
+#~ msgstr "در ابتدا باید زیر سرویس ها را حذف کنید."
+
+#~ msgid "This category is already exist! Please choose an other name."
+#~ msgstr "این دسته بندی از قبل موجود است. لطفا نام دیگری را انتخاب کنید"
+
+#~ msgid "Deposit can not exceed the price!"
+#~ msgstr "مبلغ ودیعه نمی تواند بیش از قیمت باشد!"
+
+#~ msgid "Please fill \"Full period\" field!"
+#~ msgstr "لطفاً قسمت \"دوره کامل\" را پر کنید!"
+
+#~ msgid "Please fill \"Repeat\" field!"
+#~ msgstr "لطفا قسمت \"تکرار\" را پر کنید."
+
+#~ msgid "Please fill \"Frequency\" field!"
+#~ msgstr "لطفاً قسمت \"دروه\" را پر کنید!"
+
+#~ msgid "Capacity field is wrong!"
+#~ msgstr "فیلد ظرفیت اشتباه است!"
+
+#~ msgid "Please fill the weekly schedule correctly!"
+#~ msgstr "لطفا برنامه هفتگی را به درستی پر کنید!"
+
+#~ msgid "This service name is already exist! Please choose an other name."
+#~ msgstr "این سرویس از قبل موجود است. لطفا نام دیگری انتخاب کنید."
+
+#~ msgid "Duplicate Staff selected!"
+#~ msgstr "کپی کردن کارمند انتخاب شده"
+
+#~ msgid "Max quantity can not be zero!"
+#~ msgstr "حداکثر تعداد نمی تواند صفر باشد."
+
+#, php-format
+#~ msgid "This extra is using some Appointments (ID: %d). Firstly remove them!"
+#~ msgstr ""
+#~ "این مورد اضافی از برخی رزروها استفاده می کند (شناسه: d٪ ). ابتدا آنها را "
+#~ "حذف کنید!"
+
+#~ msgid "There is no category or service attached with this extra!"
+#~ msgstr "دسته بندی یا سرویسی با این خدمات جانبی پیوست نشده است."
+
+#~ msgid "Success!"
+#~ msgstr "موفقیت"
+
+#~ msgid "Requested Service Extra not found!"
+#~ msgstr "خدمات اضافی درخواستی موجود نیست."
+
+#~ msgid "Services"
+#~ msgstr "خدمات"
+
+#~ msgid "ADD SERVICE"
+#~ msgstr "افزودن سرویس"
+
+#~ msgid "CATEGORY"
+#~ msgstr "دسته بندی"
+
+#~ msgid "PRICE"
+#~ msgstr "قیمت"
+
+#~ msgid "This service is using some Appointments. Firstly remove them!"
+#~ msgstr "این سرویس از برخی رزرو ها استفاده می کند. ابتدا آنها را حذف کنید!"
+
+#~ msgid "Staff not selected"
+#~ msgstr "کارمند انتخاب نشده است"
+
+#~ msgid "Go to center"
+#~ msgstr "برو به مرکز"
+
+#~ msgid "Categories"
+#~ msgstr "دسته بندی ها"
+
+#~ msgid "What do you want to create?"
+#~ msgstr "می خواهید چه چیزی ایجاد کنید؟"
+
+#~ msgid "Breaks"
+#~ msgstr "استراحت ها"
+
+#~ msgid "Specific price"
+#~ msgstr "قیمت خاص"
+
+#~ msgid "Start time"
+#~ msgstr "شروع زمان"
+
+#~ msgid "End time"
+#~ msgstr "زمان پایان"
+
+#~ msgid "Add break"
+#~ msgstr "افزودن وقت استراحت"
+
+#~ msgid "Remove special day"
+#~ msgstr "حذف روز خاص"
+
+#~ msgid "Name"
+#~ msgstr "نام"
+
+#~ msgid "Max. quantity"
+#~ msgstr "حداکثر تعداد"
+
+#~ msgid "Copy to all services"
+#~ msgstr "کپی کردن به همه ی خدمات"
+
+#~ msgid "Copy to the same category services"
+#~ msgstr "کپی کردن به دسته بندیهای یکسان خدمات"
+
+#~ msgid "Add Service"
+#~ msgstr "افزودن سرویس"
+
+#~ msgid "SERVICE DETAILS"
+#~ msgstr "جرئیات سرویس"
+
+#~ msgid "TIME SHEET"
+#~ msgstr "برگه ی زمان"
+
+#~ msgid "Service name"
+#~ msgstr "نام سرویس"
+
+#~ msgid "Deposit"
+#~ msgstr "سپرده"
+
+#~ msgid "Tax"
+#~ msgstr "مالیات"
+
+#~ msgid "Time slot length"
+#~ msgstr "طول بازه ی زمانی"
+
+#~ msgid "Default"
+#~ msgstr "پیشفرض"
+
+#~ msgid "Slot length as service duration"
+#~ msgstr "بازه ی زمانی به عنوان مدت زمان سرویس"
+
+#~ msgid "Buffer Time Before"
+#~ msgstr "فاصله زمانی قبل"
+
+#~ msgid "Buffer Time After"
+#~ msgstr "فاصله زمانی بعد"
+
+#~ msgid "Hide price in booking panel:"
+#~ msgstr "مخفی کردن قیمت در پنل رزرو"
+
+#~ msgid "Hide duration in booking panel:"
+#~ msgstr "پنهان کردن مدت زمان در پنل رزرو:"
+
+#~ msgid "Recurring"
+#~ msgstr "تکراری"
+
+#~ msgid "Repeat"
+#~ msgstr "تکرار"
+
+#~ msgid "Weekly"
+#~ msgstr "هفتگی"
+
+#~ msgid "Fixed full period"
+#~ msgstr "دوره کامل ثابت"
+
+#~ msgid "time(s)"
+#~ msgstr "بار (ها)"
+
+#~ msgid "Fixed frequency"
+#~ msgstr "دوره ی ثابت"
+
+#~ msgid "time per week"
+#~ msgstr "زمان در هفته"
+
+#~ msgid "The Customer pays separately for each appointment"
+#~ msgstr "مشتری برای هر رزرو پرداخت جداگانه داشته باشد."
+
+#~ msgid "The Customer pays full amount of recurring appointments"
+#~ msgstr "مشتری مبلغ کامل رزرو های مکرر را پرداخت می کند"
+
+#~ msgid "Fix time"
+#~ msgstr "زمان را اصلاح کنید"
+
+#~ msgid "Capacity"
+#~ msgstr "ظرفیت"
+
+#~ msgid "Alone"
+#~ msgstr "به تنهایی"
+
+#~ msgid "Group"
+#~ msgstr "گروه"
+
+#~ msgid "Min. / Max. capacity"
+#~ msgstr "حداقل / حداکثر ظرفیت"
+
+#~ msgid "Activate Zoom for the service"
+#~ msgstr "فعالسازی Zoom برای خدمات شما"
+
+#~ msgid "WEEKLY SCHEDULE"
+#~ msgstr "برنامه هفتگی"
+
+#~ msgid "SPECIAL DAYS"
+#~ msgstr "روزهای خاص"
+
+#~ msgid "Configure specific timesheet"
+#~ msgstr "جدول زمانهای خاص را پیکربندی کنید"
+
+#~ msgid "Add day off"
+#~ msgstr "افزودن روز تعطیل"
+
+#~ msgid "ADD SPECIAL DAY"
+#~ msgstr "افزودن روز خاص"
+
+#~ msgid "Add staff"
+#~ msgstr "افزودن کارمند"
+
+#~ msgid "NEW EXTRA"
+#~ msgstr "خدمات اضافی جدید"
+
+#~ msgid "SAVE EXTRA"
+#~ msgstr "ذخیره موارد اضافی"
+
+#~ msgid "UNHIDE SERVICE"
+#~ msgstr "ظاهر کردن سرویس"
+
+#~ msgid "HIDE SERVICE"
+#~ msgstr "مخفی کردن سرویس"
+
+#~ msgid "SAVE SERVICE"
+#~ msgstr "ذخیره سرویس"
+
+#~ msgid "Select colors"
+#~ msgstr "انتخاب رنگ ها"
+
+#~ msgid "Hex"
+#~ msgstr "Hex"
+
+#~ msgid "Add Category"
+#~ msgstr "افزودن دسته بندی"
+
+#~ msgid "Parent category"
+#~ msgstr "دسته والدین"
+
+#~ msgid "Root category"
+#~ msgstr "دسته اصلی"
+
+#~ msgid "Selected settings not found!"
+#~ msgstr "تنظیمات انتخاب شده یافت نشد"
+
+#~ msgid "Local"
+#~ msgstr "محلی"
+
+#~ msgid "Paypal"
+#~ msgstr "پی پال"
+
+#~ msgid "Any staff"
+#~ msgstr "هر کارمندی"
+
+#~ msgid "Select an available staff"
+#~ msgstr "یک کارمند در دسترس را انتخاب کنید"
+
+#~ msgid "Add coupon"
+#~ msgstr "افزودن کوپن"
+
+#~ msgid "Please select location."
+#~ msgstr "لطفا موقعیت مکانی را انتخاب کنید."
+
+#~ msgid "Please select staff."
+#~ msgstr "لطفا یک کارمند انتخاب کنید"
+
+#~ msgid "Please select service"
+#~ msgstr "لطفا سرویس را انتخاب کنید"
+
+#~ msgid "Please select week day(s)"
+#~ msgstr "لطفا روزهای هفته را انتخاب کنید"
+
+#~ msgid "Please select week day(s) and time(s) correctly"
+#~ msgstr "لطفا روی های هفته و زمان ها را به درستی انتخاب کنید."
+
+#~ msgid "Please select start date"
+#~ msgstr "تاریخ شروع را انتخاب کنید"
+
+#~ msgid "Please select end date"
+#~ msgstr "تاریخ پایان را انتخاب کنید"
+
+#~ msgid "Please select date."
+#~ msgstr "تاریخ را انتخاب کنید"
+
+#~ msgid "Please select time."
+#~ msgstr "لطفا زمان را انتخاب کنید"
+
+#~ msgid "Please select an available time"
+#~ msgstr "لطفاً زمان موجود را انتخاب کنید"
+
+#~ msgid "Please enter a valid email address!"
+#~ msgstr "لطفا یک آدرس ایمیل معتبر وارد کنید!"
+
+#~ msgid "Please enter a valid phone number!"
+#~ msgstr "لطفا یک شماره تلفن معتبر وارد کنید!"
+
+#~ msgid "CONFIRM BOOKING"
+#~ msgstr "تایید رزرو"
+
+#~ msgid "There is no any Location for select."
+#~ msgstr "هیچ موقعیت مکانی برای انتخاب وجود ندارد"
+
+#~ msgid "Staff not found. Please go back and select a different option."
+#~ msgstr "کارمند یافت نشد. لطفا برگردید و گزینه ی دیگری را انتخاب کنید."
+
+#~ msgid "Service not found. Please go back and select a different option."
+#~ msgstr "خدمات یافت نشد. لطفاً برگردید و گزینه دیگری را انتخاب کنید."
+
+#~ msgid "There isn't any available staff for the selected date/time."
+#~ msgstr "برای زمان و تاریخ انتخابی کارمندی وجود ندارد."
+
+#~ msgid ""
+#~ "Extras not found in this service. You can select other service or click "
+#~ "the <span class=\"booknetic_text_primary\">\"Next step\"</span> button."
+#~ msgstr ""
+#~ "خدمات اضافی در این سرویس یافت نمی شود. می توانید سرویس دیگری را انتخاب "
+#~ "کنید یا بر روی دکمه <span class = \"booknetic_text_primary\"> \"مرحله بعدی"
+#~ "\" </ span> کلیک کنید."
+
+#~ msgid "w"
+#~ msgstr "هفته"
+
+#~ msgid "d"
+#~ msgstr "روز"
+
+#~ msgid "h"
+#~ msgstr "ساعت"
+
+#~ msgid "m"
+#~ msgstr "دقیقه"
+
+#~ msgid "s"
+#~ msgstr "ثانیه"
+
+#~ msgid "The Extra step cannot be ordered before the Service step."
+#~ msgstr "مرحله خدمات اضافی را نمی توان قبل از مرحله سرویس اصلی قرار داد."
+
+#~ msgid "The Date & Time step cannot be ordered before the Service step."
+#~ msgstr "مرحله تاریخ و زمان را نمی توان قبل از مرحله سرویس قرار داد."
+
+#~ msgid "You must add at least one Location to hide the Location step."
+#~ msgstr ""
+#~ "شما باید حداقل یک موقعیت مکانی اضافه کنید تا بتوانید مرحله ی موقعیت مکانی "
+#~ "را مخفی کنید."
+
+#~ msgid "You must add at least one Staff to hide the Staff step."
+#~ msgstr ""
+#~ "شما باید حداقل یک کارمند اضافه کنید تا بتوانید گام انتخاب کارمند را مخفی "
+#~ "کنید."
+
+#~ msgid "You must add at least one Service to hide the Service step."
+#~ msgstr "برای پنهان کردن مرحله انتخاب سرویس، باید حداقل یک سرویس اضافه کنید."
+
+#~ msgid "Confirmation number is invalid!"
+#~ msgstr "شماره تأیید نامعتبر است!"
+
+#~ msgid ""
+#~ "Other payment cannot be activated. Please contact the service provider."
+#~ msgstr "پرداخت نمی تواند فعال شود. لطفا با ارائه دهنده خدمات تماس بگیرید."
+
+#~ msgid "Please enable at least one payment gateway."
+#~ msgstr "لطفا حداقل یک روش پرداخت را انتخاب کنید."
+
+#~ msgid "Could not create a zip file!"
+#~ msgstr "پرونده zip ایجاد نشد!"
+
+#~ msgid "Unable to read the backup file!1"
+#~ msgstr "قادر به خواندن فایل بک آپ1 نیست!"
+
+#~ msgid "Unable to read the backup file!2"
+#~ msgstr "قادر به خواندن فایل بک آپ2 نیست!"
+
+#~ msgid "Settings"
+#~ msgstr "تنظیمات "
+
+#~ msgid "General settings"
+#~ msgstr "تنظیمات  عمومی"
+
+#~ msgid "You can customize general settings about booking from here"
+#~ msgstr "شما میتوانید تنظیمات عمومی در مورد ررزو را اینجا سفارشی کنید."
+
+#~ msgid "Front-end panels"
+#~ msgstr "پنل سمت کاربر"
+
+#~ msgid ""
+#~ "You can customize booking and customer panel and change labels from here"
+#~ msgstr ""
+#~ "می توانید رزرو و پنل مشتری را سفارشی کرده و برچسب ها را از اینجا تغییر دهید"
+
+#~ msgid "Booking Steps"
+#~ msgstr "مراحل رزرو"
+
+#~ msgid "Customer Panel"
+#~ msgstr "پنل مشتری"
+
+#~ msgid "Labels"
+#~ msgstr "برچسب ها"
+
+#~ msgid "Payment settings"
+#~ msgstr "تنظیمات پرداخت "
+
+#~ msgid ""
+#~ "Currency, price format , general settings about payment , paypal, stripe "
+#~ "and so on"
+#~ msgstr ""
+#~ "واحد پول ، فرمت قیمت ، تنظیمات عمومی درباره قیمت ، پی پال ، استریپ و "
+#~ "غیره..."
+
+#~ msgid "General"
+#~ msgstr "عمومی"
+
+#~ msgid "Payment methods"
+#~ msgstr "روش های پرداخت"
+
+#~ msgid ""
+#~ "Enter your company name, logo, address, phone number, website from here"
+#~ msgstr ""
+#~ "نام شرکت ، آرم ، آدرس ، شماره تلفن ، وب سایت خود را از اینجا وارد کنید"
+
+#~ msgid "Business Hours"
+#~ msgstr "ساعات کاری"
+
+#~ msgid "You will be able to co-ordinate your company's overall work schedule"
+#~ msgstr "شما قادر خواهید بود برنامه کلی کار شرکت خود را هماهنگ کنید."
+
+#~ msgid "Holidays"
+#~ msgstr "تعطیلات"
+
+#~ msgid "You can select dates that you are unavailable or on holiday"
+#~ msgstr ""
+#~ "می توانید تاریخ هایی را که در دسترس نیستید یا در تعطیلات هستند انتخاب کنید"
+
+#~ msgid "Integrations settings"
+#~ msgstr "تنظیمات  یکپارچه سازی"
+
+#~ msgid "You can change settings for integrated services from here."
+#~ msgstr "از اینجا می توانید تنظیمات خدمات های یکپارچه را تغییر دهید."
+
+#~ msgid "Google calendar"
+#~ msgstr "تقویم گوگل"
+
+#~ msgid "SMS / WhatsApp"
+#~ msgstr "پیامک/ واتس آپ"
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgid "Continue with Facebook"
+#~ msgstr "ادامه با فیسبوک"
+
+#~ msgid "Continue with Google"
+#~ msgstr "ادامه با حساب کاربری گوگل"
+
+#~ msgid "Export & Import data"
+#~ msgstr "وارد و صادر کردن اطلاعات"
+
+#~ msgid "You can export all Booknetic data and import from here."
+#~ msgstr "می توانید تمام داده های Booknetic را صادر کرده و از اینجا وارد کنید."
+
+#~ msgid "Integration with Zoom"
+#~ msgstr "همگام سازی با zoom"
+
+#~ msgid "You can change settings for zoom integration from here."
+#~ msgstr "شما می توانید تنظیمات یکپارچه سازی zoom را از اینجا تغییر دهید."
+
+#~ msgid ""
+#~ "You can easily set with selecting special days, holidays over the calendar"
+#~ msgstr ""
+#~ "شما می توانید به راحتی با انتخاب روزهایی خاص در تقویم ، تعطیلات را تنظیم "
+#~ "کنید."
+
+#~ msgid "EXPORT DATA"
+#~ msgstr "صدور اطلاعات"
+
+#~ msgid "Select file to restore"
+#~ msgstr "انتخاب فایل"
+
+#~ msgid "IMPORT DATA"
+#~ msgstr "ورود داده ها"
+
+#~ msgid "TRANSLATE"
+#~ msgstr "ترجمه"
+
+#~ msgid "SET AS DEFAULT LANGUAGE"
+#~ msgstr "به عنوان زبان پیشفرض تنظیم کنید"
+
+#~ msgid "Other"
+#~ msgstr "دیگر"
+
+#~ msgid "Finish"
+#~ msgstr "پایان"
+
+#~ msgid "Steps"
+#~ msgstr "گام ها"
+
+#~ msgid "Hide address of Location"
+#~ msgstr "مخفی کردن آدرس موقعیت مکانی"
+
+#~ msgid "No settings found for this step."
+#~ msgstr "تنظیماتی برای این گام یافت نشد."
+
+#~ msgid "Footer text per staff"
+#~ msgstr "متن فوتر هر کارمند"
+
+#~ msgid "Show both phone number and emaill address"
+#~ msgstr "شماره تلفن و آدرس ایمیل را نشان دهید"
+
+#~ msgid "Show only Staff email address"
+#~ msgstr "فقط ایمیل کارمند را نمایش بده"
+
+#~ msgid "Show only Staff phone number"
+#~ msgstr "فقط تلفن کارمند را نمایش بده"
+
+#~ msgid "Don't show both phone number and emaill address"
+#~ msgstr "شماره تلفن و آدرس ایمیل را نشان ندهید"
+
+#~ msgid "Enable Any staff option"
+#~ msgstr "فعالسازی گزینه \"هر کارمند\""
+
+#~ msgid "Auto assignment rule"
+#~ msgstr "قانون انتساب خودکار"
+
+#~ msgid "Least assigned by the day"
+#~ msgstr "حداقل روز تعیین شده است"
+
+#~ msgid "Most assigned by the day"
+#~ msgstr "حداکثر روز تعیین شده است"
+
+#~ msgid "Least assigned by the week"
+#~ msgstr "حداقل هفته تعیین شده است"
+
+#~ msgid "Most assigned by the week"
+#~ msgstr "حداکثر هفته تعیین شده است"
+
+#~ msgid "Least assigned by the month"
+#~ msgstr "حداقل ماه تعیین شده است"
+
+#~ msgid "Most assigned by the month"
+#~ msgstr "حداکثر ماه تعیین شده است"
+
+#~ msgid "Most expensive"
+#~ msgstr "بیشترین قیمت"
+
+#~ msgid "Least expensive"
+#~ msgstr "کم ترین قیمت"
+
+#~ msgid "If a Service does not have an extra skip the step"
+#~ msgstr "اگر یک سرویس خدمات اضافی ندارد ، مرحله را رد کنید"
+
+#~ msgid "The time format for the booking form"
+#~ msgstr "قالب زمان برای فرم رزرو"
+
+#~ msgid "Show both Start and End time (e.g.: 10:00 - 11:00)"
+#~ msgstr "زمان شروع و پایان را نشان دهید (به عنوان مثال: 10:00 - 11:00)"
+
+#~ msgid "Show only Start time (e.g.: 10:00)"
+#~ msgstr "فقط زمان شروع را نشان دهید (به عنوان مثال: 10:00)"
+
+#~ msgid "Hide the number of available slots"
+#~ msgstr "تعداد اسلات های موجود را پنهان کنید"
+
+#~ msgid "Separate First and Last name inputs"
+#~ msgstr "ورودیهای نام و نام خانوادگی را جدا کنید"
+
+#~ msgid "Set Email as a required field"
+#~ msgstr "ایمیل را به عنوان یک فیلد ضروری تنظیم کنید"
+
+#~ msgid "Set Phone number as a required field"
+#~ msgstr "شماره تلفن را به عنوان یک فیلد ضروری تنظیم کنید"
+
+#~ msgid "Default phone country code"
+#~ msgstr "کد تلفن کشور پیشفرض"
+
+#~ msgid "Hide payment methods section"
+#~ msgstr "مخفی کردن گام پرداخت"
+
+#~ msgid "Hide coupon section"
+#~ msgstr "مخفی کردن بخش کوپن"
+
+#~ msgid "Hide giftcard section"
+#~ msgstr "مخفی کردن بخش کارت هدیه"
+
+#~ msgid "Do not show the discount row if a coupon is not added"
+#~ msgstr "در صورت عدم اضافه شدن کوپن ، ردیف تخفیف را نشان ندهید"
+
+#~ msgid "Hide price section"
+#~ msgstr "مخفی کردن گام قیمت"
+
+#~ msgid "URL of \"FINISH BOOKING\" button"
+#~ msgstr "لینک دکمه ی \"پایان رزرو\""
+
+#~ msgid "Default: Reload current page."
+#~ msgstr "پیشفرض: بازگذاری صفحه فعلی."
+
+#~ msgid "Hide the \"ADD TO GOOGLE CALENDAR\" button"
+#~ msgstr "دکمه \"افزودن به تقویم گوگل\" را مخفی کنید"
+
+#~ msgid "Hide the \"START NEW BOOKING\" button"
+#~ msgstr "دکمه \"شروع رزرو جدید\" را پنهان کنید"
+
+#~ msgid "Hide a confirmation number"
+#~ msgstr "شماره تأیید را پنهان کنید"
+
+#~ msgid "Starting confirmation number"
+#~ msgstr "شماره تأیید شروع می شود"
+
+#~ msgid "Break start"
+#~ msgstr "شروع استراحت"
+
+#~ msgid "Break end"
+#~ msgstr "پایان استراحت"
+
+#~ msgid "Company name"
+#~ msgstr "نام شرکت"
+
+#~ msgid "Website"
+#~ msgstr "وبسایت"
+
+#~ msgid "Display a company logo on the  Booking panel"
+#~ msgstr "نمایش لوگوی شرکت در پنل رزرو"
+
+#~ msgid "CLICK TO CONNECT ZOOM ACCOUNT"
+#~ msgstr "جهت اتصال به حساب کاربری خود در zoom کلیک کنید."
+
+#, php-format
+#~ msgid "Zoom account ( %s ) has been connected successfully."
+#~ msgstr "حساب zoom (٪s) با موفقیت متصل شد."
+
+#~ msgid "DISCONNECT"
+#~ msgstr "قطع ارتباط"
+
+#~ msgid "Disabled"
+#~ msgstr "غیرفعال"
+
+#~ msgid "Page of Customer Panel"
+#~ msgstr "صفحه پنل مشتری"
+
+#~ msgid "Time restriction to change appointments"
+#~ msgstr "محدودیت زمانی برای تغییر رزروها"
+
+#~ msgid "Allow customers to reschedule their appointments"
+#~ msgstr "به مشتریان اجازه دهید تا رزرو خود را مجددا تنظیم کنند"
+
+#~ msgid "Allow customers to cancel their appointments"
+#~ msgstr "به مشتریان اجازه دهید تا رزرو خود را کنسل کنند"
+
+#~ msgid "Allow customers to delete their account"
+#~ msgstr "به مشتریان اجازه دهید تا حساب کاربری خود را حذف کنند"
+
+#~ msgid "Set slot length as service duration"
+#~ msgstr "تنظیم بازه ی زمانی به عنوان مدت زمان سرویس"
+
+#~ msgid "Minimum time requirement prior to booking"
+#~ msgstr "حداقل زمان لازم قبل از رزرو"
+
+#~ msgid "Limited booking days"
+#~ msgstr "روزهای رزرو محدود"
+
+#~ msgid "Week starts on"
+#~ msgstr "هفته شروع می شود با "
+
+#~ msgid "Date format"
+#~ msgstr "فرمت تاریخ"
+
+#~ msgid "Time format"
+#~ msgstr "فرمت زمان"
+
+#~ msgid "24 hour format"
+#~ msgstr "فرمت 24 ساعته"
+
+#~ msgid "12 hour format"
+#~ msgstr "فرمت 12 ساعته"
+
+#~ msgid "Default appointment status"
+#~ msgstr "وضعیت رزور پیشفرض"
+
+#~ msgid "Show time slots in client time-zone"
+#~ msgstr "بازه های زمانی را در منطقه زمانی مشتری نشان دهید"
+
+#~ msgid "Google Maps API Key"
+#~ msgstr "کلید API نقشه گوگل"
+
+#~ msgid "Activate Google reCAPTCHA"
+#~ msgstr "فعالسازی Google reCAPTCHA"
+
+#~ msgid "Site Key"
+#~ msgstr "کلید سایت"
+
+#~ msgid "Secret Key"
+#~ msgstr "کلید رمز"
+
+#~ msgid "Allow admins to book appointments outside working hours"
+#~ msgstr "به مدیران اجازه دهید تا خارج از ساعت کاری رزرو انجام دهند."
+
+#~ msgid "Only registered users can book"
+#~ msgstr "تنها کاربران وارد شده قادر به رزرو هستند"
+
+#~ msgid "Remove branding"
+#~ msgstr "مارک یا برند را حذف کنید"
+
+#~ msgid "Timezone"
+#~ msgstr "منطقه زمانی"
+
+#~ msgid "Event title"
+#~ msgstr "عنوان رویداد"
+
+#~ msgid "Event description"
+#~ msgstr "شرح رویداد"
+
+#~ msgid "List of keywords"
+#~ msgstr "لیست کلیدواژه ها"
+
+#~ msgid "Sync method for busy slots from Google Calendar"
+#~ msgstr "روش همگام سازی برای اسلات شلوغ از تقویم گوگل"
+
+#~ msgid ""
+#~ "1. Live sync;<br/>If you have a few staff, this method would be more "
+#~ "convenient for you. When your customers are booking, the plugin will "
+#~ "connect to the google calendar and sync busy slots in real-time.<br/>2. "
+#~ "Background sync;<br/>For this method, first, you must configure the Cron "
+#~ "jobs ( <a href='https://www.booknetic.com/documentation/cron-job' "
+#~ "target='_blank'>How to?</a> ). The shorter you set the Cron jobs interval, "
+#~ "the more accuracy you will get. This method is usually designed for "
+#~ "businesses with a large number of employees and using the \"Any Staff\" "
+#~ "option. Because in this case, when your customer selects Any staff option, "
+#~ "it might take more than 30-60 seconds to sync all Staff busy slots with "
+#~ "Google calendar. By choosing this method, the plugin Cron Jobs will "
+#~ "connect to the Google Calendars in the background at the interval you set "
+#~ "up and will store the busy slots of all your employees in your local "
+#~ "databases. During booking, it will read the information directly from your "
+#~ "database. Errors in this method are inevitable. For example, if you "
+#~ "configure your cron jobs to run every 15 minutes, the busy slot you add to "
+#~ "your Google calendar will be stored in the plugin's local database every "
+#~ "15 minutes. That is, within these 15 minutes, someone can book an "
+#~ "appointment in that time slot. Therefore, the shorter you configure the "
+#~ "Cron jobs, the less likely there will be errors."
+#~ msgstr ""
+#~ "1. Live sync;<br/>اگر چند پرسنل دارید ، این روش برای شما راحت تر است. "
+#~ "هنگامی که مشتریان شما در حال رزرو هستند ، این افزونه به تقویم google متصل "
+#~ "می شود و اسلات های شلوغ را در زمان واقعی همگام سازی می کند.<br/>\n"
+#~ "2. Background sync;<br/>2. Background sync;<br/>برای این کار ابتدا باید "
+#~ "cron jobs را پیکربندی کنید.( <a href='https://www.booknetic.com/"
+#~ "documentation/cron-job' target='_blank'>چگونه؟</a> ).\n"
+#~ " هرچه فاصله Cron jobs را کوتاهتر کنید ، دقت بیشتری خواهید داشت.\n"
+#~ "این روش معمولاً برای مشاغل با تعداد زیادی کارمند و با استفاده از گزینه "
+#~ "\"Any Staff\" طراحی می شود.\n"
+#~ "\n"
+#~ " زیرا در این حالت ، هنگامی که مشتری شما هر گزینه کارمندی را انتخاب می "
+#~ "کند ، ممکن است بیش از 30-60 ثانیه طول بکشد تا تمام اسلات های شلوغ کارکنان "
+#~ "با تقویم Google همگام شود.\n"
+#~ "با انتخاب این روش ، افزونه Cron Jobs در بازه زمانی که تنظیم کرده اید به "
+#~ "تقویم های Google در پس زمینه متصل می شود و اسلات شلوغ همه کارمندان شما را "
+#~ "در پایگاه داده محلی شما ذخیره می کند.\n"
+#~ " در هنگام رزرو ، اطلاعات را مستقیماً از پایگاه داده شما می خواند.\n"
+#~ "خطاهای موجود در این روش اجتناب ناپذیر است. به عنوان مثال ، اگر cron jobs "
+#~ "خود را طوری تنظیم کنید که هر 15 دقیقه اجرا شود ، اسلات شلوغی که به تقویم "
+#~ "Google خود اضافه می کنید هر 15 دقیقه در پایگاه داده پلاگین ذخیره می شود.\n"
+#~ "\n"
+#~ " یعنی در این 15 دقیقه کسی می تواند در آن بازه زمانی قرار ملاقات را رزرو "
+#~ "کند.\n"
+#~ "\n"
+#~ "بنابراین ، هرچه کارهای Cron را کوتاهتر پیکربندی کنید ، احتمال بروز خطا "
+#~ "کمتر است."
+
+#~ msgid "Live sync"
+#~ msgstr "همگام سازی زنده"
+
+#~ msgid "Background sync"
+#~ msgstr "همگام سازی پس زمینه"
+
+#~ msgid "Don't sync busy slots"
+#~ msgstr "اسلات های شلوغ را همگام سازی نکنید"
+
+#~ msgid "Since what date do events in Google calendar sync?"
+#~ msgstr "از چه تاریخی وقایع در تقویم Google همگام سازی می شوند؟"
+
+#~ msgid "Events up to 1 month"
+#~ msgstr "رویدادها تا 1 ماه"
+
+#~ msgid "Events up to 2 month"
+#~ msgstr "رویدادها تا 2 ماه"
+
+#~ msgid "Events up to 3 month"
+#~ msgstr "رویدادها تا 3 ماه"
+
+#~ msgid "Add customers as attendees in your calendar events"
+#~ msgstr "مشتریان را به عنوان شرکت کنندگان در رویدادهای تقویم خود اضافه کنید"
+
+#~ msgid "Send email invitations to attendees by Google"
+#~ msgstr "از طرف Google دعوت نامه های ایمیل برای شرکت کنندگان ارسال کنید"
+
+#~ msgid "Customers can see other attendees"
+#~ msgstr "مشتریان می توانند سایر شرکت کنندگان را مشاهده کنند"
+
+#~ msgid "Facebook API / Continue with Facebook button"
+#~ msgstr "فیسبوک API / با دکمه فیسبوک ادامه دهید"
+
+#~ msgid "App ID"
+#~ msgstr "شناسه برنامه"
+
+#~ msgid "App Secret"
+#~ msgstr "رمز برنامه"
+
+#~ msgid "Google API / Continue with Google button"
+#~ msgstr "API گوگل/ ادامه با دکمه گوگل"
+
+#~ msgid "API Key"
+#~ msgstr "کلید API"
+
+#~ msgid "API Secret"
+#~ msgstr "رمز برنامه"
+
+#~ msgid "Meeting topic"
+#~ msgstr "موضوع جلسه"
+
+#~ msgid "Meeting description"
+#~ msgstr "شرح جلسه"
+
+#~ msgid "Set random password for meetings"
+#~ msgstr "رمز عبور تصادفی را برای جلسات تعیین کنید"
+
+#~ msgid "Stripe"
+#~ msgstr "strip"
+
+#~ msgid "Local payment"
+#~ msgstr "پرداخت در محل"
+
+#~ msgid "Woocommerce"
+#~ msgstr "ووکامرس"
+
+#, php-format
+#~ msgid ""
+#~ "You can't use Paypal with the %s plan. Please upgrade your plan to use "
+#~ "Paypal."
+#~ msgstr ""
+#~ "شما با پلن %s نمی توانید از پی پال استفاده کنید. جهت استفاده از آن لطفا "
+#~ "پلن خود را در پی پال ارتقاء دهید."
+
+#~ msgid "Mode"
+#~ msgstr "حالت"
+
+#~ msgid "Sandbox"
+#~ msgstr "سندباکس"
+
+#~ msgid "Live"
+#~ msgstr "زنده"
+
+#, php-format
+#~ msgid ""
+#~ "You can't use Stripe with the %s plan. Please upgrade your plan to use "
+#~ "Stripe."
+#~ msgstr ""
+#~ "شما با پلن %s نمی توانید از Stripe استفاده کنید. جهت استفاده از آن لطفا "
+#~ "پلن خود را در Stripe  ارتقاء دهید."
+
+#~ msgid "Publishable key"
+#~ msgstr "کلید قابل انتشار"
+
+#~ msgid "Secret key"
+#~ msgstr "کلید رمز"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "You can't use Stripe with the %s plan. Please upgrade your plan to use "
+#~| "Stripe."
+#~ msgid ""
+#~ "You can't use Square with the %s plan. Please upgrade your plan to use "
+#~ "Square."
+#~ msgstr ""
+#~ "شما با پلن %s نمی توانید از Stripe استفاده کنید. جهت استفاده از آن لطفا "
+#~ "پلن خود را در Stripe  ارتقاء دهید."
+
+#, fuzzy
+#~| msgid "Auth Token"
+#~ msgid "Access Token"
+#~ msgstr "سرویس دهنده"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Location ID"
+#~ msgstr "موقعیت مکانی"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "You can't use Stripe with the %s plan. Please upgrade your plan to use "
+#~| "Stripe."
+#~ msgid ""
+#~ "You can't use Mollie with the %s plan. Please upgrade your plan to use "
+#~ "Mollie."
+#~ msgstr ""
+#~ "شما با پلن %s نمی توانید از Stripe استفاده کنید. جهت استفاده از آن لطفا "
+#~ "پلن خود را در Stripe  ارتقاء دهید."
+
+#, fuzzy
+#~| msgid "API Key"
+#~ msgid "Api Key"
+#~ msgstr "کلید API"
+
+#~ msgid "Skip the Confirmation step"
+#~ msgstr "رد کردن مرحله تأیید"
+
+#~ msgid ""
+#~ "If you use Deposit Payments or Coupons, then you can have a confirmation "
+#~ "step for your customers. Otherwise, it will redirect to WooCommerce by "
+#~ "automatically skipping this step."
+#~ msgstr ""
+#~ "اگر از پرداخت های سپرده یا کوپن استفاده می کنید ، می توانید برای مشتریان "
+#~ "خود مرحله تأیید داشته باشید. در غیر این صورت ، با رد کردن خودکار این "
+#~ "مرحله ، به ووکامرس هدایت می شود."
+
+#~ msgid "Redirect customer to"
+#~ msgstr "ارجاع مشتری به "
+
+#~ msgid "Cart page"
+#~ msgstr "صفحه سبد خرید"
+
+#~ msgid "Checkout page"
+#~ msgstr "صفحه پرداخت"
+
+#~ msgid "Woocommerce order details"
+#~ msgstr "جزئیات سفارش ووکامرس"
+
+#~ msgid ""
+#~ "Other payment methods are not activated. Please contact the service "
+#~ "provider."
+#~ msgstr ""
+#~ "سایر روشهای پرداخت فعال نیستند . لطفا با ارائه دهنده خدمات تماس بگیرید."
+
+#~ msgid "Set up"
+#~ msgstr "راه اندازی"
+
+#~ msgid "Currency"
+#~ msgstr "واحد پول"
+
+#~ msgid "Currency symbol"
+#~ msgstr "علامت واحد پول"
+
+#~ msgid "Currency format"
+#~ msgstr "فرمت واحد پول"
+
+#~ msgid "Price number format"
+#~ msgstr "فرمت عددی قیمت"
+
+#~ msgid "Price number of decimals"
+#~ msgstr "اعشار موجود در عدد قیمت"
+
+#~ msgid "How long to wait for payment"
+#~ msgstr "مدت زمان انتظار برای پرداخت"
+
+#~ msgid ""
+#~ "Newly booked appointment default status will be \"Waiting for payment\" in "
+#~ "the defined timeframe."
+#~ msgstr ""
+#~ "وضعیت پیش فرض رزرو تازه انجام  شده در بازه زمانی مشخص شده \"در انتظار "
+#~ "پرداخت\" خواهد بود."
+
+#~ msgid "Customer can pay full amount"
+#~ msgstr "مشتری می تواند مبلغ کامل را پرداخت کند"
+
+#~ msgid "SMS/WhatsApp settings"
+#~ msgstr "تنظیمات پیامک / واتس اپ"
+
+#~ msgid "Account SID"
+#~ msgstr " حساب کاربری SID"
+
+#~ msgid "Sender phone number for SMS"
+#~ msgstr "شماره تلفن فرستنده برای پیامک"
+
+#~ msgid "Sender phone number for WhatsApp"
+#~ msgstr "شماره تلفن فرستنده برای واتس آپ"
+
+#~ msgid ""
+#~ "You have reached your allowed maximum SMS limit. Please upgrade your plan."
+#~ msgstr "شما به حداکثر محدوده پیامک رسیده اید. لطفا برنامه را ارتقا دهید."
+
+#~ msgid "Please configure SMS settings!"
+#~ msgstr "لطفا تنظیمات پیامک را انجام دهید"
+
+#~ msgid "SEND TEST SMS"
+#~ msgstr "ارسال پیامک تست"
+
+#~ msgid "APPOINTMENT APPROVED"
+#~ msgstr "رزرو تایید شد"
+
+#~ msgid "SMS body"
+#~ msgstr "بدنه ی پیامک"
+
+#~ msgid "Send test SMS"
+#~ msgstr "ارسال پیامک تست"
+
+#~ msgid "Phone number"
+#~ msgstr "شماره تلفن"
+
+#~ msgid "Staff not found!"
+#~ msgstr "کارمند یافت نشد!"
+
+#~ msgid "You do not have sufficient permissions to perform this action"
+#~ msgstr "شما مجوز کافی برای انجام این کار را ندارید"
+
+#~ msgid "Staff not found or permission denied!"
+#~ msgstr "کارمند یافت نشد یا دسترسی محدود شده است."
+
+#~ msgid "Please select location!"
+#~ msgstr "لطفا موقعیت مکانی را انتخاب کنید"
+
+#~ msgid "The WordPress user with the same email address already exists!"
+#~ msgstr "کاربر وردپرس با این آدرس ایمیل از قبل وجود دارد!"
+
+#~ msgid "Firstly click the login button!"
+#~ msgstr "در ابتدا باید بر روی دکمه ورود کلیک کنید"
+
+#~ msgid "ADD STAFF"
+#~ msgstr "افزودن کارمند"
+
+#~ msgid "STAFF NAME"
+#~ msgstr "نام کارمند"
+
+#~ msgid "EMAIL"
+#~ msgstr "ایمیل"
+
+#~ msgid "This staff has been added some Appointments. Firstly remove them!"
+#~ msgstr "این کارمند به یک رزرو اضافه شده است. ابتدا آن را حذف کنید."
+
+#~ msgid "Add Staff"
+#~ msgstr "افزودن کارمند"
+
+#~ msgid "DETAILS"
+#~ msgstr "جزئیات"
+
+#~ msgid "HOLIDAYS"
+#~ msgstr "تعطیلات"
+
+#~ msgid "Full Name"
+#~ msgstr "نام کامل"
+
+#~ msgid "Profession"
+#~ msgstr "شغل"
+
+#~ msgid "Zoom user"
+#~ msgstr "کاربر Zoom"
+
+#~ msgid "UNHIDE STAFF"
+#~ msgstr "آشکار کردن کارمند"
+
+#~ msgid "HIDE STAFF"
+#~ msgstr "مخفی کردن کارمند"
+
+#~ msgid "SAVE STAFF"
+#~ msgstr "ذخیره کارمند"
+
+#~ msgid ""
+#~ "You have reached your allowed maximum WhatsApp message limit. Please "
+#~ "upgrade your plan."
+#~ msgstr ""
+#~ "شما به حداکثر محدوده پیام واتس اپ رسیده اید. لطفا برنامه را ارتقا دهید."
+
+#~ msgid "Please configure WhatsApp settings!"
+#~ msgstr "لطفا تنظیمات واتس اپ را انجام دهید."
+
+#~ msgid "Whatsapp Notifications"
+#~ msgstr "اعلانات واتس اپ"
+
+#~ msgid "SEND TEST MESSAGE"
+#~ msgstr "ارسال پیغام تست"
+
+#~ msgid "Message body"
+#~ msgstr "بدنه پیام"
+
+#~ msgid "Send test message"
+#~ msgstr "ارسال پیام تست"
+
+#~ msgid "Fistly You have to select Service, Staff and Date fields!"
+#~ msgstr "در ابتدا شما باید یک سرویس، کارمند و تاریخ را انتخاب کنید."
+
+#~ msgid "Please choose dates"
+#~ msgstr "لطفا تاریخ ها را انتخاب کنید"
+
+#~ msgid "There is no Location to match your request."
+#~ msgstr "موقعیت مکانی مناسب با درخواست شما یافت نشد."
+
+#~ msgid "Please select payment method!"
+#~ msgstr "لطفا روش پرداخت را انتخاب کنید."
+
+#~ msgid "Please refresh the page and try again."
+#~ msgstr "لطفا صفحه را مجددا بارگزاری کرده و دوباره تلاش کنید."
+
+#, fuzzy
+#~| msgid "This service name is already exist! Please choose an other name."
+#~ msgid "This email address is already used by another customer."
+#~ msgstr "این سرویس از قبل موجود است. لطفا نام دیگری انتخاب کنید."
+
+#~ msgid "Profile data was saved successfully"
+#~ msgstr "اطلاعات پروفایل با موفقیت ذخیره شد."
+
+#~ msgid "Password does not match!"
+#~ msgstr "رمز عبور مطابقت ندارد!"
+
+#~ msgid "Current password is wrong!"
+#~ msgstr "رمز مورد نظر اشتباه است!"
+
+#~ msgid "Password was changed successfully"
+#~ msgstr "رمز عبور با موفقیت تغییر یافت"
+
+#~ msgid "You can not change the date and time to past."
+#~ msgstr "نمی توانید تاریخ و زمانی که مربوط به گذشته است را تغییر دهید."
+
+#, php-format
+#~ msgid ""
+#~ "Minimum time requirement prior to change the appointment date and time is "
+#~ "%s"
+#~ msgstr "حداقل زمان لازم قبل از تغییر تاریخ و زمان رزرو  %s  است"
+
+#, php-format
+#~ msgid "You cannot change the appointment less than %s in advance"
+#~ msgstr "نمی توانید وقت قبلی را کمتر از %s تغییر دهید"
+
+#~ msgid "You have not changed the date and time."
+#~ msgstr "شما تاریخ و زمان را تغییر نداده اید."
+
+#~ msgid "Appointment was rescheduled successfully!"
+#~ msgstr "رزرو با موفقیت مجددا تنظیم شد"
+
+#~ msgid "You have canceled the appointment!"
+#~ msgstr "شما رزرو را لغو کرده اید!"
+
+#~ msgid ""
+#~ "You can't receive appointments. Please upgrade your plan to receive "
+#~ "appointments."
+#~ msgstr ""
+#~ "نمی توانید رزروی دریافت کنید. لطفاً پلن خود را برای دریافت رزرو ارتقا دهید."
+
+#~ msgid "We aren’t able to process your payment. Please, try again."
+#~ msgstr "ما قادر به پردازش پرداخت  شما نیستیم. لطفا مجددا تلاش کنید."
+
+#~ msgid "TRY AGAIN"
+#~ msgstr "دوباره تلاش کنید"
+
+#~ msgid "Thank you for your request!"
+#~ msgstr "از درخواست شما متشکریم!"
+
+#~ msgid "Your confirmation number:"
+#~ msgstr "شماره تأیید شما:"
+
+#~ msgid "ADD TO GOOGLE CALENDAR"
+#~ msgstr "افزودن به تقویم گوگل"
+
+#~ msgid "START NEW BOOKING"
+#~ msgstr "شروع یک رزرو جدید"
+
+#~ msgid "FINISH BOOKING"
+#~ msgstr "اتمام رزرو"
+
+#, php-format
+#~ msgid "Powered by %s"
+#~ msgstr "نیرو گرفته توسط %s"
+
+#~ msgid "Charge for Gift Card"
+#~ msgstr "اعتبار کارت هدیه"
+
+#~ msgid "Coupon"
+#~ msgstr "کوپن تخفیف"
+
+#~ msgid "OK"
+#~ msgstr "اعمال"
+
+#~ msgid "Giftcard"
+#~ msgstr "کارت هدیه"
+
+#~ msgid "ADD"
+#~ msgstr "افزودن"
+
+#~ msgid "Total price"
+#~ msgstr "قیمت کل"
+
+#~ msgid "Full amount"
+#~ msgstr "کل مبلغ"
+
+#~ msgid "Please wait, You are automatically redirecting to order page..."
+#~ msgstr "لطفا صبر کنید ، شما به طور خودکار به صفحه سفارش هدایت می شوید ..."
+
+#~ msgid "Select date"
+#~ msgstr "انتخاب تاریخ"
+
+#~ msgid "Bring People with You"
+#~ msgstr "افراد همراه شما"
+
+#~ msgid "Number of people:"
+#~ msgstr "تعداد افراد:"
+
+#~ msgid "CONTINUE WITH FACEBOOK"
+#~ msgstr "ادامه با فیسبوک"
+
+#~ msgid "CONTINUE WITH GOOGLE"
+#~ msgstr "ادامه با حساب کاربری گوگل"
+
+#~ msgid "Surname"
+#~ msgstr "نام خانوادگی"
+
+#~ msgid "LOGOUT"
+#~ msgstr "خروج از حساب کاربری"
+
+#~ msgid "Profile"
+#~ msgstr "پروفایل"
+
+#~ msgid "Change password"
+#~ msgstr "تغییر رمز"
+
+#~ msgid "Company"
+#~ msgstr "شرکت"
+
+#~ msgid "Reschedule"
+#~ msgstr "زمانبندی مجدد"
+
+#~ msgid "DELETE MY PROFILE"
+#~ msgstr "پروفایل مرا حذف کن"
+
+#~ msgid "Current password"
+#~ msgstr "رمز مورد نظر"
+
+#~ msgid "New password"
+#~ msgstr "رمز جدید"
+
+#~ msgid "Repeat new password"
+#~ msgstr "تکرار رمز عبور جدید"
+
+#~ msgid "CHANGE PASSWORD"
+#~ msgstr "تغییر رمز"
+
+#~ msgid "RESCHEDULE"
+#~ msgstr "زمانبندی مجدد"
+
+#~ msgid "Are you sure you want to cancel the appointment?"
+#~ msgstr "آیا مطمئن هستید که می خواهید رزرو را لغو کنید؟"
+
+#~ msgid "Are you sure you want to delete your profile?"
+#~ msgstr "آیا مطمئن هستید که می خواهید پروفایل خود را حذف کنید؟"
+
+#~ msgid ""
+#~ "An error occurred while processing your request! Please close the window "
+#~ "and try again!"
+#~ msgstr ""
+#~ "هنگام بررسی درخواست شما یک خطا رخ داده است! لطفاً پنجره را ببندید و دوباره "
+#~ "امتحان کنید!"
+
+#~ msgid "Couldn't create a payment!"
+#~ msgstr "پرداختی انجام نشد!"
+
+#~ msgid "An error occurred, please try again later"
+#~ msgstr "خطایی رخ داد. لطفا بعدا امتحان نمایید"
+
+#~ msgid "Please enter the purchase code!"
+#~ msgstr "لطفا کد خرید را وارد کنید"
+
+#, php-format
+#~ msgid ""
+#~ "Your server can not access our license server via CURL! Our license server "
+#~ "is \"%s\". Please contact your hosting provider/server administrator and "
+#~ "ask them to solve the problem. If you are sure that problem is not your "
+#~ "server/hosting side then contact FS Poster administrators."
+#~ msgstr ""
+#~ "سرور شما نمی تواند از طریق CURL به سرور مجوز ما دسترسی پیدا کند! سرور مجوز "
+#~ "ما \" s٪\" است. لطفاً با ارائه دهنده میزبان / سرور خود تماس بگیرید و از "
+#~ "آنها بخواهید مشکل را حل کنند. اگر مطمئن هستید که مشکل سرور / میزبان شما "
+#~ "نیست ، با سرپرستان بوکنتیک تماس بگیرید."
+
+#, php-format
+#~ msgid "Reactivation failed! Response: %s"
+#~ msgstr "فعال سازی مجدد انجام نشد! پاسخ : %s"
+
+#, php-format
+#~ msgid "Error! Response: %s"
+#~ msgstr " خطا در پاسخ : %s"
+
+#~ msgid "Plugin reactivated!"
+#~ msgstr "پلاگین دوباره فعال شد!"
+
+#, php-format
+#~ msgid "%s - action not exists in %s module!"
+#~ msgstr "%s - عملکرد در ماژول %s وجود ندارد!"
+
+#, php-format
+#~ msgid ""
+#~ "Booknetic! Your server can not access our license server via CURL! Our "
+#~ "license server is \"%s\". Please contact your hosting provider/server "
+#~ "administrator and ask them to solve the problem. If you are sure that "
+#~ "problem is not your server/hosting side then contact Booknetic "
+#~ "administrators."
+#~ msgstr ""
+#~ "سرور شما نمی تواند از طریق CURL به سرور مجوز ما دسترسی پیدا کند! سرور مجوز "
+#~ "ما \"s٪ است. لطفاً با ارائه دهنده میزبان / سرور خود تماس بگیرید و از آنها "
+#~ "بخواهید مشکل را حل کنند. اگر مطمئن هستید که مشکل سرور / میزبان شما نیست ، "
+#~ "با سرپرستان بوکنتیک تماس بگیرید."
+
+#, php-format
+#~ msgid "Booknetic! Installation error! Rosponse error! Response: %s"
+#~ msgstr "خطای نصب بوکنتیک: %s"
+
+#~ msgid "Booknetic Customers"
+#~ msgstr "مشتریان بوکنتیک"
+
+#~ msgid "Booknetic Staff"
+#~ msgstr "کارمند بوکنتیک"
+
+#~ msgid "Please set table name for deleting rows!"
+#~ msgstr "لطفاً نام جدول را برای حذف ردیف ها تنظیم کنید!"
+
+#~ msgid "Redirecting..."
+#~ msgstr "در حال انتقال"
+
+#~ msgid "Select staff"
+#~ msgstr "انتخاب کارمند"
+
+#~ msgid "Select location"
+#~ msgstr "انتخاب موقعیت مکانی"
+
+#~ msgid "Select service extras"
+#~ msgstr "خدمات اضافی را انتخاب کنید"
+
+#~ msgid "Fill information"
+#~ msgstr "تکمیل اطلاعات"
+
+#~ msgid "Select Date & Time"
+#~ msgstr "انتخاب تاریخ و زمان"
+
+#~ msgid "Recurring info"
+#~ msgstr "اطلاعات تکراری"
+
+#~ msgid "Confirm Details"
+#~ msgstr "جزئیات تایید"
+
+#~ msgid "weeks"
+#~ msgstr "هفته"
+
+#~ msgid "days"
+#~ msgstr "روز"
+
+#~ msgid "hour"
+#~ msgstr "ساعت"
+
+#~ msgid "hours"
+#~ msgstr "ساعت"
+
+#~ msgid "minute"
+#~ msgstr "دقیقه"
+
+#~ msgid "minutes"
+#~ msgstr "دقیقه"
+
+#~ msgid "second"
+#~ msgstr "ثانیه"
+
+#~ msgid "seconds"
+#~ msgstr "ثانیه"
+
+#~ msgid ""
+#~ "\"allow_url_fopen\" disabled in your php.ini settings! Please actiavte id "
+#~ "and try again!"
+#~ msgstr ""
+#~ "\"allow_url_fopen\" در تنظیمات php.ini  شما غیر فعال شده است. لطفا آن را "
+#~ "فعال کرده و مجددا امتحان کنید."
+
+#~ msgid "PayPal"
+#~ msgstr "پی پال"
+
+#~ msgid "On site"
+#~ msgstr "در سایت"
+
+#, php-format
+#~ msgid "View ( %s ) not found!"
+#~ msgstr "نمایش ( %s ) یافت نشد!"

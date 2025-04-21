@@ -1,0 +1,557 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: test\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-24 14:37+0400\n"
+"PO-Revision-Date: 2022-09-24 14:37+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ../app\n"
+"X-Poedit-KeywordsList: bkntc__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: Frontend/assets/js/datepicker.min.js\n"
+"X-Poedit-SearchPathExcluded-1: Frontend/assets/js/intlTelInput.min.js\n"
+"X-Poedit-SearchPathExcluded-2: Frontend/assets/js/jquery.nicescroll.min."
+"js\n"
+"X-Poedit-SearchPathExcluded-3: Frontend/assets/js/utilsIntlTelInput.js\n"
+
+#: Backend/Ajax.php:84
+msgid "Please fill the SMTP credentials!"
+msgstr ""
+
+#: Backend/Ajax.php:87
+#, fuzzy
+#| msgid "Please fill in all required fields!"
+msgid "Please fill the Gmail SMTP credentials!"
+msgstr "Please fill in all required fields!"
+
+#: Backend/Ajax.php:93
+msgid "Please type the sender name field!"
+msgstr ""
+
+#: Backend/Ajax.php:100
+msgid "Please type the sender email field!"
+msgstr ""
+
+#: Backend/view/email_settings.php:15
+msgid "SAVE CHANGES"
+msgstr ""
+
+#: Backend/view/email_settings.php:20 EmailWorkflowAddon.php:27
+#: EmailWorkflowAddon.php:32 EmailWorkflowAddon.php:54
+msgid "Email settings"
+msgstr ""
+
+#: Backend/view/email_settings.php:27
+msgid "Mail Gateway"
+msgstr ""
+
+#: Backend/view/email_settings.php:29
+msgid "WordPress Mail"
+msgstr ""
+
+#: Backend/view/email_settings.php:30
+msgid "SMTP"
+msgstr ""
+
+#: Backend/view/email_settings.php:31
+msgid "Gmail SMTP"
+msgstr ""
+
+#: Backend/view/email_settings.php:39
+msgid "SMTP Hostname"
+msgstr ""
+
+#: Backend/view/email_settings.php:43
+msgid "SMTP Port"
+msgstr ""
+
+#: Backend/view/email_settings.php:47
+msgid "SMTP Secure"
+msgstr ""
+
+#: Backend/view/email_settings.php:49
+msgid "TLS"
+msgstr ""
+
+#: Backend/view/email_settings.php:50
+msgid "SSL"
+msgstr ""
+
+#: Backend/view/email_settings.php:51
+msgid "Disabled ( not recommend )"
+msgstr ""
+
+#: Backend/view/email_settings.php:58
+msgid "Username"
+msgstr ""
+
+#: Backend/view/email_settings.php:62
+msgid "Password"
+msgstr ""
+
+#: Backend/view/email_settings.php:70
+msgid "Client ID"
+msgstr ""
+
+#: Backend/view/email_settings.php:74
+msgid "Client secret"
+msgstr ""
+
+#: Backend/view/email_settings.php:78
+msgid "Redirect URI"
+msgstr ""
+
+#: Backend/view/email_settings.php:84
+msgid "Authorize"
+msgstr ""
+
+#: Backend/view/email_settings.php:86
+#, php-format
+msgid "Logged as %s"
+msgstr ""
+
+#: Backend/view/email_settings.php:87
+msgid "Log out"
+msgstr ""
+
+#: Backend/view/email_settings.php:96
+msgid "Sender E-mail"
+msgstr ""
+
+#: Backend/view/email_settings.php:100 Backend/view/email_settings.php:107
+msgid "Sender Name"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:30
+msgid "Edit action"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:40
+msgid "To"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:51
+msgid "Subject"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:58
+msgid "Body"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:65
+msgid "Attachment(s)"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:82
+msgid "Enabled"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:85
+msgid "CANCEL"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:86
+msgid "SAVE & TEST"
+msgstr ""
+
+#: Backend/view/workflow_action_edit.php:87
+msgid "SAVE"
+msgstr ""
+
+#: EmailWorkflowAddon.php:26
+msgid "Email workflow integration"
+msgstr ""
+
+#: EmailWorkflowAddon.php:33
+msgid "Allowed maximum Email"
+msgstr ""
+
+#: EmailWorkflowAddon.php:55
+msgid ""
+"You must set this settings for email workflow action ( wp_mail or SMTP "
+"settings )"
+msgstr ""
+
+#: EmailWorkflowAddon.php:66
+msgid "Email"
+msgstr ""
+
+#: EmailWorkflowDriver.php:28
+#, fuzzy
+#| msgid "Email"
+msgid "Send Email"
+msgstr "Email"
+
+#~ msgid "Please fill in all required fields correctly!"
+#~ msgstr "Please fill in all required fields correctly!"
+
+#~ msgid "Location"
+#~ msgstr "Location"
+
+#~ msgid "Staff"
+#~ msgstr "Staff"
+
+#~ msgid "Service"
+#~ msgstr "Services"
+
+#~ msgid "Service Extras"
+#~ msgstr "Service Extras"
+
+#~ msgid "Date & Time"
+#~ msgstr "Date & Time"
+
+#~ msgid "Information"
+#~ msgstr "Information"
+
+#~ msgid "Confirmation"
+#~ msgstr "Confirmation"
+
+#~ msgid "Select service"
+#~ msgstr "Select service"
+
+#~ msgid "BACK"
+#~ msgstr "BACK"
+
+#~ msgid "NEXT STEP"
+#~ msgstr "NEXT STEP"
+
+#, php-format
+#~ msgid "Minimum length of \"%s\" field is %d!"
+#~ msgstr "Minimum length of \"%s\" field is %d!"
+
+#, php-format
+#~ msgid "Maximum length of \"%s\" field is %d!"
+#~ msgstr "Maximum length of \"%s\" field is %d!"
+
+#~ msgid "File extension is not allowed!"
+#~ msgstr "File extension is not allowed!"
+
+#~ msgid "DATE"
+#~ msgstr "DATE"
+
+#~ msgid "Days of week"
+#~ msgstr "Days of week"
+
+#~ msgid "Mon"
+#~ msgstr "Mon"
+
+#~ msgid "Tue"
+#~ msgstr "Tue"
+
+#~ msgid "Wed"
+#~ msgstr "Wed"
+
+#~ msgid "Thu"
+#~ msgstr "Thu"
+
+#~ msgid "Fri"
+#~ msgstr "Fri"
+
+#~ msgid "Sat"
+#~ msgstr "Sat"
+
+#~ msgid "Sun"
+#~ msgstr "Sun"
+
+#~ msgid "Monday"
+#~ msgstr "Monday"
+
+#~ msgid "Tuesday"
+#~ msgstr "Tuesday"
+
+#~ msgid "Wednesday"
+#~ msgstr "Wednesday"
+
+#~ msgid "Thursday"
+#~ msgstr "Thursday"
+
+#~ msgid "Friday"
+#~ msgstr "Friday"
+
+#~ msgid "Saturday"
+#~ msgstr "Saturday"
+
+#~ msgid "Sunday"
+#~ msgstr "Sunday"
+
+#~ msgid "Every"
+#~ msgstr "Every"
+
+#~ msgid "DAYS"
+#~ msgstr "DAYS"
+
+#~ msgid "Time"
+#~ msgstr "Time"
+
+#~ msgid "On"
+#~ msgstr "On"
+
+#~ msgid "Specific day"
+#~ msgstr "Specific day"
+
+#~ msgid "First"
+#~ msgstr "First"
+
+#~ msgid "Second"
+#~ msgstr "Second"
+
+#~ msgid "Third"
+#~ msgstr "Third"
+
+#~ msgid "Fourth"
+#~ msgstr "Fourth"
+
+#~ msgid "Last"
+#~ msgstr "Last"
+
+#~ msgid "Start date"
+#~ msgstr "Start date"
+
+#~ msgid "End date"
+#~ msgstr "End date"
+
+#~ msgid "Times"
+#~ msgstr "Times"
+
+#~ msgid "Select..."
+#~ msgstr "Select..."
+
+#~ msgid "TIME"
+#~ msgstr "TIME"
+
+#~ msgid "EDIT"
+#~ msgstr "EDIT"
+
+#~ msgid "Discount"
+#~ msgstr "Discount"
+
+#, fuzzy
+#~ msgid "Tax amount"
+#~ msgstr "Full amount"
+
+#~ msgid "January"
+#~ msgstr "January"
+
+#~ msgid "February"
+#~ msgstr "February"
+
+#~ msgid "March"
+#~ msgstr "March"
+
+#~ msgid "April"
+#~ msgstr "April"
+
+#~ msgid "May"
+#~ msgstr "May"
+
+#~ msgid "June"
+#~ msgstr "June"
+
+#~ msgid "July"
+#~ msgstr "July"
+
+#~ msgid "August"
+#~ msgstr "August"
+
+#~ msgid "September"
+#~ msgstr "September"
+
+#~ msgid "October"
+#~ msgstr "October"
+
+#~ msgid "November"
+#~ msgstr "November"
+
+#~ msgid "December"
+#~ msgstr "December"
+
+#~ msgid "Phone"
+#~ msgstr "Phone"
+
+#, fuzzy
+#~ msgid "Select Type"
+#~ msgstr "Select date"
+
+#, fuzzy
+#~ msgid "Tab Name"
+#~ msgstr "Name"
+
+#, fuzzy
+#~ msgid "Select Language"
+#~ msgstr "Select date"
+
+#, fuzzy
+#~ msgid "Select Service"
+#~ msgstr "Select service"
+
+#, fuzzy
+#~ msgid "Select Staff"
+#~ msgstr "Select staff"
+
+#, fuzzy
+#~ msgid "Select Location"
+#~ msgstr "Select location"
+
+#~ msgid "Daily"
+#~ msgstr "Daily"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Deposit"
+#~ msgstr "Deposit"
+
+#~ msgid "Local"
+#~ msgstr "Local"
+
+#~ msgid "Any staff"
+#~ msgstr "Any staff"
+
+#~ msgid "Select an available staff"
+#~ msgstr "Please select an available time"
+
+#~ msgid "Add coupon"
+#~ msgstr "Add coupon"
+
+#~ msgid "Please select location."
+#~ msgstr "Please select location."
+
+#~ msgid "Please select staff."
+#~ msgstr "Please select staff."
+
+#~ msgid "Please select service"
+#~ msgstr "Please select service"
+
+#~ msgid "Please select week day(s)"
+#~ msgstr "Please select week day(s)"
+
+#~ msgid "Please select week day(s) and time(s) correctly"
+#~ msgstr "Please select week day(s) and time(s) correctly"
+
+#~ msgid "Please select start date"
+#~ msgstr "Please select start date"
+
+#~ msgid "Please select end date"
+#~ msgstr "Please select end date"
+
+#~ msgid "Please select date."
+#~ msgstr "Please select date."
+
+#~ msgid "Please select time."
+#~ msgstr "Please select time."
+
+#~ msgid "Please select an available time"
+#~ msgstr "Please select an available time"
+
+#~ msgid "Please enter a valid email address!"
+#~ msgstr "Please enter a valid email address!"
+
+#~ msgid "Please enter a valid phone number!"
+#~ msgstr "Please enter a valid phone number!"
+
+#~ msgid "CONFIRM BOOKING"
+#~ msgstr "CONFIRM BOOKING"
+
+#~ msgid "There is no any Location for select."
+#~ msgstr "There is no any Location for select."
+
+#~ msgid "Staff not found. Please go back and select a different option."
+#~ msgstr "Staff not found. Please go back and select a different option."
+
+#~ msgid "Service not found. Please go back and select a different option."
+#~ msgstr "Service not found. Please go back and select a different option."
+
+#~ msgid "There isn't any available staff for the selected date/time."
+#~ msgstr "There isn&#039;t any available staff for the selected date/time."
+
+#~ msgid ""
+#~ "Extras not found in this service. You can select other service or click "
+#~ "the <span class=\"booknetic_text_primary\">\"Next step\"</span> button."
+#~ msgstr ""
+#~ "Extras not found in this service. You can select other service or click "
+#~ "the <span class=\"booknetic_text_primary\">\"Next step\"</span> button."
+
+#~ msgid "w"
+#~ msgstr "w"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgid "h"
+#~ msgstr "h"
+
+#~ msgid "m"
+#~ msgstr "m"
+
+#~ msgid "s"
+#~ msgstr "s"
+
+#~ msgid "Finish"
+#~ msgstr "Finish"
+
+#, fuzzy
+#~ msgid "Location ID"
+#~ msgstr "Location"
+
+#~ msgid "Thank you for your request!"
+#~ msgstr "Thank you for your request!"
+
+#~ msgid "Your confirmation number:"
+#~ msgstr "Your confirmation number:"
+
+#~ msgid "ADD TO GOOGLE CALENDAR"
+#~ msgstr "ADD TO GOOGLE CALENDAR"
+
+#~ msgid "START NEW BOOKING"
+#~ msgstr "START NEW BOOKING"
+
+#~ msgid "FINISH BOOKING"
+#~ msgstr "FINISH BOOKING"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Total price"
+#~ msgstr "Total price"
+
+#~ msgid "Full amount"
+#~ msgstr "Full amount"
+
+#~ msgid "Select date"
+#~ msgstr "Select date"
+
+#~ msgid "Surname"
+#~ msgstr "Surname"
+
+#~ msgid "Select staff"
+#~ msgstr "Select staff"
+
+#~ msgid "Select location"
+#~ msgstr "Select location"
+
+#~ msgid "Select service extras"
+#~ msgstr "Select service extras"
+
+#~ msgid "Fill information"
+#~ msgstr "Fill information"
+
+#~ msgid "Select Date & Time"
+#~ msgstr "Select Date & Time"
+
+#~ msgid "Confirm Details"
+#~ msgstr "Confirm Details"
+
+#, fuzzy
+#~ msgid "second"
+#~ msgstr "Second"
+
+#, fuzzy
+#~ msgid "seconds"
+#~ msgstr "Second"

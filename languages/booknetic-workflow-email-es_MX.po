@@ -1,0 +1,575 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: test\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-07 22:03+0400\n"
+"PO-Revision-Date: 2024-08-07 22:04+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ../app\n"
+"X-Poedit-KeywordsList: bkntc__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: Frontend/assets/js/datepicker.min.js\n"
+"X-Poedit-SearchPathExcluded-1: Frontend/assets/js/intlTelInput.min.js\n"
+"X-Poedit-SearchPathExcluded-2: Frontend/assets/js/jquery.nicescroll.min.js\n"
+"X-Poedit-SearchPathExcluded-3: Frontend/assets/js/utilsIntlTelInput.js\n"
+
+#: Backend/Ajax.php:51
+msgid ""
+"New scope added. To refresh the session, please log out and log in again."
+msgstr ""
+
+#: Backend/Ajax.php:104
+msgid "Please fill the SMTP credentials!"
+msgstr "¡Por favor, rellene las credenciales SMTP!"
+
+#: Backend/Ajax.php:107
+#, fuzzy
+#| msgid "Please fill in all required fields!"
+msgid "Please fill the Gmail SMTP credentials!"
+msgstr "¡Por favor, rellene los campos obligatorios!"
+
+#: Backend/Ajax.php:113
+msgid "Please type the sender name field!"
+msgstr "¡Por favor, introduzca el nombre del remitente!"
+
+#: Backend/Ajax.php:120
+msgid "Please type the sender email field!"
+msgstr "¡Por favor, introduzca el correo electrónico del remitente!"
+
+#: Backend/view/email_settings.php:19
+msgid "SAVE CHANGES"
+msgstr "GUARDAR CAMBIOS"
+
+#: Backend/view/email_settings.php:24 EmailWorkflowAddon.php:28
+#: EmailWorkflowAddon.php:33 EmailWorkflowAddon.php:55
+msgid "Email settings"
+msgstr "Configuración de correo electrónico"
+
+#: Backend/view/email_settings.php:31
+msgid "Mail Gateway"
+msgstr "Puerta de enlace de correo"
+
+#: Backend/view/email_settings.php:33
+msgid "WordPress Mail"
+msgstr "Correo de WordPress"
+
+#: Backend/view/email_settings.php:34
+msgid "SMTP"
+msgstr "SMTP"
+
+#: Backend/view/email_settings.php:35
+msgid "Gmail SMTP"
+msgstr "SMTP de Gmail"
+
+#: Backend/view/email_settings.php:43
+msgid "SMTP Hostname"
+msgstr "Nombre del host SMTP"
+
+#: Backend/view/email_settings.php:47
+msgid "SMTP Port"
+msgstr "Puerto SMTP"
+
+#: Backend/view/email_settings.php:51
+msgid "SMTP Secure"
+msgstr "Seguridad SMTP"
+
+#: Backend/view/email_settings.php:53
+msgid "TLS"
+msgstr "TLS"
+
+#: Backend/view/email_settings.php:54
+msgid "SSL"
+msgstr "SSL"
+
+#: Backend/view/email_settings.php:55
+msgid "Disabled ( not recommend )"
+msgstr "Desactivado (no recomendado)"
+
+#: Backend/view/email_settings.php:62
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: Backend/view/email_settings.php:66
+msgid "Password"
+msgstr "Contraseña"
+
+#: Backend/view/email_settings.php:86
+msgid ""
+"Looks like there was an unknown error caused by Google, please contact "
+"support https://support.fs-code.com/"
+msgstr ""
+
+#: Backend/view/email_settings.php:95
+msgid "Client ID"
+msgstr "ID del cliente"
+
+#: Backend/view/email_settings.php:99
+msgid "Client secret"
+msgstr "Secreto del cliente"
+
+#: Backend/view/email_settings.php:103
+msgid "Redirect URI"
+msgstr "URI de redirección"
+
+#: Backend/view/email_settings.php:109
+msgid "Authorize"
+msgstr "Autorizar"
+
+#: Backend/view/email_settings.php:111
+#, php-format
+msgid "Logged as %s"
+msgstr "Conectado como %s"
+
+#: Backend/view/email_settings.php:112
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+#: Backend/view/email_settings.php:121
+msgid "Sender E-mail"
+msgstr "Correo electrónico del remitente"
+
+#: Backend/view/email_settings.php:141 Backend/view/email_settings.php:148
+msgid "Sender Name"
+msgstr "Nombre del remitente"
+
+#: Backend/view/workflow_action_edit.php:30
+msgid "Edit action"
+msgstr "Editar acción"
+
+#: Backend/view/workflow_action_edit.php:40
+msgid "To"
+msgstr "Para"
+
+#: Backend/view/workflow_action_edit.php:51
+msgid "Subject"
+msgstr "Asunto"
+
+#: Backend/view/workflow_action_edit.php:58
+msgid "Body"
+msgstr "Cuerpo"
+
+#: Backend/view/workflow_action_edit.php:65
+msgid "Attachment(s)"
+msgstr "Adjunto(s)"
+
+#: Backend/view/workflow_action_edit.php:82
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: Backend/view/workflow_action_edit.php:85
+msgid "CANCEL"
+msgstr "CANCELAR"
+
+#: Backend/view/workflow_action_edit.php:86
+msgid "SAVE & TEST"
+msgstr "GUARDAR Y PROBAR"
+
+#: Backend/view/workflow_action_edit.php:87
+msgid "SAVE"
+msgstr "GUARDAR"
+
+#: EmailWorkflowAddon.php:27
+msgid "Email workflow integration"
+msgstr "Integración de flujo de trabajo de correo electrónico"
+
+#: EmailWorkflowAddon.php:34
+msgid "Allowed maximum Email"
+msgstr "Número máximo de correos permitidos"
+
+#: EmailWorkflowAddon.php:56
+msgid ""
+"You must set this settings for email workflow action ( wp_mail or SMTP "
+"settings )"
+msgstr ""
+"Debe configurar estos ajustes para la acción del flujo de trabajo de correo "
+"(wp_mail o configuración SMTP)"
+
+#: EmailWorkflowAddon.php:67
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: EmailWorkflowDriver.php:29
+#, fuzzy
+#| msgid "Email"
+msgid "Send Email"
+msgstr "Correo electrónico"
+
+#~ msgid "Please fill in all required fields correctly!"
+#~ msgstr "¡Por favor, rellene correctamente todos los campos obligatorios!"
+
+#~ msgid "Location"
+#~ msgstr "Ubicación"
+
+#~ msgid "Staff"
+#~ msgstr "Personal"
+
+#~ msgid "Service"
+#~ msgstr "Servicios"
+
+#~ msgid "Service Extras"
+#~ msgstr "Extras del servicio"
+
+#~ msgid "Date & Time"
+#~ msgstr "Fecha y hora"
+
+#~ msgid "Information"
+#~ msgstr "Información"
+
+#~ msgid "Confirmation"
+#~ msgstr "Confirmación"
+
+#~ msgid "Select service"
+#~ msgstr "Seleccionar servicio"
+
+#~ msgid "BACK"
+#~ msgstr "ATRÁS"
+
+#~ msgid "NEXT STEP"
+#~ msgstr "SIGUIENTE PASO"
+
+#, php-format
+#~ msgid "Minimum length of \"%s\" field is %d!"
+#~ msgstr "¡La longitud mínima del campo \"%s\" es %d!"
+
+#, php-format
+#~ msgid "Maximum length of \"%s\" field is %d!"
+#~ msgstr "¡La longitud máxima del campo \"%s\" es %d!"
+
+#~ msgid "File extension is not allowed!"
+#~ msgstr "¡La extensión del archivo no está permitida!"
+
+#~ msgid "DATE"
+#~ msgstr "FECHA"
+
+#~ msgid "Days of week"
+#~ msgstr "Días de la semana"
+
+#~ msgid "Mon"
+#~ msgstr "Lun"
+
+#~ msgid "Tue"
+#~ msgstr "Mar"
+
+#~ msgid "Wed"
+#~ msgstr "Mié"
+
+#~ msgid "Thu"
+#~ msgstr "Jue"
+
+#~ msgid "Fri"
+#~ msgstr "Vie"
+
+#~ msgid "Sat"
+#~ msgstr "Sáb"
+
+#~ msgid "Sun"
+#~ msgstr "Dom"
+
+#~ msgid "Monday"
+#~ msgstr "Lunes"
+
+#~ msgid "Tuesday"
+#~ msgstr "Martes"
+
+#~ msgid "Wednesday"
+#~ msgstr "Miércoles"
+
+#~ msgid "Thursday"
+#~ msgstr "Jueves"
+
+#~ msgid "Friday"
+#~ msgstr "Viernes"
+
+#~ msgid "Saturday"
+#~ msgstr "Sábado"
+
+#~ msgid "Sunday"
+#~ msgstr "Domingo"
+
+#~ msgid "Every"
+#~ msgstr "Cada"
+
+#~ msgid "DAYS"
+#~ msgstr "DÍAS"
+
+#~ msgid "Time"
+#~ msgstr "Hora"
+
+#~ msgid "On"
+#~ msgstr "En"
+
+#~ msgid "Specific day"
+#~ msgstr "Día específico"
+
+#~ msgid "First"
+#~ msgstr "Primero"
+
+#~ msgid "Second"
+#~ msgstr "Segundo"
+
+#~ msgid "Third"
+#~ msgstr "Tercero"
+
+#~ msgid "Fourth"
+#~ msgstr "Cuarto"
+
+#~ msgid "Last"
+#~ msgstr "Último"
+
+#~ msgid "Start date"
+#~ msgstr "Fecha de inicio"
+
+#~ msgid "End date"
+#~ msgstr "Fecha de fin"
+
+#~ msgid "Times"
+#~ msgstr "Veces"
+
+#~ msgid "Select..."
+#~ msgstr "Seleccionar..."
+
+#~ msgid "TIME"
+#~ msgstr "HORA"
+
+#~ msgid "EDIT"
+#~ msgstr "EDITAR"
+
+#~ msgid "Discount"
+#~ msgstr "Descuento"
+
+#, fuzzy
+#~ msgid "Tax amount"
+#~ msgstr "Monto total"
+
+#~ msgid "January"
+#~ msgstr "Enero"
+
+#~ msgid "February"
+#~ msgstr "Febrero"
+
+#~ msgid "March"
+#~ msgstr "Marzo"
+
+#~ msgid "April"
+#~ msgstr "Abril"
+
+#~ msgid "May"
+#~ msgstr "Mayo"
+
+#~ msgid "June"
+#~ msgstr "Junio"
+
+#~ msgid "July"
+#~ msgstr "Julio"
+
+#~ msgid "August"
+#~ msgstr "Agosto"
+
+#~ msgid "September"
+#~ msgstr "Septiembre"
+
+#~ msgid "October"
+#~ msgstr "Octubre"
+
+#~ msgid "November"
+#~ msgstr "Noviembre"
+
+#~ msgid "December"
+#~ msgstr "Diciembre"
+
+#~ msgid "Phone"
+#~ msgstr "Teléfono"
+
+#, fuzzy
+#~ msgid "Select Type"
+#~ msgstr "Seleccionar fecha"
+
+#, fuzzy
+#~ msgid "Tab Name"
+#~ msgstr "Nombre"
+
+#, fuzzy
+#~ msgid "Select Language"
+#~ msgstr "Seleccionar fecha"
+
+#, fuzzy
+#~ msgid "Select Service"
+#~ msgstr "Seleccionar servicio"
+
+#, fuzzy
+#~ msgid "Select Staff"
+#~ msgstr "Seleccionar personal"
+
+#, fuzzy
+#~ msgid "Select Location"
+#~ msgstr "Seleccionar ubicación"
+
+#~ msgid "Daily"
+#~ msgstr "Diario"
+
+#~ msgid "Name"
+#~ msgstr "Nombre"
+
+#~ msgid "Deposit"
+#~ msgstr "Depósito"
+
+#~ msgid "Local"
+#~ msgstr "Local"
+
+#~ msgid "Any staff"
+#~ msgstr "Cualquier personal"
+
+#~ msgid "Select an available staff"
+#~ msgstr "Por favor, selecciona un personal disponible"
+
+#~ msgid "Add coupon"
+#~ msgstr "Agregar cupón"
+
+#~ msgid "Please select location."
+#~ msgstr "Por favor, selecciona una ubicación."
+
+#~ msgid "Please select staff."
+#~ msgstr "Por favor, selecciona el personal."
+
+#~ msgid "Please select service"
+#~ msgstr "Por favor, selecciona el servicio"
+
+#~ msgid "Please select week day(s)"
+#~ msgstr "Por favor, selecciona el/los día(s) de la semana"
+
+#~ msgid "Please select week day(s) and time(s) correctly"
+#~ msgstr ""
+#~ "Por favor, selecciona los días de la semana y las horas correctamente"
+
+#~ msgid "Please select start date"
+#~ msgstr "Por favor, selecciona la fecha de inicio"
+
+#~ msgid "Please select end date"
+#~ msgstr "Por favor, selecciona la fecha de fin"
+
+#~ msgid "Please select date."
+#~ msgstr "Por favor, selecciona una fecha."
+
+#~ msgid "Please select time."
+#~ msgstr "Por favor, selecciona una hora."
+
+#~ msgid "Please select an available time"
+#~ msgstr "Por favor, selecciona una hora disponible"
+
+#~ msgid "Please enter a valid email address!"
+#~ msgstr "¡Por favor, ingresa una dirección de correo electrónico válida!"
+
+#~ msgid "Please enter a valid phone number!"
+#~ msgstr "¡Por favor, ingresa un número de teléfono válido!"
+
+#~ msgid "CONFIRM BOOKING"
+#~ msgstr "CONFIRMAR RESERVA"
+
+#~ msgid "There is no any Location for select."
+#~ msgstr "No hay ninguna ubicación para seleccionar."
+
+#~ msgid "Staff not found. Please go back and select a different option."
+#~ msgstr ""
+#~ "Personal no encontrado. Por favor, regresa y selecciona una opción "
+#~ "diferente."
+
+#~ msgid "Service not found. Please go back and select a different option."
+#~ msgstr ""
+#~ "Servicio no encontrado. Por favor, regresa y selecciona una opción "
+#~ "diferente."
+
+#~ msgid "There isn't any available staff for the selected date/time."
+#~ msgstr "No hay personal disponible para la fecha/hora seleccionada."
+
+#~ msgid ""
+#~ "Extras not found in this service. You can select other service or click "
+#~ "the <span class=\"booknetic_text_primary\">\"Next step\"</span> button."
+#~ msgstr ""
+#~ "Extras no encontrados en este servicio. Puedes seleccionar otro servicio "
+#~ "o hacer clic en el botón <span "
+#~ "class=\"booknetic_text_primary\">\"Siguiente paso\"</span>."
+
+#~ msgid "w"
+#~ msgstr "s"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgid "h"
+#~ msgstr "h"
+
+#~ msgid "m"
+#~ msgstr "m"
+
+#~ msgid "s"
+#~ msgstr "s"
+
+#~ msgid "Finish"
+#~ msgstr "Finalizar"
+
+#, fuzzy
+#~ msgid "Location ID"
+#~ msgstr "Ubicación"
+
+#~ msgid "Thank you for your request!"
+#~ msgstr "¡Gracias por tu solicitud!"
+
+#~ msgid "Your confirmation number:"
+#~ msgstr "Tu número de confirmación:"
+
+#~ msgid "ADD TO GOOGLE CALENDAR"
+#~ msgstr "AGREGAR AL CALENDARIO DE GOOGLE"
+
+#~ msgid "START NEW BOOKING"
+#~ msgstr "INICIAR NUEVA RESERVA"
+
+#~ msgid "FINISH BOOKING"
+#~ msgstr "FINALIZAR RESERVA"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Total price"
+#~ msgstr "Precio total"
+
+#~ msgid "Full amount"
+#~ msgstr "Monto total"
+
+#~ msgid "Select date"
+#~ msgstr "Seleccionar fecha"
+
+#~ msgid "Surname"
+#~ msgstr "Apellido"
+
+#~ msgid "Select staff"
+#~ msgstr "Seleccionar personal"
+
+#~ msgid "Select location"
+#~ msgstr "Seleccionar ubicación"
+
+#~ msgid "Select service extras"
+#~ msgstr "Seleccionar extras del servicio"
+
+#~ msgid "Fill information"
+#~ msgstr "Rellenar información"
+
+#~ msgid "Select Date & Time"
+#~ msgstr "Seleccionar fecha y hora"
+
+#~ msgid "Confirm Details"
+#~ msgstr "Confirmar detalles"
+
+#, fuzzy
+#~ msgid "second"
+#~ msgstr "Segundo"
+
+#, fuzzy
+#~ msgid "seconds"
+#~ msgstr "Segundos"

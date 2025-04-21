@@ -1,0 +1,2948 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-09-24 14:36+0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: bkntc__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: app/Frontend/assets/js/datepicker.min.js\n"
+"X-Poedit-SearchPathExcluded-1: app/Frontend/assets/js/intlTelInput.min.js\n"
+"X-Poedit-SearchPathExcluded-2: app/Frontend/assets/js/jquery.nicescroll.min."
+"js\n"
+"X-Poedit-SearchPathExcluded-3: app/Frontend/assets/js/utilsIntlTelInput.js\n"
+
+#: App/Backend/Ajax.php:84
+msgid "Please fill the SMTP credentials!"
+msgstr "Пожалуйста, заполните данные SMTP!"
+
+#: App/Backend/Ajax.php:87
+#, fuzzy
+#| msgid "Please fill the SMTP credentials!"
+msgid "Please fill the Gmail SMTP credentials!"
+msgstr "Пожалуйста, заполните данные SMTP!"
+
+#: App/Backend/Ajax.php:93
+msgid "Please type the sender name field!"
+msgstr "Пожалуйста, введите поле имени отправителя!"
+
+#: App/Backend/Ajax.php:100
+msgid "Please type the sender email field!"
+msgstr "Пожалуйста, введите поле email'а отправителя!"
+
+#: App/Backend/view/email_settings.php:15
+msgid "SAVE CHANGES"
+msgstr "СОХРАНИТЬ ИЗМЕНЕНИЯ"
+
+#: App/Backend/view/email_settings.php:20 App/EmailWorkflowAddon.php:27
+#: App/EmailWorkflowAddon.php:32 App/EmailWorkflowAddon.php:54
+msgid "Email settings"
+msgstr "Настройки электронной почты"
+
+#: App/Backend/view/email_settings.php:27
+msgid "Mail Gateway"
+msgstr "Почтовый шлюз"
+
+#: App/Backend/view/email_settings.php:29
+msgid "WordPress Mail"
+msgstr "WordPress Почта"
+
+#: App/Backend/view/email_settings.php:30
+msgid "SMTP"
+msgstr "SMTP"
+
+#: App/Backend/view/email_settings.php:31
+msgid "Gmail SMTP"
+msgstr ""
+
+#: App/Backend/view/email_settings.php:39
+msgid "SMTP Hostname"
+msgstr "SMTP Название Хоста"
+
+#: App/Backend/view/email_settings.php:43
+msgid "SMTP Port"
+msgstr "SMTP Порт"
+
+#: App/Backend/view/email_settings.php:47
+msgid "SMTP Secure"
+msgstr "SMTP Безопасность"
+
+#: App/Backend/view/email_settings.php:49
+msgid "TLS"
+msgstr "TLS"
+
+#: App/Backend/view/email_settings.php:50
+msgid "SSL"
+msgstr "SSL"
+
+#: App/Backend/view/email_settings.php:51
+msgid "Disabled ( not recommend )"
+msgstr "Отключено ( не рекомендовано )"
+
+#: App/Backend/view/email_settings.php:58
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: App/Backend/view/email_settings.php:62
+msgid "Password"
+msgstr "Пароль"
+
+#: App/Backend/view/email_settings.php:70
+msgid "Client ID"
+msgstr "ID Клиента"
+
+#: App/Backend/view/email_settings.php:74
+#, fuzzy
+#| msgid "Client Secret"
+msgid "Client secret"
+msgstr "Секрет Клиента"
+
+#: App/Backend/view/email_settings.php:78
+msgid "Redirect URI"
+msgstr "URI перенаправления"
+
+#: App/Backend/view/email_settings.php:84
+#, fuzzy
+#| msgid "Auth Token"
+msgid "Authorize"
+msgstr "Auth Token"
+
+#: App/Backend/view/email_settings.php:86
+#, php-format
+msgid "Logged as %s"
+msgstr ""
+
+#: App/Backend/view/email_settings.php:87
+msgid "Log out"
+msgstr ""
+
+#: App/Backend/view/email_settings.php:96
+msgid "Sender E-mail"
+msgstr "Email отправителя"
+
+#: App/Backend/view/email_settings.php:100
+#: App/Backend/view/email_settings.php:107
+msgid "Sender Name"
+msgstr "Имя отправителя"
+
+#: App/Backend/view/workflow_action_edit.php:30
+#, fuzzy
+#| msgid "Add Location"
+msgid "Edit action"
+msgstr "Добавить локацию"
+
+#: App/Backend/view/workflow_action_edit.php:40
+msgid "To"
+msgstr ""
+
+#: App/Backend/view/workflow_action_edit.php:51
+#, fuzzy
+#| msgid "Email subject"
+msgid "Subject"
+msgstr "Тема письма"
+
+#: App/Backend/view/workflow_action_edit.php:58
+msgid "Body"
+msgstr ""
+
+#: App/Backend/view/workflow_action_edit.php:65
+msgid "Attachment(s)"
+msgstr ""
+
+#: App/Backend/view/workflow_action_edit.php:82
+msgid "Enabled"
+msgstr "Включено"
+
+#: App/Backend/view/workflow_action_edit.php:85
+msgid "CANCEL"
+msgstr "ОТМЕНИТЬ"
+
+#: App/Backend/view/workflow_action_edit.php:86
+msgid "SAVE & TEST"
+msgstr ""
+
+#: App/Backend/view/workflow_action_edit.php:87
+msgid "SAVE"
+msgstr "СОХРАНИТЬ"
+
+#: App/EmailWorkflowAddon.php:26
+#, fuzzy
+#| msgid "Email Notifications"
+msgid "Email workflow integration"
+msgstr "Email Уведомления"
+
+#: App/EmailWorkflowAddon.php:33
+msgid "Allowed maximum Email"
+msgstr ""
+
+#: App/EmailWorkflowAddon.php:55
+#, fuzzy
+#| msgid ""
+#| "You must set this settings for email notifications ( wp_mail or SMTP "
+#| "settings )"
+msgid ""
+"You must set this settings for email workflow action ( wp_mail or SMTP "
+"settings )"
+msgstr "Вы должны настроить wp_mail или SMTP настройки"
+
+#: App/EmailWorkflowAddon.php:66
+msgid "Email"
+msgstr "Email"
+
+#: App/EmailWorkflowDriver.php:28
+#, fuzzy
+#| msgid "Sender E-mail"
+msgid "Send Email"
+msgstr "Email отправителя"
+
+#~ msgid "Please fill in all required fields correctly!"
+#~ msgstr "Пожалуйста, заполните все необходимые поля правильно!"
+
+#~ msgid "Theme not found!"
+#~ msgstr "Тема не найдена!"
+
+#~ msgid "You can not delete default theme!"
+#~ msgstr "Вы не можете удалить тему!"
+
+#~ msgid "Appearance"
+#~ msgstr "Внешний вид"
+
+#~ msgid "GO BACK"
+#~ msgstr "Вернуться"
+
+#~ msgid "Options"
+#~ msgstr "Опции"
+
+#~ msgid "Style name"
+#~ msgstr "Название Стиля"
+
+#~ msgid "Type name..."
+#~ msgstr "Название Типа..."
+
+#~ msgid "Panel height"
+#~ msgstr "Высота панели"
+
+#~ msgid "Font family"
+#~ msgstr "Семейство шрифтов"
+
+#~ msgid "Panel background"
+#~ msgstr "Фон Панели"
+
+#~ msgid "Primary BG / text color"
+#~ msgstr "Основной фон / цвет текста"
+
+#~ msgid "Compleated steps BG / label color"
+#~ msgstr "Завершённые шаги фона / цвет метки"
+
+#~ msgid "Active steps BG / label color"
+#~ msgstr "Активные шаги фона / цвет метки"
+
+#~ msgid "Other steps BG / label color"
+#~ msgstr "Другие шаги фона / цвет метки"
+
+#~ msgid "Title color"
+#~ msgstr "Цвет заглавного"
+
+#~ msgid "Border color"
+#~ msgstr "Цвет бордюра"
+
+#~ msgid "Price color"
+#~ msgstr "Цвет цены"
+
+#, fuzzy
+#~| msgid "Custom"
+#~ msgid "Custom CSS"
+#~ msgstr "Кастом"
+
+#~ msgid "DELETE"
+#~ msgstr "УДАЛИТЬ"
+
+#, php-format
+#~ msgid "Theme ID: %d"
+#~ msgstr "ID темы: %d"
+
+#~ msgid "Design"
+#~ msgstr "Дизайн"
+
+#~ msgid "Location"
+#~ msgstr "Локация"
+
+#~ msgid "Staff"
+#~ msgstr "Штат сотрудников"
+
+#~ msgid "Service"
+#~ msgstr "Услуги"
+
+#~ msgid "Service Extras"
+#~ msgstr "Дополнения"
+
+#~ msgid "Date & Time"
+#~ msgstr "Дата и время"
+
+#~ msgid "Information"
+#~ msgstr "Информация"
+
+#~ msgid "Confirmation"
+#~ msgstr "Подтверждение"
+
+#~ msgid "Have any questions?"
+#~ msgstr "Вопросы?"
+
+#~ msgid "Select service"
+#~ msgstr "Выберите услугу"
+
+#~ msgid "Category 1"
+#~ msgstr "Категория 1"
+
+#~ msgid "Service 1"
+#~ msgstr "Услуга 1"
+
+#~ msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+#~ msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+
+#~ msgid "Service 2"
+#~ msgstr "Услуга 2"
+
+#~ msgid "Category 2"
+#~ msgstr "Категория 2"
+
+#~ msgid "Service 3"
+#~ msgstr "Услуга 3"
+
+#~ msgid "BACK"
+#~ msgstr "НАЗАД"
+
+#~ msgid "NEXT STEP"
+#~ msgstr "СЛЕДУЮЩИЙ ШАГ"
+
+#~ msgid "SELECTED"
+#~ msgstr "ВЫБРАННОЕ"
+
+#~ msgid "SELECT"
+#~ msgstr "ВЫБРАТЬ"
+
+#~ msgid "Create new style"
+#~ msgstr "Создать новый стиль"
+
+#~ msgid "Selected appointment not found!"
+#~ msgstr "Выбранная бронь не найдена!"
+
+#~ msgid "Appointment not found!"
+#~ msgstr "Бронь не найдена!"
+
+#~ msgid "Please fill the \"Date\" and \"Time\" field correctly!"
+#~ msgstr "Пожалуйста выберите поле \"Дата\" !"
+
+#~ msgid "Please select customers!"
+#~ msgstr "Пожалуйста, выберите клиентов!"
+
+#~ msgid "Selected service extra doesn't exist!"
+#~ msgstr "Выбранное дополнение не существует!"
+
+#, php-format
+#~ msgid "Max quantity of selected service extra (%s) is %d"
+#~ msgstr "Максимальное количество дополнений (%s) - %d"
+
+#, php-format
+#~ msgid "Limited booking days is %d"
+#~ msgstr "Ограниченное количество дней бронирования %d"
+
+#, php-format
+#~ msgid "Please select a valid time! ( %s %s is busy! )"
+#~ msgstr "Пожалуйста, выберите свободное время! ( %s %s занято! )"
+
+#, php-format
+#~ msgid "%s can not be empty, because it's a required field!"
+#~ msgstr "\"%s\" не может быть пустым, потому что это обязательное поле!"
+
+#~ msgid "Please fill custom fields form correctly!"
+#~ msgstr "Пожалуйста, заполните формы правильно!"
+
+#~ msgid "Selected custom field not found!"
+#~ msgstr "Выбранное поле не найдено!"
+
+#, php-format
+#~ msgid "\"%s\" can not be empty, because it's a required field!"
+#~ msgstr "\"%s\" не может быть пустым, потому что это обязательное поле!"
+
+#, php-format
+#~ msgid "Minimum length of \"%s\" field is %d!"
+#~ msgstr "Минимальная длина поля \"%s\" - %d!"
+
+#, php-format
+#~ msgid "Maximum length of \"%s\" field is %d!"
+#~ msgstr "Максимальная длина поля \"%s\" - %d!"
+
+#~ msgid "File extension is not allowed!"
+#~ msgstr "Расширение файла не допускается!"
+
+#~ msgid "Payment not found!"
+#~ msgstr "Платёж не найден!"
+
+#~ msgid "Appointment not found or permission denied!"
+#~ msgstr "Назначение не найдено или разрешение отклонено!"
+
+#~ msgid "Due amound can't be a negative number!"
+#~ msgstr "Сумма не может быть отрицательным числом!"
+
+#~ msgid "Date"
+#~ msgstr "Дата"
+
+#~ msgid "Customer"
+#~ msgstr "Клиент"
+
+#~ msgid "Status"
+#~ msgstr "Статус"
+
+#~ msgid "Approved"
+#~ msgstr "Одобрено"
+
+#~ msgid "Pending"
+#~ msgstr "В ожидании"
+
+#~ msgid "Canceled"
+#~ msgstr "Отменено"
+
+#~ msgid "Rejected"
+#~ msgstr "Отклонено"
+
+#~ msgid "Appointments"
+#~ msgstr "Брони"
+
+#~ msgid "NEW APPOINTMENT"
+#~ msgstr "НОВАЯ БРОНЬ"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "DATE"
+#~ msgstr "ДАТА"
+
+#~ msgid "CUSTOMER(S)"
+#~ msgstr "Клиент(ы)"
+
+#, php-format
+#~ msgid "+ %d MORE"
+#~ msgstr "+ %d Больше"
+
+#, fuzzy
+#~| msgid "Customers"
+#~ msgid "Customer (s)"
+#~ msgstr "Клиенты"
+
+#~ msgid "STAFF"
+#~ msgstr "ПЕРСОНАЛ"
+
+#~ msgid "SERVICE"
+#~ msgstr "УСЛУГИ"
+
+#~ msgid "PAYMENT"
+#~ msgstr "ПЛАТЕЖИ"
+
+#~ msgid "DURATION"
+#~ msgstr "ПРОДОЛЖИТЕЛЬНОСТЬ"
+
+#~ msgid "CREATED AT"
+#~ msgstr "СОЗДАН В"
+
+#~ msgid "Permission denied!"
+#~ msgstr "В доступе отказано!"
+
+#~ msgid "Please fill \"Start date\" and \"End date\" fields!"
+#~ msgstr "Пожалуйста, заполните поля \"Дата начала\" и \"Дата завершения\" !"
+
+#, php-format
+#~ msgid "Repeat frequency is %d for selected service!"
+#~ msgstr "Частота повторения %d для выбранной услуги!"
+
+#~ msgid "Repeat frequency is is invalid!"
+#~ msgstr "Частота повторения недействительна!"
+
+#~ msgid "Please fill \"Time\" field!"
+#~ msgstr "Пожалуйста, заполните поле \"Время\" !"
+
+#~ msgid ""
+#~ "Error! Full period is wrong on Service options! Please edit your service "
+#~ "info!"
+#~ msgstr ""
+#~ "Ошибка! В параметрах сервиса указан неправильный период! Пожалуйста, "
+#~ "отредактируйте сервис.Информация!"
+
+#~ msgid "Coupon not found!"
+#~ msgstr "Купон не найден!"
+
+#~ msgid "Coupon usage limit exceeded!"
+#~ msgstr "Превышен лимит использования купона!"
+
+#, fuzzy
+#~| msgid "Staff not found!"
+#~ msgid "Giftcard not found!"
+#~ msgstr "Персонал не найден!"
+
+#, fuzzy
+#~| msgid "Staff not found!"
+#~ msgid "Giftcard balance is not enough!"
+#~ msgstr "Персонал не найден!"
+
+#~ msgid "Customer name"
+#~ msgstr "Имя клиента"
+
+#~ msgid "New appointment"
+#~ msgstr "Новая бронь"
+
+#~ msgid "Appointment details"
+#~ msgstr "Данные брони"
+
+#~ msgid "Extras"
+#~ msgstr "Дополнения"
+
+#~ msgid "Category"
+#~ msgstr "Категории"
+
+#~ msgid "Days of week"
+#~ msgstr "Дни недели"
+
+#~ msgid "Mon"
+#~ msgstr "Пн"
+
+#~ msgid "Tue"
+#~ msgstr "Вт"
+
+#~ msgid "Wed"
+#~ msgstr "Ср"
+
+#~ msgid "Thu"
+#~ msgstr "Чт"
+
+#~ msgid "Fri"
+#~ msgstr "Пт"
+
+#~ msgid "Sat"
+#~ msgstr "Сб"
+
+#~ msgid "Sun"
+#~ msgstr "Вс"
+
+#~ msgid "Monday"
+#~ msgstr "Понедельник"
+
+#~ msgid "Copy to all"
+#~ msgstr "Копировать на всё"
+
+#~ msgid "Tuesday"
+#~ msgstr "Вторник"
+
+#~ msgid "Wednesday"
+#~ msgstr "Среда"
+
+#~ msgid "Thursday"
+#~ msgstr "Четверг"
+
+#~ msgid "Friday"
+#~ msgstr "Пятница"
+
+#~ msgid "Saturday"
+#~ msgstr "Суббота"
+
+#~ msgid "Sunday"
+#~ msgstr "Воскресенье"
+
+#~ msgid "Every"
+#~ msgstr "Каждый"
+
+#~ msgid "DAYS"
+#~ msgstr "ДНИ"
+
+#~ msgid "Time"
+#~ msgstr "Время"
+
+#~ msgid "On"
+#~ msgstr "На"
+
+#~ msgid "Specific day"
+#~ msgstr "Определённый день"
+
+#~ msgid "First"
+#~ msgstr "Первое"
+
+#~ msgid "Second"
+#~ msgstr "Второе"
+
+#~ msgid "Third"
+#~ msgstr "Третье"
+
+#~ msgid "Fourth"
+#~ msgstr "Четвёртое"
+
+#~ msgid "Last"
+#~ msgstr "Последнее"
+
+#~ msgid "Start date"
+#~ msgstr "Дата начала"
+
+#~ msgid "End date"
+#~ msgstr "Дата окончания"
+
+#~ msgid "Times"
+#~ msgstr "Времена"
+
+#~ msgid "Select..."
+#~ msgstr "Выбрать..."
+
+#~ msgid "Customers"
+#~ msgstr "Клиенты"
+
+#~ msgid "Add Customer"
+#~ msgstr "Добавить клиента"
+
+#~ msgid "Extras not found!"
+#~ msgstr "Дополнения не найдены!"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "TIME"
+#~ msgstr "ВРЕМЯ"
+
+#~ msgid "Send notifications"
+#~ msgstr "Отправлять уведомления"
+
+#~ msgid "Payment"
+#~ msgstr "Оплата"
+
+#~ msgid "Staff:"
+#~ msgstr "Персонал:"
+
+#~ msgid "Location:"
+#~ msgstr "Локация:"
+
+#~ msgid "Service:"
+#~ msgstr "Услуга:"
+
+#~ msgid "Date, time:"
+#~ msgstr "Дата, время:"
+
+#~ msgid "CUSTOMER"
+#~ msgstr "КЛИЕНТ"
+
+#~ msgid "SUM AMOUNT"
+#~ msgstr "СУММА"
+
+#~ msgid "DISCOUNT"
+#~ msgstr "СКИДКА"
+
+#~ msgid "PAID"
+#~ msgstr "ОПЛАЧЕНО"
+
+#~ msgid "DUE"
+#~ msgstr "ОЖИДАНИЕ"
+
+#~ msgid "STATUS"
+#~ msgstr "СТАТУС"
+
+#~ msgid "PAY"
+#~ msgstr "ОПЛАТИТЬ"
+
+#~ msgid "CLOSE"
+#~ msgstr "ЗАКРЫТЬ"
+
+#~ msgid "No custom data found!"
+#~ msgstr "Пользовательские данные не найдены!"
+
+#~ msgid "Edit Appointment"
+#~ msgstr "Редактировать Бронь"
+
+#~ msgid "Custom fields"
+#~ msgstr "Настраиваемые поля"
+
+#~ msgid "Appointment info"
+#~ msgstr "Информация о брони"
+
+#~ msgid "APPOINTMENT INFO"
+#~ msgstr "ИНФОРМАЦИЯ О БРОНИ"
+
+#~ msgid "CUSTOM FIELDS"
+#~ msgstr "НАСТРАИВАЕМЫЕ ПОЛЯ"
+
+#~ msgid "EXTRAS"
+#~ msgstr "ДОПОЛНЕНИЯ"
+
+#~ msgid "Date, time"
+#~ msgstr "Дата, время"
+
+#~ msgid "Extra name"
+#~ msgstr "Дополнительное имя"
+
+#~ msgid "Duration"
+#~ msgstr "Продолжительность"
+
+#~ msgid "Price"
+#~ msgstr "Цена"
+
+#, fuzzy
+#~| msgid "START NEW BOOKING"
+#~ msgid "START MEETING"
+#~ msgstr "НАЧАТЬ НОВУЮ БРОНЬ"
+
+#~ msgid "EDIT"
+#~ msgstr "РЕДАКТИРОВАТЬ"
+
+#~ msgid "PAYMENTS"
+#~ msgstr "ПЛАТЕЖИ"
+
+#~ msgid "Service amount"
+#~ msgstr "Стоимость услуги"
+
+#~ msgid "Extras amount"
+#~ msgstr "Стоимость экстры"
+
+#~ msgid "Discount"
+#~ msgstr "Скидка"
+
+#, fuzzy
+#~| msgid "Paid amount"
+#~ msgid "Tax amount"
+#~ msgstr "Оплаченная сумма"
+
+#~ msgid "Paid amount"
+#~ msgstr "Оплаченная сумма"
+
+#~ msgid "Payment status"
+#~ msgstr "Статус оплаты"
+
+#~ msgid "Paid"
+#~ msgstr "Оплачено"
+
+#~ msgid "Paid (deposit)"
+#~ msgstr "Оплачено (депозит)"
+
+#~ msgid "EXPORT TO CSV"
+#~ msgstr "ЭКСПОРТИРОВАТЬ В CSV"
+
+#~ msgid "IMPORT"
+#~ msgstr "ИМПОРТИРОВАТЬ"
+
+#~ msgid "Quick search"
+#~ msgstr "Быстрый поиск"
+
+#~ msgid "Info"
+#~ msgstr "Информация"
+
+#~ msgid "Edit"
+#~ msgstr "Редактировать"
+
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#~ msgid "No any data!"
+#~ msgstr "Нет любых данных!"
+
+#, php-format
+#~ msgid "Showing %d of %d total"
+#~ msgstr "Показывает %d от %d всего"
+
+#~ msgid "Need Help?"
+#~ msgstr "Нужна помощь?"
+
+#~ msgid "Selected"
+#~ msgstr "Выбранное"
+
+#~ msgid "Loading..."
+#~ msgstr "Загрузка..."
+
+#~ msgid "( it can take some time, please wait... )"
+#~ msgstr "( это может занять некоторое время, подождите... )"
+
+#, fuzzy
+#~| msgid "Please type the coupon code field!"
+#~ msgid "Enter the purchase key"
+#~ msgstr "Пожалуйста, введите код купона в поле!"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Вы уверены?"
+
+#, fuzzy
+#~| msgid "Redirect URI"
+#~ msgid "Searching..."
+#~ msgstr "URI перенаправления"
+
+#~ msgid "Please firstly choose a service!"
+#~ msgstr "Пожалуйста, выберите для начала услугу!"
+
+#~ msgid "This time slot is not available!"
+#~ msgstr "Этот временной промежуток недоступен!"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "Deleted"
+#~ msgstr "Удалить"
+
+#~ msgid "Are you sure you want to delete?"
+#~ msgstr "Вы действительно желаете удалить?"
+
+#~ msgid "Rows deleted!"
+#~ msgstr "Ряды удалены!"
+
+#~ msgid "Dear user"
+#~ msgstr "Дорогой пользователь"
+
+#~ msgid "Group appointment"
+#~ msgstr "Групповая бронь"
+
+#~ msgid "Select services..."
+#~ msgstr "Выбрать услуги..."
+
+#~ msgid "Changes has been saved!"
+#~ msgstr "Изменения были сохранены!"
+
+#, fuzzy
+#~| msgid "Canceled"
+#~ msgid "Cancel"
+#~ msgstr "Отменено"
+
+#, fuzzy
+#~| msgid "Appointment info"
+#~ msgid "Appointment count"
+#~ msgstr "Информация о брони"
+
+#~ msgid "Fill the form correctly!"
+#~ msgstr "Заполните формы правильно!"
+
+#~ msgid "Saved succesfully!"
+#~ msgstr "Успешно сохранено!"
+
+#~ msgid "Please type email!"
+#~ msgstr "Пожалуйста, введите адрес электронной почты!"
+
+#~ msgid "Please type phone number!"
+#~ msgstr "Пожалуйста, введите номер телефона!"
+
+#~ msgid "Are you sure that you want to delete this service extra?"
+#~ msgstr "Вы действительно желаете удалить выбранные Дополнения?"
+
+#~ msgid "No more Staff exists for select!"
+#~ msgstr "Нет ПЕРСОНАЛА для выбора!"
+
+#~ msgid "Are you sure to delete this special day?"
+#~ msgstr "Вы действительно желаете удалить данную особенную дату?"
+
+#~ msgid "time(s) per month"
+#~ msgstr "времена в месяц"
+
+#~ msgid "time(s) per week"
+#~ msgstr "времена в неделю"
+
+#~ msgid "Every n day(s)"
+#~ msgstr "Каждое n-количество дней"
+
+#~ msgid "Are you sure you want to delete this service?"
+#~ msgstr "Вы действительно желаете удалить данную услугу?"
+
+#~ msgid "Are you sure you want to delete this category?"
+#~ msgstr "Вы действительно желаете удалить данную категорию?"
+
+#~ msgid "Category name"
+#~ msgstr "Название Категории"
+
+#, fuzzy
+#~| msgid "CATEGORY"
+#~ msgid "ADD CATEGORY"
+#~ msgstr "КАТЕГОРИЯ"
+
+#~ msgid "January"
+#~ msgstr "Январь"
+
+#~ msgid "February"
+#~ msgstr "Февраль"
+
+#~ msgid "March"
+#~ msgstr "Март"
+
+#~ msgid "April"
+#~ msgstr "Апрель"
+
+#~ msgid "May"
+#~ msgstr "Май"
+
+#~ msgid "June"
+#~ msgstr "Июнь"
+
+#~ msgid "July"
+#~ msgstr "Июль"
+
+#~ msgid "August"
+#~ msgstr "Август"
+
+#~ msgid "September"
+#~ msgstr "Сентябрь"
+
+#~ msgid "October"
+#~ msgstr "Октябрь"
+
+#~ msgid "November"
+#~ msgstr "Ноябрь"
+
+#~ msgid "December"
+#~ msgstr "Декабрь"
+
+#~ msgid "Back to WordPress"
+#~ msgstr "Обратно в WordPress"
+
+#, fuzzy
+#~| msgid "Start date"
+#~ msgid "Share your page "
+#~ msgstr "Дата начала"
+
+#~ msgid "WORDPRESS"
+#~ msgstr "WORDPRESS"
+
+#, fuzzy
+#~| msgid "Start date"
+#~ msgid "Share your page"
+#~ msgstr "Дата начала"
+
+#, fuzzy
+#~| msgid "Start date"
+#~ msgid "Starting guide"
+#~ msgstr "Дата начала"
+
+#~ msgid "Company details"
+#~ msgstr "Детали компании"
+
+#~ msgid "Business hours"
+#~ msgstr "Рабочие часы"
+
+#, fuzzy
+#~| msgid "Select location"
+#~ msgid "Create location"
+#~ msgstr "Выберите локацию"
+
+#, fuzzy
+#~| msgid "Select staff"
+#~ msgid "Create staff"
+#~ msgstr "Выберите персонал"
+
+#, fuzzy
+#~| msgid "Select service"
+#~ msgid "Create service"
+#~ msgstr "Выберите услугу"
+
+#~ msgid "Installing..."
+#~ msgstr "Установка..."
+
+#~ msgid "Purchase code"
+#~ msgstr "Код покупки"
+
+#~ msgid "Where did You find us?"
+#~ msgstr "Как Вы нашли нас?"
+
+#~ msgid "Email | Subscribe newsletter"
+#~ msgstr "Email | Подписаться на новости"
+
+#~ msgid "INSTALL"
+#~ msgstr "УСТАНОВИТЬ"
+
+#~ msgid "Install process can take 30-60 sec., please wait..."
+#~ msgstr "Процесс установки может занять 30-60 сек., пожалуйста подождите..."
+
+#~ msgid "AMOUNT"
+#~ msgstr "КОЛИЧЕСТВО"
+
+#, fuzzy
+#~| msgid "PAYMENT"
+#~ msgid "PAYMENT METHOD"
+#~ msgstr "ПЛАТЕЖИ"
+
+#~ msgid "Monthly"
+#~ msgstr "Ежемесячно"
+
+#, fuzzy
+#~| msgid "month"
+#~ msgid "per month"
+#~ msgstr "месяц"
+
+#, fuzzy
+#~| msgid "Select method:"
+#~ msgid "Select payment method"
+#~ msgstr "Выберите способ оплаты:"
+
+#~ msgid "Credit card"
+#~ msgstr "Кредитная карта"
+
+#, fuzzy
+#~| msgid "Select payment method"
+#~ msgid "No available payment methods!"
+#~ msgstr "Выберите способ оплаты"
+
+#, fuzzy
+#~| msgid "Payment status"
+#~ msgid "Payment Successful"
+#~ msgstr "Статус оплаты"
+
+#, fuzzy
+#~| msgid "Appointment canceled"
+#~ msgid "Payment Canceled"
+#~ msgstr "Бронь отменена"
+
+#, fuzzy
+#~| msgid "We aren’t able to process your payment. Please, try again."
+#~ msgid "We aren't able to process your payment. Please try again."
+#~ msgstr "Нам не получилось обработать платёж. Пожалуйста, попробуйте снова."
+
+#, fuzzy
+#~| msgid "Are you sure you want to delete?"
+#~ msgid "Are you sure you want to cancel subscription?"
+#~ msgstr "Вы действительно желаете удалить?"
+
+#, fuzzy
+#~| msgid "INFO"
+#~ msgid "NO"
+#~ msgstr "ИНФОРМАЦИЯ"
+
+#, fuzzy
+#~| msgid "Customer name"
+#~ msgid "Your page URL"
+#~ msgstr "Имя клиента"
+
+#, fuzzy
+#~| msgid "Sender E-mail"
+#~ msgid "Send link via Email"
+#~ msgstr "Email отправителя"
+
+#, fuzzy
+#~| msgid "Start date"
+#~ msgid "The QR for your page"
+#~ msgstr "Дата начала"
+
+#, fuzzy
+#~| msgid "Customer name"
+#~ msgid "Customer panel URL"
+#~ msgstr "Имя клиента"
+
+#~ msgid "Calendar"
+#~ msgstr "Календарь"
+
+#~ msgid "Location filter"
+#~ msgstr "Фильтр Локации"
+
+#~ msgid "Service filter"
+#~ msgstr "Фильтр Услуги"
+
+#~ msgid "month"
+#~ msgstr "месяц"
+
+#~ msgid "week"
+#~ msgstr "неделя"
+
+#~ msgid "day"
+#~ msgstr "день"
+
+#~ msgid "Discount cannot be negative number!"
+#~ msgstr "Скидка не может быть отрицательным числом!"
+
+#~ msgid "Discount percent count cannot be more than 100%!"
+#~ msgstr "Скидка не может быть выше 100%!"
+
+#~ msgid "Please type the coupon code field!"
+#~ msgstr "Пожалуйста, введите код купона в поле!"
+
+#~ msgid "Coupons"
+#~ msgstr "Купоны"
+
+#~ msgid "ADD COUPON"
+#~ msgstr "ДОБАВИТЬ КУПОН"
+
+#~ msgid "№"
+#~ msgstr "№"
+
+#~ msgid "CODE"
+#~ msgstr "КОД"
+
+#~ msgid "USAGE LIMIT"
+#~ msgstr "ЛИМИТ ИСПОЛЬЗОВАНИЯ"
+
+#~ msgid "Times Used"
+#~ msgstr "Количество использованных"
+
+#~ msgid "Add Coupon"
+#~ msgstr "Добавить купон"
+
+#~ msgid "Type"
+#~ msgstr "Тип"
+
+#~ msgid "One coupon"
+#~ msgstr "Один купон"
+
+#~ msgid "Coupon series"
+#~ msgstr "Серия купонов"
+
+#~ msgid "Amount"
+#~ msgstr "Количество"
+
+#~ msgid "Code"
+#~ msgstr "Код"
+
+#~ msgid "Applies date from"
+#~ msgstr "Действует с"
+
+#~ msgid "Life time"
+#~ msgstr "Пожизненно"
+
+#~ msgid "Applies date to"
+#~ msgstr "Действует до"
+
+#~ msgid "Usage limit"
+#~ msgstr "Лимит использования"
+
+#~ msgid "No limit"
+#~ msgstr "Без лимита"
+
+#~ msgid "Once per customer"
+#~ msgstr "Один раз на клиента"
+
+#~ msgid "Services filter"
+#~ msgstr "Фильтр Услуг"
+
+#~ msgid "Staff filter"
+#~ msgstr "Фильтр Персонала"
+
+#, fuzzy
+#~| msgid "Staff not found or permission denied!"
+#~ msgid "Customer not found or permission denied!"
+#~ msgstr "Персонал не найден или разрешение отклонено!"
+
+#, fuzzy
+#~| msgid "Please select customers!"
+#~ msgid "Please select WordPress user!"
+#~ msgstr "Пожалуйста, выберите клиентов!"
+
+#, fuzzy
+#~| msgid "Please type the coupon code field!"
+#~ msgid "Please type the password of the WordPress user!"
+#~ msgstr "Пожалуйста, введите код купона в поле!"
+
+#~ msgid "Only JPG and PNG images allowed!"
+#~ msgstr "Разрешены картинки только в формате JPG или PNG!"
+
+#~ msgid "Please select CSV file!"
+#~ msgstr "Пожалуйста, выберите файл CSV!"
+
+#~ msgid "Too many fields detected on CSV file!"
+#~ msgstr "Найдено слишком много полей в файле CSV!"
+
+#~ msgid "ADD CUSTOMER"
+#~ msgstr "ДОБАВИТЬ КЛИЕНТА"
+
+#~ msgid "CUSTOMER NAME"
+#~ msgstr "ИМЯ КЛИЕНТА"
+
+#, fuzzy
+#~| msgid "First Name"
+#~ msgid "First name"
+#~ msgstr "Имя"
+
+#, fuzzy
+#~| msgid "Last Name"
+#~ msgid "Last name"
+#~ msgstr "Фамилия"
+
+#~ msgid "PHONE"
+#~ msgstr "ТЕЛЕФОН"
+
+#~ msgid "LAST APPOINTMENT"
+#~ msgstr "ПОСЛЕДНЯЯ БРОНЬ"
+
+#~ msgid "Date of birth"
+#~ msgstr "Дата рождения"
+
+#~ msgid "Note"
+#~ msgstr "Записка"
+
+#, fuzzy
+#~| msgid ""
+#~| "This Customer has been added some Appointments. Firstly remove them!"
+#~ msgid "The Customer has been added some Appointments. Firstly remove them!"
+#~ msgstr ""
+#~ "Данный клиент уже добавлен в другие времена брони. Пожалуйста, уберите "
+#~ "лишние брони!"
+
+#~ msgid "First Name"
+#~ msgstr "Имя"
+
+#~ msgid "Last Name"
+#~ msgstr "Фамилия"
+
+#~ msgid "Phone"
+#~ msgstr "Телефон"
+
+#, fuzzy
+#~| msgid "WordPress user"
+#~ msgid "Use existing WordPress user"
+#~ msgstr "Пользователь WordPress"
+
+#, fuzzy
+#~| msgid "WordPress user"
+#~ msgid "Create new WordPress user"
+#~ msgstr "Пользователь WordPress"
+
+#~ msgid "WordPress user"
+#~ msgstr "Пользователь WordPress"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "User password"
+#~ msgstr "Пароль"
+
+#~ msgid "Image"
+#~ msgstr "Изображение"
+
+#~ msgid "PNG, JPG, max 800x800 to 5mb)"
+#~ msgstr "PNG, JPG, макс. 800x800 до 5mb)"
+
+#~ msgid "Gender"
+#~ msgstr "Пол"
+
+#~ msgid "Male"
+#~ msgstr "Мужчина"
+
+#~ msgid "Female"
+#~ msgstr "Женщина"
+
+#~ msgid "Import"
+#~ msgstr "Вложение"
+
+#~ msgid "You may import list of clients in CSV format."
+#~ msgstr "Вы можете вложить лист клиентов в формате CSV."
+
+#~ msgid "Select file"
+#~ msgstr "Выбрать файл"
+
+#~ msgid "(CSV, max 10k customers)"
+#~ msgstr "(CSV, максимально 10000 клиентов)"
+
+#~ msgid "Delimiter"
+#~ msgstr "Делиметр"
+
+#~ msgid "Comma ( , )"
+#~ msgstr "Запятая ( , )"
+
+#~ msgid "Semicolon ( ; )"
+#~ msgstr "Точка с запятой ( ; )"
+
+#~ msgid "Custom forms"
+#~ msgstr "Пользовательная форма"
+
+#~ msgid "CREATE NEW FORM"
+#~ msgstr "СОЗДАТЬ НОВУЮ ФОРМУ"
+
+#~ msgid "NAME"
+#~ msgstr "ИМЯ"
+
+#~ msgid "Choice 1"
+#~ msgstr "Выбор 1"
+
+#~ msgid "Choice 2"
+#~ msgstr "Выбор 2"
+
+#~ msgid "Custom Forms"
+#~ msgstr "Пользовательские формы"
+
+#~ msgid "Customize"
+#~ msgstr "Редактировать"
+
+#~ msgid "Form name"
+#~ msgstr "Название формы"
+
+#~ msgid "SAVE FORM"
+#~ msgstr "СОХРАНИТЬ ФОРМУ"
+
+#, fuzzy
+#~| msgid "Payments"
+#~ msgid "Elements"
+#~ msgstr "Оплаты"
+
+#~ msgid "Label"
+#~ msgstr "Метка"
+
+#~ msgid "Text input"
+#~ msgstr "Ввод текста"
+
+#~ msgid "Textarea"
+#~ msgstr "Текстовая область"
+
+#~ msgid "Number input"
+#~ msgstr "Ввод цифр"
+
+#~ msgid "Date input"
+#~ msgstr "Ввод даты"
+
+#~ msgid "Time input"
+#~ msgstr "Ввод времени"
+
+#~ msgid "Select"
+#~ msgstr "Выбрать"
+
+#~ msgid "Check-box"
+#~ msgstr "Флажок"
+
+#~ msgid "Radio buttons"
+#~ msgstr "Радио-кнопки"
+
+#~ msgid "File"
+#~ msgstr "Файл"
+
+#~ msgid "Link"
+#~ msgstr "Ссылка"
+
+#, fuzzy
+#~| msgid "Form name"
+#~ msgid "Form"
+#~ msgstr "Название формы"
+
+#~ msgid "Max: 255 symbol"
+#~ msgstr "Макс. : 255 символов"
+
+#~ msgid "Placeholder"
+#~ msgstr "Заполнитель"
+
+#~ msgid "Max: 200 symbol"
+#~ msgstr "Макс. : 200 символов"
+
+#~ msgid "Min length"
+#~ msgstr "Мин. длина"
+
+#~ msgid "Max length"
+#~ msgstr "Макс. длина"
+
+#~ msgid "Help text"
+#~ msgstr "Текст помощи"
+
+#~ msgid "Max: 500 symbol"
+#~ msgstr "Макс. : 500 символов"
+
+#~ msgid "Is required"
+#~ msgstr "Требуется для"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Choices"
+#~ msgstr "Выборы"
+
+#~ msgid "Add new"
+#~ msgstr "Добавить новый"
+
+#~ msgid "Dashboard"
+#~ msgstr "Приборная панель"
+
+#~ msgid "Today"
+#~ msgstr "Сегодня"
+
+#~ msgid "Yesterday"
+#~ msgstr "Вчера"
+
+#~ msgid "Tomorrow"
+#~ msgstr "Завтра"
+
+#~ msgid "This week"
+#~ msgstr "На этой неделе"
+
+#~ msgid "Last week"
+#~ msgstr "На прошлой неделе"
+
+#~ msgid "This month"
+#~ msgstr "В этот месяц"
+
+#~ msgid "This year"
+#~ msgstr "В этот год"
+
+#~ msgid "Custom"
+#~ msgstr "Кастом"
+
+#~ msgid "Durations"
+#~ msgstr "Длительности"
+
+#~ msgid "Revenue"
+#~ msgstr "Доход"
+
+#~ msgid "Upcoming"
+#~ msgstr "Предстоящее"
+
+#~ msgid "APPOINTMENT DATE"
+#~ msgstr "ДАТА БРОНИ"
+
+#~ msgid "INFO"
+#~ msgstr "ИНФОРМАЦИЯ"
+
+#~ msgid "Couldn't send email."
+#~ msgstr "Невозможно послать email."
+
+#, fuzzy
+#~| msgid "SMS Notifications"
+#~ msgid "Notifications"
+#~ msgstr "СМС уведомления"
+
+#~ msgid "New Appointment"
+#~ msgstr "Новая бронь"
+
+#~ msgid "Appointment re-scheduled"
+#~ msgstr "Бронь переназначена"
+
+#~ msgid "Appointment approved"
+#~ msgstr "Бронь подтверждена"
+
+#~ msgid "Appointment pending"
+#~ msgstr "Бронь в ожидании"
+
+#~ msgid "Appointment rejected"
+#~ msgstr "Бронь отклонена"
+
+#~ msgid "Appointment canceled"
+#~ msgstr "Бронь отменена"
+
+#~ msgid "Reminder before appointment"
+#~ msgstr "Напоминание перед бронь"
+
+#~ msgid "Reminder after appointment"
+#~ msgstr "Напоминание после бронь"
+
+#, fuzzy
+#~| msgid "Customer name"
+#~ msgid "Access to Customer Panel"
+#~ msgstr "Имя клиента"
+
+#~ msgid "SEND TEST EMAIL"
+#~ msgstr "ОТПРАВИТЬ ТЕСТОВЫЙ EMAIL"
+
+#~ msgid "TO CUSTOMER"
+#~ msgstr "КЛИЕНТУ"
+
+#~ msgid "TO STAFF"
+#~ msgstr "ПЕРСОНАЛУ"
+
+#~ msgid "Appointment Notifications"
+#~ msgstr "Уведомления Брони"
+
+#~ msgid "Remind after"
+#~ msgstr "Напоминание после"
+
+#~ msgid "Remind before"
+#~ msgstr "Напоминание перед"
+
+#~ msgid "Email body"
+#~ msgstr "Email тело"
+
+#~ msgid ""
+#~ "To send reminders on time, you need to configure the following cron task:"
+#~ msgstr ""
+#~ "Чтобы отправлять напоминания вовремя, вам нужно настроить следующую "
+#~ "задачу cron:"
+
+#~ msgid "Every 15 minutes"
+#~ msgstr "Каждые 15 минут"
+
+#~ msgid "SHORT TAGS"
+#~ msgstr "КОРОТКИЕ ТЭГИ"
+
+#~ msgid "Appointment Info"
+#~ msgstr "Информация Брони"
+
+#~ msgid "Service Info"
+#~ msgstr "Информация Услуги"
+
+#~ msgid "Customer Info"
+#~ msgstr "Информация о Клиенте"
+
+#~ msgid "Staff Info"
+#~ msgstr "Информация о Персонале"
+
+#~ msgid "Location Info"
+#~ msgstr "Информация о Локации"
+
+#~ msgid "Company Info"
+#~ msgstr "Информация о Компании"
+
+#, fuzzy
+#~| msgid "Company Info"
+#~ msgid "Zoom Info"
+#~ msgstr "Информация о Компании"
+
+#~ msgid "Find custom field ID"
+#~ msgstr "Найти ID настраиваемое поле"
+
+#~ msgid "Custom field:"
+#~ msgstr "Настраиваемое поле:"
+
+#~ msgid "Keyword to use:"
+#~ msgstr "Ключевое слово для использования:"
+
+#~ msgid "Fistly select the custom field"
+#~ msgstr "Сначала выберите настраиваемое поле"
+
+#~ msgid "Send test email"
+#~ msgstr "Отправить тестовый email"
+
+#~ msgid "SEND"
+#~ msgstr "ОТПРАВИТЬ"
+
+#, fuzzy
+#~| msgid "Discount cannot be negative number!"
+#~ msgid "Amount cannot be zero or negative number!"
+#~ msgstr "Скидка не может быть отрицательным числом!"
+
+#, fuzzy
+#~| msgid "Please type the coupon code field!"
+#~ msgid "Please type the giftcard code field!"
+#~ msgstr "Пожалуйста, введите код купона в поле!"
+
+#, fuzzy
+#~| msgid "Staff not found!"
+#~ msgid "Giftcard is not used yet!"
+#~ msgstr "Персонал не найден!"
+
+#, fuzzy
+#~| msgid "Credit card"
+#~ msgid "Giftcards"
+#~ msgstr "Кредитная карта"
+
+#, fuzzy
+#~| msgid "ADD STAFF"
+#~ msgid "ADD GIFTCARD"
+#~ msgstr "ДОБАВИТЬ ПЕРСОНАЛ"
+
+#, fuzzy
+#~| msgid "CANCEL"
+#~ msgid "BALANCE"
+#~ msgstr "ОТМЕНИТЬ"
+
+#, fuzzy
+#~| msgid "USAGE LIMIT"
+#~ msgid "USAGE HISTORY"
+#~ msgstr "ЛИМИТ ИСПОЛЬЗОВАНИЯ"
+
+#, fuzzy
+#~| msgid "Credit card"
+#~ msgid "Add Giftcard"
+#~ msgstr "Кредитная карта"
+
+#, fuzzy
+#~| msgid "Amount"
+#~ msgid "Amount ("
+#~ msgstr "Количество"
+
+#, fuzzy
+#~| msgid "Usage limit"
+#~ msgid "Usage history"
+#~ msgstr "Лимит использования"
+
+#, fuzzy
+#~| msgid "SUM AMOUNT"
+#~ msgid "USED AMOUNT"
+#~ msgstr "СУММА"
+
+#, fuzzy
+#~| msgid "Choices"
+#~ msgid "Invoices"
+#~ msgstr "Выборы"
+
+#, fuzzy
+#~| msgid "ADD SERVICE"
+#~ msgid "ADD INVOICE"
+#~ msgstr "ДОБАВИТЬ УСЛУГУ"
+
+#, fuzzy
+#~| msgid "ADD SERVICE"
+#~ msgid "INVOICE"
+#~ msgstr "ДОБАВИТЬ УСЛУГУ"
+
+#, fuzzy
+#~| msgid "Full Name"
+#~ msgid "PDF Name"
+#~ msgstr "Полное имя"
+
+#~ msgid "Locations"
+#~ msgstr "Локации"
+
+#~ msgid "ADD LOCATION"
+#~ msgstr "ДОБАВИТЬ ЛОКАЦИЮ"
+
+#~ msgid "ADDRESS"
+#~ msgstr "АДРЕС"
+
+#~ msgid "This location is using some Appointments. Firstly remove them!"
+#~ msgstr "Эта локация уже имеет несколько броней. Пожалуйста, удалите их!"
+
+#~ msgid "Location Name"
+#~ msgstr "Название Локации"
+
+#~ msgid "(PNG, JPG, max 800x800 to 5mb)"
+#~ msgstr "(PNG, JPG, макс. 800x800 до 5mb)"
+
+#~ msgid "Address"
+#~ msgstr "Адрес"
+
+#~ msgid "Description"
+#~ msgstr "Описание"
+
+#~ msgid "UNHIDE LOCATION"
+#~ msgstr "ПОКАЗАТЬ ЛОКАЦИЮ"
+
+#~ msgid "HIDE LOCATION"
+#~ msgstr "СКРЫВАТЬ ЛОКАЦИЮ"
+
+#~ msgid "SMS Notifications"
+#~ msgstr "СМС уведомления"
+
+#, fuzzy
+#~| msgid "Email Notifications"
+#~ msgid "WhatsApp Notifications"
+#~ msgstr "Email Уведомления"
+
+#, fuzzy
+#~| msgid "Edit"
+#~ msgid "Tab Edit"
+#~ msgstr "Редактировать"
+
+#, fuzzy
+#~| msgid "Add break"
+#~ msgid "Add Tab"
+#~ msgstr "Добавить перерыв"
+
+#, fuzzy
+#~| msgid "Selected"
+#~ msgid "Select Type"
+#~ msgstr "Выбранное"
+
+#, fuzzy
+#~| msgid "Last Name"
+#~ msgid "Tab Name"
+#~ msgstr "Фамилия"
+
+#, fuzzy
+#~| msgid "Sender Name"
+#~ msgid "Enter Tab Name"
+#~ msgstr "Имя отправителя"
+
+#, fuzzy
+#~| msgid "Select date"
+#~ msgid "Select Language"
+#~ msgstr "Выберите дату"
+
+#, fuzzy
+#~| msgid "Select service"
+#~ msgid "Select Service"
+#~ msgstr "Выберите услугу"
+
+#, fuzzy
+#~| msgid "Select staff"
+#~ msgid "Select Staff"
+#~ msgstr "Выберите персонал"
+
+#, fuzzy
+#~| msgid "Select location"
+#~ msgid "Select Location"
+#~ msgstr "Выберите локацию"
+
+#, fuzzy
+#~| msgid "ADD STAFF"
+#~ msgid "ADD TAB"
+#~ msgstr "ДОБАВИТЬ ПЕРСОНАЛ"
+
+#~ msgid "Payments"
+#~ msgstr "Оплаты"
+
+#~ msgid "METHOD"
+#~ msgstr "МЕТОД"
+
+#~ msgid "SERVICE AMOUNT"
+#~ msgstr "СТОИМОСТЬ УСЛУГИ"
+
+#~ msgid "EXTRAS AMOUNT"
+#~ msgstr "СТОИМОСТЬ ЭКСТРЫ"
+
+#, fuzzy
+#~| msgid "EXTRAS AMOUNT"
+#~ msgid "TAX AMOUNT"
+#~ msgstr "СТОИМОСТЬ ЭКСТРЫ"
+
+#~ msgid "PAID AMOUNT"
+#~ msgstr "ОПЛАЧЕНО"
+
+#~ msgid "Payment info"
+#~ msgstr "Информация об Оплате"
+
+#~ msgid "COMPLETE PAYMENT"
+#~ msgstr "ЗАВЕРШИТ ОПЛАТУ"
+
+#, fuzzy
+#~| msgid "Import"
+#~ msgid "Reports"
+#~ msgstr "Вложение"
+
+#, fuzzy
+#~| msgid "Reminder after appointment"
+#~ msgid "Reports by the number of appointments"
+#~ msgstr "Напоминание после бронь"
+
+#~ msgid "Daily"
+#~ msgstr "Ежедневно"
+
+#, fuzzy
+#~| msgid "Appointment pending"
+#~ msgid "Reports by appointment earnings"
+#~ msgstr "Бронь в ожидании"
+
+#, fuzzy
+#~| msgid "This week"
+#~ msgid "Previous week"
+#~ msgstr "На этой неделе"
+
+#, fuzzy
+#~| msgid "This month"
+#~ msgid "Previous month"
+#~ msgstr "В этот месяц"
+
+#, fuzzy
+#~| msgid "This year"
+#~ msgid "Previous year"
+#~ msgstr "В этот год"
+
+#~ msgid "Firstly remove sub categories!"
+#~ msgstr "Сначала удалите подкатегории!"
+
+#~ msgid "Firstly delete sub services."
+#~ msgstr "Сначала удалите дополненительные услуги."
+
+#~ msgid "This category is already exist! Please choose an other name."
+#~ msgstr "Эта категория уже существует! Пожалуйста, выберите другое название."
+
+#~ msgid "Deposit can not exceed the price!"
+#~ msgstr "Депозит не может превышать цену!"
+
+#~ msgid "Please fill \"Full period\" field!"
+#~ msgstr "Пожалуйста заполните поле \"Полный период\" !"
+
+#~ msgid "Please fill \"Repeat\" field!"
+#~ msgstr "Пожалуйста заполните поле \"Повтор\" !"
+
+#~ msgid "Please fill \"Frequency\" field!"
+#~ msgstr "Пожалуйста заполните поле \"Частота\" !"
+
+#~ msgid "Capacity field is wrong!"
+#~ msgstr "Поле неправильно заполнено!"
+
+#~ msgid "Please fill the weekly schedule correctly!"
+#~ msgstr "Please fill the weekly schedule correctly!"
+
+#~ msgid "This service name is already exist! Please choose an other name."
+#~ msgstr "Данная услуга уже существует! Пожалуйста, выберите другое название."
+
+#, fuzzy
+#~| msgid "Dublicate Staff selected!"
+#~ msgid "Duplicate Staff selected!"
+#~ msgstr "Персонал скопирован!"
+
+#, php-format
+#~ msgid "This extra is using some Appointments (ID: %d). Firstly remove them!"
+#~ msgstr ""
+#~ "Это Дополнение используется в Брони (ID: %d). Сначала удалите Дополнение!"
+
+#~ msgid "Requested Service Extra not found!"
+#~ msgstr "Запрошенная Дополнительная Услуга не найдена!"
+
+#~ msgid "Services"
+#~ msgstr "Услуги"
+
+#~ msgid "ADD SERVICE"
+#~ msgstr "ДОБАВИТЬ УСЛУГУ"
+
+#~ msgid "CATEGORY"
+#~ msgstr "КАТЕГОРИЯ"
+
+#~ msgid "This service is using some Appointments. Firstly remove them!"
+#~ msgstr "Эта услуга уже забронированна. Пожалуйста, удалите бронь!"
+
+#~ msgid "Staff not selected"
+#~ msgstr "Персонал не выбран"
+
+#~ msgid "Categories"
+#~ msgstr "Категории"
+
+#~ msgid "What do you want to create?"
+#~ msgstr "Что вы желаете создать?"
+
+#~ msgid "Breaks"
+#~ msgstr "Перерывы"
+
+#~ msgid "Specific price"
+#~ msgstr "Определённая цена"
+
+#~ msgid "Start time"
+#~ msgstr "Время начала"
+
+#~ msgid "End time"
+#~ msgstr "Время окончания"
+
+#~ msgid "Add break"
+#~ msgstr "Добавить перерыв"
+
+#~ msgid "Remove special day"
+#~ msgstr "Удалить особый день"
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "Max. quantity"
+#~ msgstr "Макс. количество"
+
+#, fuzzy
+#~| msgid "Copy to all"
+#~ msgid "Copy to all services"
+#~ msgstr "Копировать на всё"
+
+#, fuzzy
+#~| msgid "Copy to all"
+#~ msgid "Copy to the same category services"
+#~ msgstr "Копировать на всё"
+
+#~ msgid "Add Service"
+#~ msgstr "Добавить услугу"
+
+#~ msgid "SERVICE DETAILS"
+#~ msgstr "ДЕТАЛИ УСЛУГИ"
+
+#~ msgid "TIME SHEET"
+#~ msgstr "ТАБЛИЦА ВРЕМЕНИ"
+
+#~ msgid "Service name"
+#~ msgstr "Название услуги"
+
+#~ msgid "Deposit"
+#~ msgstr "Депозит"
+
+#~ msgid "Time slot length"
+#~ msgstr "Длина временного интервала"
+
+#~ msgid "Default"
+#~ msgstr "По умолчанию"
+
+#~ msgid "Slot length as service duration"
+#~ msgstr "Длина слота как продолжительность услуги"
+
+#~ msgid "Buffer Time Before"
+#~ msgstr "Время буфера до"
+
+#~ msgid "Buffer Time After"
+#~ msgstr "Время буфера после"
+
+#~ msgid "Hide price in booking panel:"
+#~ msgstr "Скрыть цену в панели бронирования:"
+
+#~ msgid "Hide duration in booking panel:"
+#~ msgstr "Скрыть продолжительность в панели бронирования:"
+
+#~ msgid "Recurring"
+#~ msgstr "Периодический"
+
+#~ msgid "Repeat"
+#~ msgstr "Повтор"
+
+#~ msgid "Weekly"
+#~ msgstr "Еженедельно"
+
+#~ msgid "Fixed full period"
+#~ msgstr "Фиксированный полный период"
+
+#~ msgid "time(s)"
+#~ msgstr "время"
+
+#~ msgid "Fixed frequency"
+#~ msgstr "Фиксированная частота"
+
+#~ msgid "time per week"
+#~ msgstr "время в неделю"
+
+#, fuzzy
+#~ msgid "The Customer pays separately for each appointment"
+#~ msgstr "Клиенты должны платить только за одну бронь"
+
+#, fuzzy
+#~| msgid "Customers must pay only for the 1st appointment"
+#~ msgid "The Customer pays full amount of recurring appointments"
+#~ msgstr "Клиенты должны платить только за одну бронь"
+
+#~ msgid "Fix time"
+#~ msgstr "Фиксированное время"
+
+#~ msgid "Capacity"
+#~ msgstr "Вместимость"
+
+#~ msgid "Alone"
+#~ msgstr "Один/-на"
+
+#~ msgid "Group"
+#~ msgstr "Группа"
+
+#~ msgid "Min. / Max. capacity"
+#~ msgstr "Мин. / Макс. вместимость"
+
+#~ msgid "WEEKLY SCHEDULE"
+#~ msgstr "ЕЖЕНЕДЕЛЬНЫЙ ГРАФИК"
+
+#~ msgid "SPECIAL DAYS"
+#~ msgstr "ОСОБЫЕ ДНИ"
+
+#~ msgid "Configure specific timesheet"
+#~ msgstr "Настроить конкретное расписание"
+
+#~ msgid "Add day off"
+#~ msgstr "Добавить выходной"
+
+#~ msgid "ADD SPECIAL DAY"
+#~ msgstr "ДОБАВИТЬ ОСОБЫЙ ДЕНЬ"
+
+#~ msgid "Add staff"
+#~ msgstr "Добавить персонал"
+
+#~ msgid "NEW EXTRA"
+#~ msgstr "НОВОЕ ДОПОЛНЕНИЕ"
+
+#~ msgid "SAVE EXTRA"
+#~ msgstr "СОХРАНИТЬ ДОПОЛНЕНИЕ"
+
+#~ msgid "UNHIDE SERVICE"
+#~ msgstr "ПОКАЗАТЬ УСЛУГУ"
+
+#~ msgid "HIDE SERVICE"
+#~ msgstr "СКРЫВАТЬ УСЛУГУ"
+
+#~ msgid "SAVE SERVICE"
+#~ msgstr "СОХРАНИТЬ УСЛУГУ"
+
+#~ msgid "Select colors"
+#~ msgstr "Выбрать цвет"
+
+#~ msgid "Hex"
+#~ msgstr "Hex"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "Add Category"
+#~ msgstr "Категории"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "Parent category"
+#~ msgstr "Категории"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "Root category"
+#~ msgstr "Категории"
+
+#~ msgid "Selected settings not found!"
+#~ msgstr "Выбранные настройки не найдены!"
+
+#~ msgid "Local"
+#~ msgstr "Местный"
+
+#~ msgid "Paypal"
+#~ msgstr "Paypal"
+
+#, fuzzy
+#~| msgid "Add staff"
+#~ msgid "Any staff"
+#~ msgstr "Добавить персонал"
+
+#, fuzzy
+#~| msgid "Please select an available time"
+#~ msgid "Select an available staff"
+#~ msgstr "Пожалуйста, выберите свободное время"
+
+#~ msgid "Add coupon"
+#~ msgstr "Добавить купон"
+
+#~ msgid "Please select location."
+#~ msgstr "Пожалуйста, выберите локацию."
+
+#~ msgid "Please select staff."
+#~ msgstr "Пожалуйста, выберите персонал."
+
+#~ msgid "Please select service"
+#~ msgstr "Пожалуйста, выберите услугу"
+
+#~ msgid "Please select week day(s)"
+#~ msgstr "Пожалуйста, выберите дни недели."
+
+#~ msgid "Please select week day(s) and time(s) correctly"
+#~ msgstr "Пожалуйста, выберите дни недели и время правильно"
+
+#~ msgid "Please select start date"
+#~ msgstr "Пожалуйста, выберите дату начала"
+
+#~ msgid "Please select end date"
+#~ msgstr "Пожалуйста, выберите дату окончания"
+
+#~ msgid "Please select date."
+#~ msgstr "Пожалуйста, выберите дату."
+
+#~ msgid "Please select time."
+#~ msgstr "Пожалуйста, выберите время."
+
+#~ msgid "Please select an available time"
+#~ msgstr "Пожалуйста, выберите свободное время"
+
+#~ msgid "Please enter a valid email address!"
+#~ msgstr "Пожалуйста, введите действительный адрес электронной почты!"
+
+#~ msgid "Please enter a valid phone number!"
+#~ msgstr "Пожалуйста, введите действующий телефонный номер!"
+
+#~ msgid "CONFIRM BOOKING"
+#~ msgstr "ПОДТВЕРДИТЬ"
+
+#~ msgid "There is no any Location for select."
+#~ msgstr "Нет выбора локаций."
+
+#~ msgid "Staff not found. Please go back and select a different option."
+#~ msgstr ""
+#~ "Персонал не найден. Пожалуйста, вернитесь обратно и выберите другую опцию."
+
+#~ msgid "Service not found. Please go back and select a different option."
+#~ msgstr ""
+#~ "Услуга не найдена. Пожалуйста, вернитесь обратно и выберите другую опцию."
+
+#~ msgid ""
+#~ "Extras not found in this service. You can select other service or click "
+#~ "the <span class=\"booknetic_text_primary\">\"Next step\"</span> button."
+#~ msgstr ""
+#~ "Дополнения не найдены в этой Услуге. Вы можете выбрать другую услугу, "
+#~ "нажав сюда: <span class=\"booknetic_text_primary\">\"Next step\"</span>."
+
+#, fuzzy
+#~| msgid "Your confirmation number:"
+#~ msgid "Confirmation number is invalid!"
+#~ msgstr "Ваш номер покупки:"
+
+#, fuzzy
+#~| msgid "Enable WooCommerce payment gateway"
+#~ msgid "Please enable at least one payment gateway."
+#~ msgstr "Включить платежный шлюз WooCommerce"
+
+#, fuzzy
+#~| msgid "Colud't create a payment!"
+#~ msgid "Could not create a zip file!"
+#~ msgstr "Не удалось создать платеж!"
+
+#, fuzzy
+#~| msgid "Colud't create a payment!"
+#~ msgid "Unable to read the backup file!1"
+#~ msgstr "Не удалось создать платеж!"
+
+#, fuzzy
+#~| msgid "Colud't create a payment!"
+#~ msgid "Unable to read the backup file!2"
+#~ msgstr "Не удалось создать платеж!"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "General settings"
+#~ msgstr "Основные настройки"
+
+#~ msgid "You can customize general settings about booking from here"
+#~ msgstr "Вы можете настроить параметры бронирования здесь"
+
+#, fuzzy
+#~| msgid "You can customize general settings about booking from here"
+#~ msgid ""
+#~ "You can customize booking and customer panel and change labels from here"
+#~ msgstr "Вы можете настроить параметры бронирования здесь"
+
+#, fuzzy
+#~| msgid "Customer name"
+#~ msgid "Customer Panel"
+#~ msgstr "Имя клиента"
+
+#, fuzzy
+#~| msgid "Label"
+#~ msgid "Labels"
+#~ msgstr "Метка"
+
+#~ msgid "Payment settings"
+#~ msgstr "Настройки оплаты"
+
+#~ msgid ""
+#~ "Currency, price format , general settings about payment , paypal, stripe "
+#~ "and so on"
+#~ msgstr ""
+#~ "Валюта, изменение цен, основные настройки об оплате, paypal, stripe и так "
+#~ "далее"
+
+#~ msgid "General"
+#~ msgstr "Основное"
+
+#, fuzzy
+#~| msgid "Select payment method"
+#~ msgid "Payment methods"
+#~ msgstr "Выберите способ оплаты"
+
+#~ msgid ""
+#~ "Enter your company name, logo, address, phone number, website from here"
+#~ msgstr ""
+#~ "Введите название Вашей компании, логотип, адрес, номер телефона, сайт "
+#~ "здесь"
+
+#~ msgid "Business Hours"
+#~ msgstr "Бизнес часы"
+
+#~ msgid "You will be able to co-ordinate your company's overall work schedule"
+#~ msgstr "Вы сможете координировать общий график работы Вашей компании"
+
+#~ msgid "Holidays"
+#~ msgstr "Каникулы"
+
+#, fuzzy
+#~| msgid "General settings"
+#~ msgid "Integrations settings"
+#~ msgstr "Основные настройки"
+
+#, fuzzy
+#~| msgid "You can change settings for \"Twilio\" from here."
+#~ msgid "You can change settings for integrated services from here."
+#~ msgstr "Вы можете изменить настройки для \"Twilio\" здесь."
+
+#~ msgid "Google calendar"
+#~ msgstr "Google Календарь"
+
+#, fuzzy
+#~| msgid "SMS settings"
+#~ msgid "SMS / WhatsApp"
+#~ msgstr "Настройки СМС"
+
+#, fuzzy
+#~| msgid "Company Info"
+#~ msgid "Zoom"
+#~ msgstr "Информация о Компании"
+
+#, fuzzy
+#~| msgid "General settings"
+#~ msgid "Integration with Zoom"
+#~ msgstr "Основные настройки"
+
+#, fuzzy
+#~| msgid "You can change settings for \"Twilio\" from here."
+#~ msgid "You can change settings for zoom integration from here."
+#~ msgstr "Вы можете изменить настройки для \"Twilio\" здесь."
+
+#~ msgid ""
+#~ "You can easily set with selecting special days, holidays over the calendar"
+#~ msgstr ""
+#~ "Вы с лёгкостью можете настраивать, используя особые дни и каникулы через "
+#~ "календарь"
+
+#, fuzzy
+#~| msgid "EXPORT TO CSV"
+#~ msgid "EXPORT DATA"
+#~ msgstr "ЭКСПОРТИРОВАТЬ В CSV"
+
+#, fuzzy
+#~| msgid "Select file"
+#~ msgid "Select file to restore"
+#~ msgstr "Выбрать файл"
+
+#, fuzzy
+#~| msgid "IMPORT"
+#~ msgid "IMPORT DATA"
+#~ msgstr "ИМПОРТИРОВАТЬ"
+
+#, fuzzy
+#~| msgid "Add Location"
+#~ msgid "Hide address of Location"
+#~ msgstr "Добавить локацию"
+
+#, fuzzy
+#~| msgid "Select staff"
+#~ msgid "Footer text per staff"
+#~ msgstr "Выберите персонал"
+
+#, fuzzy
+#~| msgid "Sender phone number"
+#~ msgid "Show only Staff email address"
+#~ msgstr "Номер телефона отправителя"
+
+#, fuzzy
+#~| msgid "Sender phone number"
+#~ msgid "Show only Staff phone number"
+#~ msgstr "Номер телефона отправителя"
+
+#, fuzzy
+#~| msgid "Time format in Front booking form"
+#~ msgid "The time format for the booking form"
+#~ msgstr "Формат времени в форме бронирования"
+
+#, fuzzy
+#~| msgid "Show both of Start and End time (e.g.: 10:00 - 11:00)"
+#~ msgid "Show both Start and End time (e.g.: 10:00 - 11:00)"
+#~ msgstr "Показать время начала и окончания (например, 10:00 - 11:00)"
+
+#~ msgid "Show only Start time (e.g.: 10:00)"
+#~ msgstr "Показать только время начала (например: 10:00)"
+
+#~ msgid "Set Email as a required field"
+#~ msgstr "Установить email в качестве обязательного поля"
+
+#~ msgid "Set Phone number as a required field"
+#~ msgstr "Установить номер телефона в качестве обязательного поля"
+
+#~ msgid "Default phone country code"
+#~ msgstr "Код страны по умолчанию для телефона"
+
+#~ msgid "Hide payment methods section"
+#~ msgstr "Скрыть раздел способов оплаты"
+
+#, fuzzy
+#~| msgid "Hide payment methods section"
+#~ msgid "Hide coupon section"
+#~ msgstr "Скрыть раздел способов оплаты"
+
+#, fuzzy
+#~| msgid "Hide payment methods section"
+#~ msgid "Hide giftcard section"
+#~ msgstr "Скрыть раздел способов оплаты"
+
+#, fuzzy
+#~| msgid "Hide payment methods section"
+#~ msgid "Hide price section"
+#~ msgstr "Скрыть раздел способов оплаты"
+
+#, fuzzy
+#~| msgid "FINISH BOOKING"
+#~ msgid "URL of \"FINISH BOOKING\" button"
+#~ msgstr "ЗАКОНЧИТЬ БРОНИРОВАНИЕ"
+
+#, fuzzy
+#~| msgid "ADD TO GOOGLE CALENDAR"
+#~ msgid "Hide the \"ADD TO GOOGLE CALENDAR\" button"
+#~ msgstr "ДОБАВИТЬ В КАЛЕНДАРЬ ГУГЛ"
+
+#, fuzzy
+#~| msgid "START NEW BOOKING"
+#~ msgid "Hide the \"START NEW BOOKING\" button"
+#~ msgstr "НАЧАТЬ НОВУЮ БРОНЬ"
+
+#, fuzzy
+#~| msgid "Your confirmation number:"
+#~ msgid "Hide a confirmation number"
+#~ msgstr "Ваш номер покупки:"
+
+#, fuzzy
+#~| msgid "Your confirmation number:"
+#~ msgid "Starting confirmation number"
+#~ msgstr "Ваш номер покупки:"
+
+#~ msgid "Break start"
+#~ msgstr "Начало перерыва"
+
+#~ msgid "Break end"
+#~ msgstr "Конец перерыва"
+
+#~ msgid "Company name"
+#~ msgstr "Название компании"
+
+#~ msgid "Website"
+#~ msgstr "Сайт"
+
+#, fuzzy
+#~| msgid "DISCOUNT"
+#~ msgid "DISCONNECT"
+#~ msgstr "СКИДКА"
+
+#~ msgid "Disabled"
+#~ msgstr "Отключено"
+
+#, fuzzy
+#~| msgid "Customer name"
+#~ msgid "Page of Customer Panel"
+#~ msgstr "Имя клиента"
+
+#, fuzzy
+#~| msgid "Customers can see other attendees"
+#~ msgid "Time restriction to change appointments"
+#~ msgstr "Клиенты могут видеть других участников"
+
+#, fuzzy
+#~| msgid "Customers must pay only for the 1st appointment"
+#~ msgid "Allow customers to reschedule their appointments"
+#~ msgstr "Клиенты должны платить только за одну бронь"
+
+#, fuzzy
+#~| msgid "Customers can see other attendees"
+#~ msgid "Allow customers to cancel their appointments"
+#~ msgstr "Клиенты могут видеть других участников"
+
+#, fuzzy
+#~| msgid "Customers can see other attendees"
+#~ msgid "Allow customers to delete their account"
+#~ msgstr "Клиенты могут видеть других участников"
+
+#~ msgid "Set slot length as service duration"
+#~ msgstr "Установите длину слота как продолжительность обслуживания"
+
+#~ msgid "Minimum time requirement prior to booking"
+#~ msgstr "Минимальное время до бронирования"
+
+#~ msgid "Limited booking days"
+#~ msgstr "Ограниченные дни бронирования"
+
+#, fuzzy
+#~| msgid "Break start"
+#~ msgid "Week starts on"
+#~ msgstr "Начало перерыва"
+
+#~ msgid "Date format"
+#~ msgstr "Формат даты"
+
+#~ msgid "Time format"
+#~ msgstr "Формат времени"
+
+#, fuzzy
+#~| msgid "Currency format"
+#~ msgid "24 hour format"
+#~ msgstr "Формат валюты"
+
+#, fuzzy
+#~| msgid "Currency format"
+#~ msgid "12 hour format"
+#~ msgstr "Формат валюты"
+
+#~ msgid "Default appointment status"
+#~ msgstr "Статус встречи по умолчанию"
+
+#, fuzzy
+#~| msgid "Secret key"
+#~ msgid "Site Key"
+#~ msgstr "Секретный ключ"
+
+#, fuzzy
+#~| msgid "Secret key"
+#~ msgid "Secret Key"
+#~ msgstr "Секретный ключ"
+
+#, fuzzy
+#~| msgid "Time"
+#~ msgid "Timezone"
+#~ msgstr "Время"
+
+#~ msgid "Event title"
+#~ msgstr "Название события"
+
+#~ msgid "Event description"
+#~ msgstr "Описание события"
+
+#, fuzzy
+#~| msgid "Sync busy slots from Google Calendar"
+#~ msgid "Sync method for busy slots from Google Calendar"
+#~ msgstr "Синхронизация занятых слотов из Календаря Google"
+
+#, fuzzy
+#~| msgid "Live"
+#~ msgid "Live sync"
+#~ msgstr "Живой"
+
+#~ msgid "Add customers as attendees in your calendar events"
+#~ msgstr "Добавьте клиентов в качестве участников в ваш календарь событий"
+
+#~ msgid "Customers can see other attendees"
+#~ msgstr "Клиенты могут видеть других участников"
+
+#, fuzzy
+#~| msgid "SMTP Secure"
+#~ msgid "App Secret"
+#~ msgstr "SMTP Безопасность"
+
+#, fuzzy
+#~| msgid "SMTP Secure"
+#~ msgid "API Secret"
+#~ msgstr "SMTP Безопасность"
+
+#, fuzzy
+#~| msgid "Event description"
+#~ msgid "Meeting topic"
+#~ msgstr "Описание события"
+
+#, fuzzy
+#~| msgid "Event description"
+#~ msgid "Meeting description"
+#~ msgstr "Описание события"
+
+#~ msgid "Stripe"
+#~ msgstr "Stripe"
+
+#~ msgid "Local payment"
+#~ msgstr "Локальная оплата"
+
+#, fuzzy
+#~| msgid "WooCommerce settings"
+#~ msgid "Woocommerce"
+#~ msgstr "Настройки WooCommerce"
+
+#~ msgid "Mode"
+#~ msgstr "Режим"
+
+#~ msgid "Sandbox"
+#~ msgstr "Sandbox"
+
+#~ msgid "Live"
+#~ msgstr "Живой"
+
+#~ msgid "Publishable key"
+#~ msgstr "Публикуемый ключ"
+
+#~ msgid "Secret key"
+#~ msgstr "Секретный ключ"
+
+#, fuzzy
+#~| msgid "Auth Token"
+#~ msgid "Access Token"
+#~ msgstr "Auth Token"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Location ID"
+#~ msgstr "Локация"
+
+#, fuzzy
+#~| msgid "Secret key"
+#~ msgid "Api Key"
+#~ msgstr "Секретный ключ"
+
+#, fuzzy
+#~| msgid "Hide Confirm Details step"
+#~ msgid "Skip the Confirmation step"
+#~ msgstr "Скрыть шаг \"Подтвердить информацию\""
+
+#, fuzzy
+#~| msgid "Redirect URL after booking"
+#~ msgid "Redirect customer to"
+#~ msgstr "Перенаправить URL после брони"
+
+#, fuzzy
+#~| msgid "Start date"
+#~ msgid "Cart page"
+#~ msgstr "Дата начала"
+
+#, fuzzy
+#~| msgid "Start date"
+#~ msgid "Checkout page"
+#~ msgstr "Дата начала"
+
+#, fuzzy
+#~| msgid "WooCommerce settings"
+#~ msgid "Woocommerce order details"
+#~ msgstr "Настройки WooCommerce"
+
+#~ msgid "Currency"
+#~ msgstr "Валюта"
+
+#, fuzzy
+#~| msgid "Currency"
+#~ msgid "Currency symbol"
+#~ msgstr "Валюта"
+
+#~ msgid "Currency format"
+#~ msgstr "Формат валюты"
+
+#~ msgid "Price number format"
+#~ msgstr "Формат цифр цены"
+
+#~ msgid "Price number of decimals"
+#~ msgstr "Количество знаков после запятой"
+
+#~ msgid "Customer can pay full amount"
+#~ msgstr "Клиент может оплатить полную сумму"
+
+#, fuzzy
+#~| msgid "SMS settings"
+#~ msgid "SMS/WhatsApp settings"
+#~ msgstr "Настройки СМС"
+
+#~ msgid "Account SID"
+#~ msgstr "Аккаунт SID"
+
+#, fuzzy
+#~| msgid "Sender phone number"
+#~ msgid "Sender phone number for SMS"
+#~ msgstr "Номер телефона отправителя"
+
+#, fuzzy
+#~| msgid "Sender phone number"
+#~ msgid "Sender phone number for WhatsApp"
+#~ msgstr "Номер телефона отправителя"
+
+#~ msgid "Please configure SMS settings!"
+#~ msgstr "Пожалуйста, настройте параметры СМС!"
+
+#~ msgid "SEND TEST SMS"
+#~ msgstr "ОТПРАВИТЬ ТЕСТ СМС"
+
+#~ msgid "APPOINTMENT APPROVED"
+#~ msgstr "БРОНЬ ПОДТВЕРЖДЕНА"
+
+#~ msgid "SMS body"
+#~ msgstr "СМС сообщение"
+
+#~ msgid "Send test SMS"
+#~ msgstr "Отправить тестовый SMS"
+
+#~ msgid "Phone number"
+#~ msgstr "Телефонный номер"
+
+#~ msgid "Staff not found!"
+#~ msgstr "Персонал не найден!"
+
+#~ msgid "You do not have sufficient permissions to perform this action"
+#~ msgstr "У вас недостаточно прав для выполнения этого действия"
+
+#~ msgid "Staff not found or permission denied!"
+#~ msgstr "Персонал не найден или разрешение отклонено!"
+
+#~ msgid "Please select location!"
+#~ msgstr "Пожалуйста, выберите локацию!"
+
+#~ msgid "Firstly click the login button!"
+#~ msgstr "Сначала нажмите кнопку входа!"
+
+#~ msgid "ADD STAFF"
+#~ msgstr "ДОБАВИТЬ ПЕРСОНАЛ"
+
+#~ msgid "STAFF NAME"
+#~ msgstr "ИМЯ ПЕРСОНАЛА"
+
+#~ msgid "EMAIL"
+#~ msgstr "EMAIL"
+
+#~ msgid "This staff has been added some Appointments. Firstly remove them!"
+#~ msgstr ""
+#~ "Данный член персонала добавилен в некоторые брони. Сначала удалите их!"
+
+#~ msgid "Add Staff"
+#~ msgstr "Добавить Персонал"
+
+#~ msgid "DETAILS"
+#~ msgstr "ДЕТАЛИ"
+
+#~ msgid "HOLIDAYS"
+#~ msgstr "КАНИКУЛЫ"
+
+#~ msgid "Full Name"
+#~ msgstr "Полное имя"
+
+#~ msgid "UNHIDE STAFF"
+#~ msgstr "ПОКАЗАТЬ ПЕРСОНАЛ"
+
+#~ msgid "HIDE STAFF"
+#~ msgstr "СКРЫВАТЬ ПЕРСОНАЛ"
+
+#~ msgid "SAVE STAFF"
+#~ msgstr "СОХРАНИТЬ ПЕРСОНАЛ"
+
+#, fuzzy
+#~| msgid "Please configure SMS settings!"
+#~ msgid "Please configure WhatsApp settings!"
+#~ msgstr "Пожалуйста, настройте параметры СМС!"
+
+#, fuzzy
+#~| msgid "Email Notifications"
+#~ msgid "Whatsapp Notifications"
+#~ msgstr "Email Уведомления"
+
+#, fuzzy
+#~| msgid "SEND TEST SMS"
+#~ msgid "SEND TEST MESSAGE"
+#~ msgstr "ОТПРАВИТЬ ТЕСТ СМС"
+
+#, fuzzy
+#~| msgid "SMS body"
+#~ msgid "Message body"
+#~ msgstr "СМС сообщение"
+
+#, fuzzy
+#~| msgid "Send test email"
+#~ msgid "Send test message"
+#~ msgstr "Отправить тестовый email"
+
+#~ msgid "Fistly You have to select Service, Staff and Date fields!"
+#~ msgstr "Сначала выберите поля Услуги, Персонал и Дата!"
+
+#~ msgid "Please choose dates"
+#~ msgstr "Пожалуйста, выберите дату"
+
+#, fuzzy
+#~| msgid "There is no any Location for select."
+#~ msgid "There is no Location to match your request."
+#~ msgstr "Нет выбора локаций."
+
+#, fuzzy
+#~| msgid "Please select date."
+#~ msgid "Please select payment method!"
+#~ msgstr "Пожалуйста, выберите дату."
+
+#, fuzzy
+#~| msgid "This service name is already exist! Please choose an other name."
+#~ msgid "This email address is already used by another customer."
+#~ msgstr "Данная услуга уже существует! Пожалуйста, выберите другое название."
+
+#, fuzzy
+#~| msgid "Saved succesfully!"
+#~ msgid "Profile data was saved successfully"
+#~ msgstr "Успешно сохранено!"
+
+#, fuzzy
+#~| msgid "Saved succesfully!"
+#~ msgid "Password was changed successfully"
+#~ msgstr "Успешно сохранено!"
+
+#, fuzzy, php-format
+#~| msgid "Minimum time requirement prior to booking"
+#~ msgid ""
+#~ "Minimum time requirement prior to change the appointment date and time is "
+#~ "%s"
+#~ msgstr "Минимальное время до бронирования"
+
+#, fuzzy
+#~| msgid "Reminder after appointment"
+#~ msgid "You have not changed the date and time."
+#~ msgstr "Напоминание после бронь"
+
+#, fuzzy
+#~| msgid "Appointment re-scheduled"
+#~ msgid "Appointment was rescheduled successfully!"
+#~ msgstr "Бронь переназначена"
+
+#, fuzzy
+#~| msgid "Reminder after appointment"
+#~ msgid "You have canceled the appointment!"
+#~ msgstr "Напоминание после бронь"
+
+#~ msgid "We aren’t able to process your payment. Please, try again."
+#~ msgstr "Нам не получилось обработать платёж. Пожалуйста, попробуйте снова."
+
+#~ msgid "TRY AGAIN"
+#~ msgstr "ПОПРОБУЙТЕ СНОВА"
+
+#~ msgid "Thank you for your request!"
+#~ msgstr "Благодарим за Вашу бронь!"
+
+#~ msgid "Your confirmation number:"
+#~ msgstr "Ваш номер покупки:"
+
+#~ msgid "ADD TO GOOGLE CALENDAR"
+#~ msgstr "ДОБАВИТЬ В КАЛЕНДАРЬ ГУГЛ"
+
+#~ msgid "START NEW BOOKING"
+#~ msgstr "НАЧАТЬ НОВУЮ БРОНЬ"
+
+#~ msgid "FINISH BOOKING"
+#~ msgstr "ЗАКОНЧИТЬ БРОНИРОВАНИЕ"
+
+#, fuzzy
+#~| msgid "Coupons"
+#~ msgid "Coupon"
+#~ msgstr "Купоны"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#, fuzzy
+#~| msgid "Credit card"
+#~ msgid "Giftcard"
+#~ msgstr "Кредитная карта"
+
+#, fuzzy
+#~| msgid "ADDRESS"
+#~ msgid "ADD"
+#~ msgstr "АДРЕС"
+
+#~ msgid "Total price"
+#~ msgstr "Сумма"
+
+#~ msgid "Full amount"
+#~ msgstr "Полная сумма"
+
+#~ msgid "Please wait, You are automatically redirecting to order page..."
+#~ msgstr ""
+#~ "Пожалуйста, подождите, Вы автоматически перенаправляетесь на страницу "
+#~ "заказа ..."
+
+#~ msgid "Select date"
+#~ msgstr "Выберите дату"
+
+#~ msgid "Surname"
+#~ msgstr "Фамилия"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Change password"
+#~ msgstr "Пароль"
+
+#, fuzzy
+#~| msgid "Company Info"
+#~ msgid "Company"
+#~ msgstr "Информация о Компании"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Current password"
+#~ msgstr "Пароль"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "New password"
+#~ msgstr "Пароль"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Repeat new password"
+#~ msgstr "Пароль"
+
+#, fuzzy
+#~| msgid "WEEKLY SCHEDULE"
+#~ msgid "RESCHEDULE"
+#~ msgstr "ЕЖЕНЕДЕЛЬНЫЙ ГРАФИК"
+
+#, fuzzy
+#~| msgid "Are you sure you want to delete?"
+#~ msgid "Are you sure you want to cancel the appointment?"
+#~ msgstr "Вы действительно желаете удалить?"
+
+#, fuzzy
+#~| msgid "Are you sure you want to delete?"
+#~ msgid "Are you sure you want to delete your profile?"
+#~ msgstr "Вы действительно желаете удалить?"
+
+#, fuzzy
+#~| msgid "Colud't create a payment!"
+#~ msgid "Couldn't create a payment!"
+#~ msgstr "Не удалось создать платеж!"
+
+#, fuzzy
+#~| msgid "Please type the coupon code field!"
+#~ msgid "Please enter the purchase code!"
+#~ msgstr "Пожалуйста, введите код купона в поле!"
+
+#, php-format
+#~ msgid "%s - action not exists in %s module!"
+#~ msgstr "%s - action not exists in %s module!"
+
+#, fuzzy
+#~| msgid "Customers"
+#~ msgid "Booknetic Customers"
+#~ msgstr "Клиенты"
+
+#, fuzzy
+#~| msgid "Customers"
+#~ msgid "Booknetic Staff"
+#~ msgstr "Клиенты"
+
+#~ msgid "Please set table name for deleting rows!"
+#~ msgstr "Пожалуйста, установите имя таблицы для удаления строк!"
+
+#, fuzzy
+#~| msgid "Redirect URI"
+#~ msgid "Redirecting..."
+#~ msgstr "URI перенаправления"
+
+#~ msgid "Select staff"
+#~ msgstr "Выберите персонал"
+
+#~ msgid "Select location"
+#~ msgstr "Выберите локацию"
+
+#~ msgid "Select service extras"
+#~ msgstr "Выберите дополнения"
+
+#~ msgid "Fill information"
+#~ msgstr "Заполните информацию"
+
+#~ msgid "Select Date & Time"
+#~ msgstr "Выберите дату и время"
+
+#~ msgid "Recurring info"
+#~ msgstr "Периодическая информация"
+
+#~ msgid "Confirm Details"
+#~ msgstr "Подтвердить информацию"
+
+#, fuzzy
+#~| msgid "week"
+#~ msgid "weeks"
+#~ msgstr "неделя"
+
+#, fuzzy
+#~| msgid "Holidays"
+#~ msgid "days"
+#~ msgstr "Каникулы"
+
+#, fuzzy
+#~| msgid "Every 15 minutes"
+#~ msgid "minute"
+#~ msgstr "Каждые 15 минут"
+
+#, fuzzy
+#~| msgid "Every 15 minutes"
+#~ msgid "minutes"
+#~ msgstr "Каждые 15 минут"
+
+#, fuzzy
+#~| msgid "Second"
+#~ msgid "second"
+#~ msgstr "Второе"
+
+#, fuzzy
+#~| msgid "Second"
+#~ msgid "seconds"
+#~ msgstr "Второе"
+
+#~ msgid ""
+#~ "\"allow_url_fopen\" disabled in your php.ini settings! Please actiavte id "
+#~ "and try again!"
+#~ msgstr ""
+#~ "\"allow_url_fopen\" отключен в Ваших настройках php.ini! Пожалуйста "
+#~ "активируйти id и попробуйте снова!"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "On site"
+#~ msgstr "На сайте"
+
+#, fuzzy, php-format
+#~| msgid "Theme not found!"
+#~ msgid "View ( %s ) not found!"
+#~ msgstr "Тема не найдена!"
+
+#, fuzzy
+#~| msgid "Show Service Extras step"
+#~ msgid "Show services as list view"
+#~ msgstr "Показать дополнительные услуги"
+
+#, fuzzy
+#~| msgid "Select payment method"
+#~ msgid "Other payment methods:"
+#~ msgstr "Выберите способ оплаты"
+
+#~ msgid "Google calendar settings"
+#~ msgstr "Настройки календаря Google"
+
+#~ msgid "You can change settings for \"Google Calendar sync\" from here."
+#~ msgstr ""
+#~ "Здесь вы можете изменить настройки для синхронизации с Календарем Google."
+
+#~ msgid "Limit of fetched events"
+#~ msgstr "Предел извлеченных событий"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Please fill in all required fields!"
+#~ msgstr "Пожалуйста, заполните все необходимые поля!"
+
+#, fuzzy
+#~| msgid "Your confirmation number:"
+#~ msgid "Confirmation number"
+#~ msgstr "Ваш номер покупки:"
+
+#~ msgid "Select services"
+#~ msgstr "Выбрать услуги"
+
+#~ msgid "Mon."
+#~ msgstr "Пн."
+
+#~ msgid "Tue."
+#~ msgstr "Вт."
+
+#~ msgid "Wed."
+#~ msgstr "Ср."
+
+#~ msgid "Thu."
+#~ msgstr "Чт."
+
+#~ msgid "Fri."
+#~ msgstr "Пт."
+
+#~ msgid "Sat."
+#~ msgstr "Сб."
+
+#~ msgid "Sun."
+#~ msgstr "Вс."
+
+#~ msgid "1. Monday"
+#~ msgstr "1. Понедельник"
+
+#~ msgid "2. Tuesday"
+#~ msgstr "2. Вторник"
+
+#~ msgid "3. Wednesday"
+#~ msgstr "3. Среда"
+
+#~ msgid "4. Thursday"
+#~ msgstr "4. Четверг"
+
+#~ msgid "5. Friday"
+#~ msgstr "5. Пятница"
+
+#~ msgid "6. Saturday"
+#~ msgstr "6. Суббота"
+
+#~ msgid "7. Sunday"
+#~ msgstr "7. Воскресенье"
+
+#~ msgid "Please fill all required fields!"
+#~ msgstr "Пожалуйста, заполните все поля!"
+
+#~ msgid "Please fill all required fields"
+#~ msgstr "Пожалуйста, заполните все обязательные поля"
+
+#~ msgid "Customers must pay for all appointments in series"
+#~ msgstr "Клиенты должны заплатить за всю серию броней"
+
+#~ msgid "Date & Time:"
+#~ msgstr "Дата и Время:"
+
+#~ msgid "Deposit:"
+#~ msgstr "Депозит:"
+
+#~ msgid "Please select service."
+#~ msgstr "Пожалуйста, выберите услугу."
+
+#~ msgid "Sum price"
+#~ msgstr "Общая стоимость"
+
+#~ msgid "Extras:"
+#~ msgstr "Дополнения:"
+
+#~ msgid "You can enable WooCommerce payment gateway from here"
+#~ msgstr "Здесь вы можете включить платежный шлюз WooCommerce"
+
+#~ msgid "Hide Locations step if there is only 1 location"
+#~ msgstr "Скрыть локации если нет других локаций"
+
+#~ msgid "Hide Staff step if there is only 1 staff"
+#~ msgstr "Скрыть шаг \"Персонал\", если есть только один персонал"
+
+#~ msgid "Number of days available for booking is: %d"
+#~ msgstr "Количество свободных для брони дней: %d"
+
+#~ msgid "Number of days available for booking"
+#~ msgstr "Количество дней, доступных для бронирования"
+
+#~ msgid "Can't import %s class! Class file not found!"
+#~ msgstr "Невозможно импортировать класс %s ! Файл Class не найден!"

@@ -1,0 +1,17 @@
+{
+	"autoload": {
+		"psr-4": {
+			"BookneticAddon\\EmailWorkflow\\": "App/"
+		}
+	},
+
+	"require": {
+		"phpmailer/phpmailer": "^6.1"
+	},
+
+	"config": {
+		"platform": {
+			"php": "5.6"
+		}
+	}
+}

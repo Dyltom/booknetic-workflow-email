@@ -1,0 +1,12 @@
+.smtp_details , .gmail_smtp_details
+{
+	margin-top: -15px;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	padding: 20px;
+	padding-bottom: 0;
+	margin-bottom: 20px;
+}
