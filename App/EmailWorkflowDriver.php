@@ -42,6 +42,17 @@ class EmailWorkflowDriver extends WorkflowDriver
 		$subject        = $shortCodeService->replace( $actionData['subject'], $eventData );
 		$body           = $shortCodeService->replace( $actionData['body'], $eventData );
 		$attachments    = $shortCodeService->replace( $actionData['attachments'], $eventData );
+		
+		$eventKey = $actionSettings['when'] ?? '';
+
+		if (
+			in_array($eventData['workflow'] ?? '', ['cis', 'deposit']) &&
+			!in_array($eventKey, ['invoice_ready', 'invoice_ready_cis', 'invoice_ready_deposit'])
+		) {
+			return;
+		}
+		
+
 		$attachmentsArr = [];
 
 		$allowedExtensions = ['pdf', 'doc', 'docx', 'txt', 'jpg', 'jpeg', 'gif', 'png', 'bmp', 'xls', 'xlsx', 'csv', 'zip', 'rar'];

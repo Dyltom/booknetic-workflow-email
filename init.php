@@ -1,12 +1,12 @@
 <?php
 /*
- * Plugin Name: Email action for Booknetic workflows
+ * Plugin Name: Email action for Bonzengine workflows
  * Description: Send comprehensive E-mail notifications to the relevant people.
  * Version: 1.2.6
- * Author: FS Code
- * Author URI: https://www.booknetic.com
+ * Author: Bonzengine
+ * Author URI: https://www.bonzengine.com
  * License: Commercial
- * Text Domain: booknetic-workflow-email
+ * Text Domain: bonzengine-workflow-email
  */
 
 defined( 'ABSPATH' ) or exit;
