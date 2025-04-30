@@ -1,10 +1,10 @@
 <?php
 /*
- * Plugin Name: Email action for Bonzengine workflows
+ * Plugin Name: Email action for Bonza Engine workflows
  * Description: Send comprehensive E-mail notifications to the relevant people.
  * Version: 1.2.6
- * Author: Bonzengine
- * Author URI: https://www.bonzengine.com
+ * Author: Bonze Engine
+ * Author URI: https://www.bonzaengine.com
  * License: Commercial
  * Text Domain: bonzengine-workflow-email
  */
