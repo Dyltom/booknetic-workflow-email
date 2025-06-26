@@ -80,7 +80,6 @@
 			{
 				if( response.redirect_url )
 				{
-					console.log(response.redirect_url)
 					location.href = response.redirect_url
 				}else{
 					alert('no')
