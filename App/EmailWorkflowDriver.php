@@ -47,7 +47,7 @@ class EmailWorkflowDriver extends WorkflowDriver
 
 		if (
 			in_array($eventData['workflow'] ?? '', ['cis', 'deposit']) &&
-			!in_array($eventKey, ['invoice_ready', 'invoice_ready_cis', 'invoice_ready_deposit'])
+			!in_array($eventKey, ['invoice_ready', 'invoice_ready_cis', 'invoice_ready_deposit', 'email_customer_quote_cis', 'quote_status_changed'])
 		) {
 			return;
 		}
