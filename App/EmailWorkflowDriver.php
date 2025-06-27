@@ -32,6 +32,9 @@ class EmailWorkflowDriver extends WorkflowDriver
 
 	public function handle( $eventData, $actionSettings, $shortCodeService )
 	{
+        // Set flag to indicate we're in email workflow context
+        define('DOING_EMAIL_WORKFLOW', true);
+        
         $actionData = json_decode($actionSettings['data'],true);
         if ( empty( $actionData ) )
         {
