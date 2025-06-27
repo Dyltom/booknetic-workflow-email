@@ -37,6 +37,10 @@ class EmailWorkflowDriver extends WorkflowDriver
         {
             return;
         }
+        
+        // Debug logging for email workflow
+        error_log( "[EmailWorkflow] Triggered with event: " . ($actionSettings['when'] ?? 'unknown') );
+        error_log( "[EmailWorkflow] Event data: " . json_encode( $eventData ) );
     
 		$sendTo         = $shortCodeService->replace( $actionData['to'], $eventData );
 		$subject        = $shortCodeService->replace( $actionData['subject'], $eventData );
@@ -98,6 +102,16 @@ class EmailWorkflowDriver extends WorkflowDriver
 				}
 			}
 		}
+
+		// Validate attachments before sending.
+		foreach ($attachmentsArr as $key => $attachment) {
+			if (!file_exists($attachment) || filesize($attachment) == 0 || 
+				basename($attachment) === 'placeholder.pdf') {
+				unset($attachmentsArr[$key]);
+				error_log("[EmailWorkflow] Removed invalid attachment: " . basename($attachment));
+			}
+		}
+		$attachmentsArr = array_values($attachmentsArr);
 
 		if( ! empty( $sendTo ) )
 		{
