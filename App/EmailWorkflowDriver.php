@@ -64,9 +64,12 @@ class EmailWorkflowDriver extends WorkflowDriver
 		if( !empty( $attachments ) )
 		{
 			$attachments = explode(',', $attachments);
+			error_log("[EmailWorkflow] Processing " . count($attachments) . " attachments: " . json_encode($attachments));
+			
 			foreach ( $attachments AS $attachment )
 			{
 				$attachment = trim( $attachment );
+				error_log("[EmailWorkflow] Processing attachment: $attachment");
 
 				if( file_exists( $attachment ) && is_readable( $attachment ) )
 				{
@@ -74,10 +77,17 @@ class EmailWorkflowDriver extends WorkflowDriver
 					if( in_array( $extension, $allowedExtensions ) )
 					{
 						$attachmentsArr[] = $attachment;
+						error_log("[EmailWorkflow] Added local file attachment: $attachment (size: " . filesize($attachment) . " bytes)");
+					}
+					else
+					{
+						error_log("[EmailWorkflow] Skipped attachment due to invalid extension: $attachment");
 					}
 				}
 				else if( filter_var( $attachment, FILTER_VALIDATE_URL ) )
 				{
+					error_log("[EmailWorkflow] Processing URL attachment: $attachment");
+					
 					$fileName = preg_replace( '[^a-zA-Z0-9\-\_\(\)]','', basename( $attachment ) );
 					if ( empty( $fileName ) )
 					{
@@ -94,24 +104,39 @@ class EmailWorkflowDriver extends WorkflowDriver
 
 					$cacheFilePath = Helper::uploadFolder('tmp') . $fileName;
 
+					error_log("[EmailWorkflow] Downloading URL to cache: $cacheFilePath");
 					file_put_contents( $cacheFilePath, Curl::getURL( $attachment ) );
 
 					$attachmentsArr[] = $cacheFilePath;
 
 					static::$cacheFiles[] = $cacheFilePath;
+					error_log("[EmailWorkflow] Added URL attachment: $cacheFilePath");
+				}
+				else
+				{
+					error_log("[EmailWorkflow] Attachment not found or not accessible: $attachment");
 				}
 			}
 		}
 
 		// Validate attachments before sending.
+		error_log("[EmailWorkflow] Validating " . count($attachmentsArr) . " attachments before sending");
 		foreach ($attachmentsArr as $key => $attachment) {
-			if (!file_exists($attachment) || filesize($attachment) == 0 || 
-				basename($attachment) === 'placeholder.pdf') {
+			$exists = file_exists($attachment);
+			$size = $exists ? filesize($attachment) : 0;
+			$basename = basename($attachment);
+			
+			error_log("[EmailWorkflow] Validating: $attachment (exists: " . ($exists ? 'yes' : 'no') . ", size: $size, name: $basename)");
+			
+			if (!$exists || $size == 0 || $basename === 'placeholder.pdf') {
 				unset($attachmentsArr[$key]);
-				error_log("[EmailWorkflow] Removed invalid attachment: " . basename($attachment));
+				error_log("[EmailWorkflow] REMOVED invalid attachment: $basename (exists: " . ($exists ? 'yes' : 'no') . ", size: $size)");
+			} else {
+				error_log("[EmailWorkflow] KEEPING valid attachment: $basename (size: $size bytes)");
 			}
 		}
 		$attachmentsArr = array_values($attachmentsArr);
+		error_log("[EmailWorkflow] Final attachment count: " . count($attachmentsArr));
 
 		if( ! empty( $sendTo ) )
 		{
